@@ -56,7 +56,7 @@ namespace AdventurePuzzleKit.ExamineSystem
         #region Text Customisation Fields
         // Display name, description, font and color settings for examine UI
         [SerializeField] private UIType _UIType = UIType.None;
-        [SerializeField] private enum UIType { None, BasicLowerUI, RightSideUI }
+        [field: SerializeField] private enum UIType{ None, BasicLowerUI, RightSideUI }
         [SerializeField] private string itemName = null;
         [SerializeField] private int textSize = 32;
         [SerializeField] private TMP_FontAsset fontType = null;
