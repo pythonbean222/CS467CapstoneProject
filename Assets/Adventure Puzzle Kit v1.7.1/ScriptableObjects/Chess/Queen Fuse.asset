@@ -1,17 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 323d903fa166f7142ab1596a80dabe8c, type: 3}
-  m_Name: Queen Fuse
-  m_EditorClassIdentifier: 
-  chessSprite: {fileID: 21300000, guid: c1719905db4df8842b363cfa71b56b62, type: 3}
-  chessPrefab: {fileID: 8448349788020678712, guid: e385d8abfc8e26e4cafd1d64b32b3f3b,
-    type: 3}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5747c073a189dda00bdd6899255b09e0656ccc7ed3395779c2a597bdbfac886b
+size 580
