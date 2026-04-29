@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Materials\\Concrete Materials\\Textures\\T_YFCM_Stamped02_d.tga",
+    "assetName": "T_YFCM_Stamped02_d",
+    "assetId": "69f1ca38e021951e5109d38a",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f976d9dd-91d1-4b95-ad65-37907aab7e6d",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:19:01.3280000Z",
+    "timestamp": 1767015803,
+    "checksum": "274746376ca6fac6063a816e4714e125",
+    "metaFileChecksum": "cf6e7508275525c792d12954b60c4c2f",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "77a32be84023ead49b04189e4efe46f3"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Pickup\\SFX_Metal_Shovel_Pickup.wav",
+    "assetName": "SFX_Metal_Shovel_Pickup",
+    "assetId": "69f1cad3650f9664043175ce",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f33fb3a4-f6e2-4cfb-85bc-798c3d056551",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:32:07.7760000Z",
+    "timestamp": 1767015691,
+    "checksum": "fe78257f7f3dbaaed6521e941c98f093",
+    "metaFileChecksum": "42643ca24e6f39d06026b127b1007830",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "3d13f38cb74425f4db70676cb5ad7a30"
+}

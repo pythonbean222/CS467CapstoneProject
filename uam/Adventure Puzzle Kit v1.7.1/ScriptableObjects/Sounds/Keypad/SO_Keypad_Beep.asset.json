@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Keypad\\SO_Keypad_Beep.asset",
+    "assetName": "SO_Keypad_Beep",
+    "assetId": "69f1cb17e021951e5109d4d2",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "0101f640-3f16-4db3-b7c9-d8e9110fe4be",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:36:59.1410000Z",
+    "timestamp": 1777369002,
+    "checksum": "1d65058c8191543a4c90ea0147585cd6",
+    "metaFileChecksum": "f399e2a9789ccc64f5c0f1dfc5341d2a",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "fe95a4165df13d3439aaeb5c38738fd8"
+}

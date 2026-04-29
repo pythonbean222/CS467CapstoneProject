@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Keycard\\Shared\\Keycard_Bump.png",
+    "assetName": "Keycard_Bump",
+    "assetId": "69f1ca54650f966404317516",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "86a1624a-b0aa-4de6-848e-a683fba04b43",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:20:59.4000000Z",
+    "timestamp": 1777369002,
+    "checksum": "6420326ebbf083bb7a66fc8b9f0e190a",
+    "metaFileChecksum": "73adc74211637d39c4ac01bcefe70ea5",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "b9eb9860b22727a4cbfc6613624089ed"
+}

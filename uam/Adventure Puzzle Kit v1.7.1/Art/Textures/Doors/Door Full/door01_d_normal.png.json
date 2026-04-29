@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Doors\\Door Full\\door01_d_normal.png",
+    "assetName": "door01_d_normal",
+    "assetId": "69f1caf2d75576713f39432f",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "6d997539-f868-4622-b584-182bce04c400",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:34:20.9360000Z",
+    "timestamp": 1777369002,
+    "checksum": "5a7c140cd111d5340650d358620375a6",
+    "metaFileChecksum": "741c2537a12b1ca1ddcb1b5647863883",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "7d2b4c28f6ffdf3459e0e9d214d058f4"
+}

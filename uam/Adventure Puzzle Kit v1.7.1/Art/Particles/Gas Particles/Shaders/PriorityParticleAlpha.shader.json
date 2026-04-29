@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Particles\\Gas Particles\\Shaders\\PriorityParticleAlpha.shader",
+    "assetName": "PriorityParticleAlpha",
+    "assetId": "69f1cb81b103a8ece435eeb8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "84194e3e-29e8-46d0-bcd6-179a1f589c73",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:46:12.7810000Z",
+    "timestamp": 1767015941,
+    "checksum": "9cde06b1889eb5fee1dc2bc74dd03bcd",
+    "metaFileChecksum": "d2410ce2dcf17c6e0420089237f9c29c",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "cc4347574b823934ba11785e25895920"
+}

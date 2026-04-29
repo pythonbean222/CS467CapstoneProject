@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Pickups\\SO_Pickup_Metal_Scrape_Slide.asset",
+    "assetName": "SO_Pickup_Metal_Scrape_Slide",
+    "assetId": "69f1cb0d650f96640431765e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "6cfd3877-657b-45e8-8820-bdd2ba9cca05",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:36:22.1970000Z",
+    "timestamp": 1777369002,
+    "checksum": "3c4486feb54abda23216ea3799bbef8e",
+    "metaFileChecksum": "2135165b51d6ee94ec4e4482b88ab42e",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "f834b7136a353c64ebb16614609ad6a7"
+}

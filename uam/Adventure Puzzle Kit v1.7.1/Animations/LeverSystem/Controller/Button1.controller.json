@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Animations\\LeverSystem\\Controller\\Button1.controller",
+    "assetName": "Button1",
+    "assetId": "69f1ca64402ee5a0f0205236",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "d8a7bb35-8d11-4be7-b100-ed02ef83f29a",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:21:50.8860000Z",
+    "timestamp": 1767015624,
+    "checksum": "cf5145992e2afbdca0a67bfe064de5d1",
+    "metaFileChecksum": "bebcaba8abd9015504c9bd288b6d81f3",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "1776f3bf07c0e734795c53cbd8313fa2"
+}

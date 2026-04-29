@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Doors\\Door Glass\\glass1_ao.png",
+    "assetName": "glass1_ao",
+    "assetId": "69f1cb6ed75576713f394407",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "a94cc1df-0cda-4d84-ac9f-0da03d571feb",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:44:28.8800000Z",
+    "timestamp": 1777369002,
+    "checksum": "258dfcf844d578980f0671962766806e",
+    "metaFileChecksum": "c7dd959a8a813fef41428cbeeeb66cb6",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "9af32df401e300140a2be55e3e2fa089"
+}

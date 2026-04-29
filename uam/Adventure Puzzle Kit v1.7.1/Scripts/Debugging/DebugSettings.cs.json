@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Debugging\\DebugSettings.cs",
+    "assetName": "DebugSettings",
+    "assetId": "69f1cb9b584a38b6770bd1ab",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "539314fa-5bc6-480a-9147-e65c42bae702",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:47:56.1090000Z",
+    "timestamp": 1767015943,
+    "checksum": "c93acc8a80a70b52dccb8ee5ccb896ef",
+    "metaFileChecksum": "3f8ef574a5243f8715825a41e8d3128a",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "ce91116ddf61d2647962f91a04698eef"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Examine\\SFX_Examine_Interaction.wav",
+    "assetName": "SFX_Examine_Interaction",
+    "assetId": "69f1cb0a402ee5a0f020534e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "bc695f66-b333-4825-a05a-b28afe2d4a67",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:36:58.6010000Z",
+    "timestamp": 1767015937,
+    "checksum": "9e58530c7fe25a4d8124e866b7d6867f",
+    "metaFileChecksum": "9c31c21caae9e7d662ff55be5b7f1dd4",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "c798c9ea474fb864b8f124ccf2ecf9b0"
+}

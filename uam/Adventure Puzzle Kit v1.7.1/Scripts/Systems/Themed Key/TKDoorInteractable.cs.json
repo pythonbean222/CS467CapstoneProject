@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Themed Key\\TKDoorInteractable.cs",
+    "assetName": "TKDoorInteractable",
+    "assetId": "69f1cadeb103a8ece435edce",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "abf88c8e-e61d-4fe8-8dd6-0a2a9d6d4142",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:31:45.6050000Z",
+    "timestamp": 1767016034,
+    "checksum": "a9253313c409330c1059eeab67190541",
+    "metaFileChecksum": "faa41160571a40e8aab41d39130acb0d",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "f9c596d28e5782d438f025bf4bb6bdf0"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Chess\\ChessFuseCollectable.cs",
+    "assetName": "ChessFuseCollectable",
+    "assetId": "69f1cb410f1aef7f1cb4e190",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "9d8eda51-35d1-42f2-8a4f-c597ccf65568",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:40:33.3500000Z",
+    "timestamp": 1767016033,
+    "checksum": "56955c5ce8a6b265e8f62bf0daaa4c21",
+    "metaFileChecksum": "fda4ff049cf5078d079df34a33800016",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "f8b3539cbe97ba94db62cb49baeb415b"
+}

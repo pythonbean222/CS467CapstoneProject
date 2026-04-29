@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Examine\\SO_Examine_Wood_Creak_Open.asset",
+    "assetName": "SO_Examine_Wood_Creak_Open",
+    "assetId": "69f1cacfe021951e5109d46a",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "43bb3ace-277c-470c-b6fe-017ed0851bee",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:30:26.0880000Z",
+    "timestamp": 1777369002,
+    "checksum": "e1823e523c8c99a4b49e3e85af2018df",
+    "metaFileChecksum": "60e04096e41cfd9308631112b81b4b01",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "c181d02437f7b3b4bb7ef2c841df471d"
+}

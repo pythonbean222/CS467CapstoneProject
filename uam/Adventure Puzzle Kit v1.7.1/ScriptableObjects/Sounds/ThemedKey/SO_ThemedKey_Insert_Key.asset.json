@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\ThemedKey\\SO_ThemedKey_Insert_Key.asset",
+    "assetName": "SO_ThemedKey_Insert_Key",
+    "assetId": "69f1caceb103a8ece435eda6",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "997b06af-ae36-4bb6-a87d-0f4d367b8061",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:30:23.1540000Z",
+    "timestamp": 1777369002,
+    "checksum": "977017afce3174353fc7bf68e81bab5e",
+    "metaFileChecksum": "c377928065811b9413da48b70507f080",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "18d7ca983aa051a478ae08d460ebb6bf"
+}

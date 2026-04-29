@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Triggers\\AKMasterTrigger.cs",
+    "assetName": "AKMasterTrigger",
+    "assetId": "69f1ca65584a38b6770bcfc8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "32c64622-dc3a-406e-bdaf-5c5afaeda8f1",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:21:59.1590000Z",
+    "timestamp": 1767016030,
+    "checksum": "af7f5b4c11c82adb2682e34032defb22",
+    "metaFileChecksum": "fb0cb4867eb1b17c9f725150314e92e0",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "f66d645a6f7b4884ba92dfb53def1f78"
+}

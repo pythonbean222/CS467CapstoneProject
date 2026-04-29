@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Keycard\\Scanner\\SFX_Scanner_Accept.wav",
+    "assetName": "SFX_Scanner_Accept",
+    "assetId": "69f1ca9cb103a8ece435ed5e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "8730dba2-37b4-4065-b96f-1f982d39faf7",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:27:31.7740000Z",
+    "timestamp": 1767016021,
+    "checksum": "2ee746263cb31a32389908ed00c1a4e5",
+    "metaFileChecksum": "08f783e6edded2f52673b89341499aea",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "f15c2f067c3fbff499143fcf6932b20d"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Pickup\\SFX_Glass_Bottle_Pickup.wav",
+    "assetName": "SFX_Glass_Bottle_Pickup",
+    "assetId": "69f1ca7deb1436fb837134c8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e80d5156-9902-49eb-9c2a-1f406621f6d7",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:24:31.0700000Z",
+    "timestamp": 1767015770,
+    "checksum": "5d1e406fecf932027c1272ed6d96a547",
+    "metaFileChecksum": "7acfdd240a6389abc9bcfda438ad1457",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "647c8c63dc7ece34dabad8b24fcef542"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Generator\\SO_Jerrycan_Pickup.asset",
+    "assetName": "SO_Jerrycan_Pickup",
+    "assetId": "69f1cac8402ee5a0f02052ee",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "00938560-df2a-4af0-aa6d-7fcb928211b8",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:30:05.7280000Z",
+    "timestamp": 1777369002,
+    "checksum": "c2e8620ccb2ae8c1f18fda22690cfbac",
+    "metaFileChecksum": "f7b4b113a08ab295f0e7ef96ac527865",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "1550cb7295ca98349b04eddaa65d8bb8"
+}

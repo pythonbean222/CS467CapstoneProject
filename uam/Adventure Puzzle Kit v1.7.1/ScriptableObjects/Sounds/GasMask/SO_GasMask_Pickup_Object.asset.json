@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\GasMask\\SO_GasMask_Pickup_Object.asset",
+    "assetName": "SO_GasMask_Pickup_Object",
+    "assetId": "69f1cab2eb1436fb83713530",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e69c53a1-6487-470a-afde-4344296efaff",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:28:01.6160000Z",
+    "timestamp": 1777369002,
+    "checksum": "1b245ee5b86610faa67e11a471379fb3",
+    "metaFileChecksum": "ea986cc1bad43fe435ae840b8829aac8",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "3aebf2d1982bdde49a83f80ba14a9ff7"
+}

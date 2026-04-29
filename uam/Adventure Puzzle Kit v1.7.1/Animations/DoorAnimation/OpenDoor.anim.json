@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Animations\\DoorAnimation\\OpenDoor.anim",
+    "assetName": "OpenDoor",
+    "assetId": "69f1cb60650f966404317726",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "44551f37-17b8-41bb-acc9-c1f6340ecd13",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:43:27.0060000Z",
+    "timestamp": 1767015774,
+    "checksum": "ffbf8e0f282e1f6dc8ef3e4054e173f2",
+    "metaFileChecksum": "f40b7114c41e70c8ae42f24f07edd5a4",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "67911fbe61171604c8483f48760d4486"
+}

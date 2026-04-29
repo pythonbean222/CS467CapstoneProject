@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Valve\\SFX_Metal_Hit_ValvePickup.wav",
+    "assetName": "SFX_Metal_Hit_ValvePickup",
+    "assetId": "69f1ca48f50ca0904eeaef86",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "9fc93a98-b563-4682-b4ac-714bc7ec45b9",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:20:43.0050000Z",
+    "timestamp": 1767015911,
+    "checksum": "b00e902b018adaec09340b7bd18cef7f",
+    "metaFileChecksum": "640c89270e814d07aa72be2540f8c4cd",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "b8499d9a0ae0bc24d96bb9c879ba61d5"
+}

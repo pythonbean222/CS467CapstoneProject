@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Core\\AKPromptManager.cs",
+    "assetName": "AKPromptManager",
+    "assetId": "69f1ca53402ee5a0f02051fe",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "fd83794f-2e20-4b17-b16c-9b59f10eb74c",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:20:07.2920000Z",
+    "timestamp": 1767015795,
+    "checksum": "b3720a9d4537dd74b097a60cd0f9a32a",
+    "metaFileChecksum": "22521376335ca8b19b2067bac120ddd7",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "713b3b54b2002ef4889a6763339442b0"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Additional Packages\\Built-in Blur Effect\\Shaders\\VignettingShader.shader",
+    "assetName": "VignettingShader",
+    "assetId": "69f1cb5ed75576713f3943e7",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "c1eed550-1a99-4260-a8fc-7b813e4b9abd",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:43:02.5060000Z",
+    "timestamp": 1767015766,
+    "checksum": "54f970cb265711c27fb208e7b87567a5",
+    "metaFileChecksum": "2edea747629d573c2336ee75a8b187f8",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "627943dc7a9a74286b70a4f694a0acd5"
+}

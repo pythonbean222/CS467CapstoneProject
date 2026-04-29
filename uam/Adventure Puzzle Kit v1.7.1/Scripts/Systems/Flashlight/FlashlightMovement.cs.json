@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Flashlight\\FlashlightMovement.cs",
+    "assetName": "FlashlightMovement",
+    "assetId": "69f1cb3a650f9664043176be",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "50c4d3b0-2900-4384-832b-a4ac0f884264",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:40:05.4650000Z",
+    "timestamp": 1767015983,
+    "checksum": "8eca31152e86294800fa2b1eefe5cc97",
+    "metaFileChecksum": "a72a7e16dadb4f323793489572d548ad",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "dfb7566d2da105841b3eda34af049b8d"
+}

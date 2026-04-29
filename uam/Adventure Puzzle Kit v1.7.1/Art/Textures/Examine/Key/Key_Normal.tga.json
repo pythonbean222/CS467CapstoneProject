@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Examine\\Key\\Key_Normal.tga",
+    "assetName": "Key_Normal",
+    "assetId": "69f1cb87e021951e5109d58a",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e02a843c-bf7e-4964-90b6-06c9053e800f",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:47:22.2230000Z",
+    "timestamp": 1767015785,
+    "checksum": "6f9abc3ba7e85efbc60c13969d022d73",
+    "metaFileChecksum": "320ecdfb8e2e6020412e8d9d0f063a11",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "6c180b3a5cd75cb44adf0148de4f1aeb"
+}

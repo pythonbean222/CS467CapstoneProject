@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Keycard\\Shared\\Keycard_MetalRough.tga",
+    "assetName": "Keycard_MetalRough",
+    "assetId": "69f1ca54402ee5a0f020520e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "8d2b581b-f824-4027-ab79-a375dc3ce142",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:21:33.5940000Z",
+    "timestamp": 1767015929,
+    "checksum": "55689e66064596897e62e0a4ff25716b",
+    "metaFileChecksum": "09154d2f8aba816cd42cea9202d0c7dc",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "c43171dad8c4f6447ab4cb418024285f"
+}

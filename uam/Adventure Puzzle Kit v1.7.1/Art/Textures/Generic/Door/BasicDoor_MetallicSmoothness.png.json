@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Generic\\Door\\BasicDoor_MetallicSmoothness.png",
+    "assetName": "BasicDoor_MetallicSmoothness",
+    "assetId": "69f1cb89402ee5a0f0205406",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "6d5054ad-87e4-49bd-9d3b-7e306df46fb3",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:46:59.2600000Z",
+    "timestamp": 1777369002,
+    "checksum": "834166cd982f58adc90d2e5130812b65",
+    "metaFileChecksum": "ac764d5f2890d3ea9fa5a749d567cd31",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "1c780b49a502cde4daff77f09b28839d"
+}

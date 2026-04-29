@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Animations\\LeverSystem\\Handle_Pull.anim",
+    "assetName": "Handle_Pull",
+    "assetId": "69f1cb08650f966404317646",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "2fd69407-fe59-401b-9485-d4dd6c353fd2",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:35:37.6550000Z",
+    "timestamp": 1767015968,
+    "checksum": "1f0404b40960c87b5e41a5b8a80f1bbd",
+    "metaFileChecksum": "106404d3a95801902ed5993135d9fdcd",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "d9b7a37b2432fbc40a06ac928a12e089"
+}

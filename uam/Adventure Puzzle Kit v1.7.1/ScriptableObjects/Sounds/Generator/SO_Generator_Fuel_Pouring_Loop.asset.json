@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Generator\\SO_Generator_Fuel_Pouring_Loop.asset",
+    "assetName": "SO_Generator_Fuel_Pouring_Loop",
+    "assetId": "69f1ca890f1aef7f1cb4e040",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f8e937bc-fdeb-4b89-a2e9-73633bc3d4a8",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:24:27.1430000Z",
+    "timestamp": 1777369002,
+    "checksum": "954b50af96d87e2d5b4c5d7b63d5d3f5",
+    "metaFileChecksum": "7d4a513b8fd28896f9e674ec2e0bd919",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "dbda69951690e754c9f0ccccf6860ea2"
+}

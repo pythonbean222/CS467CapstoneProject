@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Animations\\ThemedKey\\Key_Animation_Unlock.anim",
+    "assetName": "Key_Animation_Unlock",
+    "assetId": "69f1cab4650f9664043175b6",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e749d114-5780-4620-a748-ce3e3af66470",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:28:08.5010000Z",
+    "timestamp": 1767015671,
+    "checksum": "daa0dc1ffceff8edf00595fa5cf04db1",
+    "metaFileChecksum": "1992aac57c4f7b065bda82f23e7de689",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "3755bbb21c6330e4dbc2a5ddb23496f8"
+}

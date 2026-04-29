@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Player\\AKFPSController.cs",
+    "assetName": "AKFPSController",
+    "assetId": "69f1cac5e8210a4ab2de0290",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "222248c7-8344-4439-8c4b-dd5431d40be0",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:29:33.1130000Z",
+    "timestamp": 1767016005,
+    "checksum": "497ae027fff56ee053b1a246805f5905",
+    "metaFileChecksum": "31baf2887005dc0911b99c94d6e50c33",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "efa8ed5e4fbb4f148ba77495fc5c8ab1"
+}

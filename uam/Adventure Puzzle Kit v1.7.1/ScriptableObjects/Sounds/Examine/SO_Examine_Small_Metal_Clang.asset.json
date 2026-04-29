@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Examine\\SO_Examine_Small_Metal_Clang.asset",
+    "assetName": "SO_Examine_Small_Metal_Clang",
+    "assetId": "69f1cadd402ee5a0f020530e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "77cb3a1c-ada5-4ffc-9b60-6c967c6dd6aa",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:31:41.2870000Z",
+    "timestamp": 1777369002,
+    "checksum": "7f908e41d95c6a48b5401ed38effd1ea",
+    "metaFileChecksum": "74d21679a6e418afd92ee65a392656ed",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "66a48010472fcb140b2c8189307dbd0e"
+}

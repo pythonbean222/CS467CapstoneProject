@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Note & Letter\\1. Note Selector Script\\NoteTypeSelector.cs",
+    "assetName": "NoteTypeSelector",
+    "assetId": "69f1cb310f1aef7f1cb4e168",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "5f829dc4-8ea7-4c6d-bd17-29e94e646831",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:38:58.2640000Z",
+    "timestamp": 1767015798,
+    "checksum": "7c8073f423b939702178f0089a50aff7",
+    "metaFileChecksum": "8de4b34ccc8a6fed230ad71a40cada14",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "7429e1f2a56cae546a8b8b2218c22a01"
+}

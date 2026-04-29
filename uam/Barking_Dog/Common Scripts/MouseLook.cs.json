@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Barking_Dog\\Common Scripts\\MouseLook.cs",
+    "assetName": "MouseLook",
+    "assetId": "69f1dab0b103a8ece435f5d4",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "105cab20-cf33-4003-b36e-d52096b8502f",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:20:40.9030000Z",
+    "timestamp": 1776689001,
+    "checksum": "34a73a08a7c027a7fd844de8e74a1f24",
+    "metaFileChecksum": "765eabfe69ca7750bd9e5626fd5a830a",
+    "metaFileTimestamp": 1776689001,
+    "unityGUID": "419e976ce3354ca4895c43e78bbd4dec"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Examine\\SFX_Small_Metal_Clang.wav",
+    "assetName": "SFX_Small_Metal_Clang",
+    "assetId": "69f1caddb103a8ece435edbe",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "fef43453-c890-4077-8834-b49f05049fd3",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:32:54.2650000Z",
+    "timestamp": 1767015797,
+    "checksum": "fd441508090d267f5e335563c5fd0e04",
+    "metaFileChecksum": "0348c5d2b4ab7c1a39c6560180085abd",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "72b7d54482e266945bf8ca53835e3dad"
+}

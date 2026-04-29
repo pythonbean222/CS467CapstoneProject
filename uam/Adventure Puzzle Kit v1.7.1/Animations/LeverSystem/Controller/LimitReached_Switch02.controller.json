@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Animations\\LeverSystem\\Controller\\LimitReached_Switch02.controller",
+    "assetName": "LimitReached_Switch02",
+    "assetId": "69f1cafbe021951e5109d4c2",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "cbe1b2ba-e03f-4dae-a704-24d3465907d8",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:34:40.6560000Z",
+    "timestamp": 1767015650,
+    "checksum": "d2d8f422ea259431d6a7178195bb67bc",
+    "metaFileChecksum": "419bcd5d44b2a72286de2f60f2b8880f",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "29ee68f3a51c61749b9da541d4ffcf17"
+}

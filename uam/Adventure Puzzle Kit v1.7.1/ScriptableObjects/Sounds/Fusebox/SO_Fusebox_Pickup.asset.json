@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Fusebox\\SO_Fusebox_Pickup.asset",
+    "assetName": "SO_Fusebox_Pickup",
+    "assetId": "69f1cac2b103a8ece435ed96",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "98210fef-ea55-40e3-b983-39a730ae9382",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:29:27.6950000Z",
+    "timestamp": 1777369002,
+    "checksum": "1c75f0912cd1776406b23390e3029331",
+    "metaFileChecksum": "a12e755ca9faa57f03be6b50495799b7",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "6d95ff0dfee1cbd4fb872f9c45fef883"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Phone\\OfficePhone\\Body\\OfficePhone_Body_AlbedoTransparency.png",
+    "assetName": "OfficePhone_Body_AlbedoTransparency",
+    "assetId": "69f1cabbeb1436fb83713558",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "6f133227-cb0d-4fe7-86bb-470a70f9b2db",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:29:16.6760000Z",
+    "timestamp": 1777369002,
+    "checksum": "bea43ebf51ab15ad07c86f943d2b0f91",
+    "metaFileChecksum": "29787bee11b74c3612149a37436f5b20",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "2637ef0e9bf0fe444af600281fa9aa2f"
+}

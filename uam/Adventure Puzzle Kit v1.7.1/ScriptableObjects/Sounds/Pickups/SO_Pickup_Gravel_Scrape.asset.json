@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Pickups\\SO_Pickup_Gravel_Scrape.asset",
+    "assetName": "SO_Pickup_Gravel_Scrape",
+    "assetId": "69f1cb0e584a38b6770bd0d0",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "20f008a8-3965-4776-ad87-1f3b4895639a",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:36:25.5820000Z",
+    "timestamp": 1777369002,
+    "checksum": "94adf351073c6ae81e49572281b082be",
+    "metaFileChecksum": "b54f21e708acea0577e16e94234891e6",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "a55866d5c69e4de41bdf9127c96bae64"
+}

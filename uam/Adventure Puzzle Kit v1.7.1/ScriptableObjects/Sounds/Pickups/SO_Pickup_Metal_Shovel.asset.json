@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Pickups\\SO_Pickup_Metal_Shovel.asset",
+    "assetName": "SO_Pickup_Metal_Shovel",
+    "assetId": "69f1cad3584a38b6770bd078",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "239d8b1e-6e46-4143-b779-830775804f06",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:30:50.0890000Z",
+    "timestamp": 1777369002,
+    "checksum": "d6463964e57afba3801689e11ca28dae",
+    "metaFileChecksum": "147e803da5716d2d072eb4ba04e1f4ec",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "0ac2a0c975e81a548a77042154630dfe"
+}

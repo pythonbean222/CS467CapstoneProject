@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Examine\\SFX_Knife_Slash_Metal.wav",
+    "assetName": "SFX_Knife_Slash_Metal",
+    "assetId": "69f1cb25402ee5a0f0205388",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e502f3d3-bd85-4140-8891-ee6d3a606172",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:39:13.3840000Z",
+    "timestamp": 1767015572,
+    "checksum": "55d415cc5221d533fdcc0d9ccc65a7e3",
+    "metaFileChecksum": "3786b581398e84900b3fc4dbf9569a7d",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "05248794c4ccc0a4fa58b209864292bf"
+}

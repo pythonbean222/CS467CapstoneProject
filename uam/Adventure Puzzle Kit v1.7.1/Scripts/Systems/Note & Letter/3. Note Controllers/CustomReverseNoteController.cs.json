@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Note & Letter\\3. Note Controllers\\CustomReverseNoteController.cs",
+    "assetName": "CustomReverseNoteController",
+    "assetId": "69f1cae2402ee5a0f0205326",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "80ba77b9-a753-42c6-aecc-fc91cef727b8",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:32:20.7130000Z",
+    "timestamp": 1767015662,
+    "checksum": "c897babf68ffc2c890bad0140f78023c",
+    "metaFileChecksum": "3a59e3271f8fded0ff6dc54a44eb5a3f",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "2f64fb6f9119f024db125a41528f2498"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Chess\\ChessSlotWidget.cs",
+    "assetName": "ChessSlotWidget",
+    "assetId": "69f1cb29650f96640431769e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "da07d535-0848-4122-a515-f58245343e86",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:38:41.6530000Z",
+    "timestamp": 1767015813,
+    "checksum": "da96131c8872ff856146e058d5e4de42",
+    "metaFileChecksum": "d81ab193eb056fa3aeeb516ce4bcbe56",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "7d4da7480554bb947ad9a4354d6b5095"
+}

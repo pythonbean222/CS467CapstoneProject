@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Keycard\\SO_Keycard_Pickup_3.asset",
+    "assetName": "SO_Keycard_Pickup_3",
+    "assetId": "69f1cab8584a38b6770bd048",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "1a46d1c4-fd2d-4bba-aaf0-d375ec1a9bd0",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:28:45.9990000Z",
+    "timestamp": 1777369002,
+    "checksum": "e07a22271293321a2214aed48e424900",
+    "metaFileChecksum": "2cc120c7e4aa3bfe9ce49e779ad5f64b",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "743f0c1b10fda864186df9f60f1f73f2"
+}

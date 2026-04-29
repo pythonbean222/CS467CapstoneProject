@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Safe\\SO_Safe_Interact.asset",
+    "assetName": "SO_Safe_Interact",
+    "assetId": "69f1cae10f1aef7f1cb4e100",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "c95e6e0a-5dbf-4841-b3d7-428b6276e038",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:32:19.3980000Z",
+    "timestamp": 1777369002,
+    "checksum": "ff02d760de285aae0ad20aeec433d9b4",
+    "metaFileChecksum": "40896b1ca795ef67be2c529971939863",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "db96cd58d6faeea40be9604c4287498b"
+}

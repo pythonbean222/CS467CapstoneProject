@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Barking_Dog\\3D Free Modular Kit_URP\\UniversalRenderPipelineAsset_Renderer.asset",
+    "assetName": "UniversalRenderPipelineAsset_Renderer",
+    "assetId": "69f1dab20f1aef7f1cb4e93f",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "5f339571-30ae-4fbc-8a3c-48b8e25e8e9e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:20:50.8260000Z",
+    "timestamp": 1777369002,
+    "checksum": "bf0fe293eccf32f758a9e053663797f4",
+    "metaFileChecksum": "9d01b83f075c554aa35708104004313b",
+    "metaFileTimestamp": 1776689001,
+    "unityGUID": "e5449cb1ea83ceb44892ee0203bb908d"
+}

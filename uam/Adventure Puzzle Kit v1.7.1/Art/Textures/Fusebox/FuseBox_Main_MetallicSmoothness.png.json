@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Fusebox\\FuseBox_Main_MetallicSmoothness.png",
+    "assetName": "FuseBox_Main_MetallicSmoothness",
+    "assetId": "69f1caecd75576713f39431f",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "979f6e54-0dae-458e-9a3e-f6fc6e6bc533",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:33:10.0960000Z",
+    "timestamp": 1777369002,
+    "checksum": "f7003fd8bdc820674392646bed75ba0e",
+    "metaFileChecksum": "0fa487ab4e2d99afd0cc80104e9b8410",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "164813e1ce6b3cc49bb338aa345bc73f"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Doors\\Door Wooden\\door04_a_ao.png",
+    "assetName": "door04_a_ao",
+    "assetId": "69f1cb71eb1436fb83713698",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "30ab6cf0-d1cb-4c60-9266-5078d17ad56e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:44:45.7490000Z",
+    "timestamp": 1777369002,
+    "checksum": "99e6ae722040a0cc0ab6b0724bd92313",
+    "metaFileChecksum": "d6e5aa383a72a857b95eaa919e618878",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "bc77b9a1a33d89148822963625bb2a4c"
+}

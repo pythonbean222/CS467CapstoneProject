@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Generator\\Fuel Barrel\\Barrel_WhiteRust_2048_Albedo.tga",
+    "assetName": "Barrel_WhiteRust_2048_Albedo",
+    "assetId": "69f1cad6402ee5a0f0205306",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "63bd203a-5de2-4bef-94c1-06e6ae86b474",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:32:27.4730000Z",
+    "timestamp": 1767015847,
+    "checksum": "1410ace202fbd84865f2e6fb975c2176",
+    "metaFileChecksum": "3a0149a6d325261524227dacf36cb775",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "906ceedc64c18cb4ebdc4b3ed24d479d"
+}

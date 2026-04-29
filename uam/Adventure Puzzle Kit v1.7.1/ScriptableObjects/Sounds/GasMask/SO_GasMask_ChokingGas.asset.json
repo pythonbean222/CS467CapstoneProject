@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\GasMask\\SO_GasMask_ChokingGas.asset",
+    "assetName": "SO_GasMask_ChokingGas",
+    "assetId": "69f1caf9584a38b6770bd095",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "408c9b3f-3cf0-40e1-8384-709a57b011e3",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:34:10.2560000Z",
+    "timestamp": 1777369002,
+    "checksum": "0afb664baaa2e7222c446de6021c398f",
+    "metaFileChecksum": "9df594614fb0b3be2a2f73947e70d6da",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "9c4d0f6ede7650e489e7ab98b6c3938b"
+}

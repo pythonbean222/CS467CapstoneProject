@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Phone\\PhoneItem.cs",
+    "assetName": "PhoneItem",
+    "assetId": "69f1ca6ce8210a4ab2de01d0",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "485a495a-4700-45f8-9214-9cb8be93b74f",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:22:21.6900000Z",
+    "timestamp": 1767015846,
+    "checksum": "7508b84f5c5883f067c154dd6648c519",
+    "metaFileChecksum": "5a995419fa13afd361a6319de68f007a",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "901a28fb8b78fe94aa75cb95d8c2c6e8"
+}

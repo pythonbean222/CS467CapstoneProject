@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Generator\\SFX_GeneratorPoweredOn_Loop.wav",
+    "assetName": "SFX_GeneratorPoweredOn_Loop",
+    "assetId": "69f1ca88e8210a4ab2de0200",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "4bdcc458-1b29-4136-b6d7-45362456d07c",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:25:34.6910000Z",
+    "timestamp": 1767015923,
+    "checksum": "5155cd2b897e01ad207b5542525f6081",
+    "metaFileChecksum": "6c8ea24e22fe279ba35c48a55f48fac3",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "c0190ff36787d3d4bba3909d0a52e525"
+}
