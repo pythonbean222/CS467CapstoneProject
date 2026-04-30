@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Materials\\ATM_Orange.mat",
+    "assetName": "ATM_Orange",
+    "assetId": "69f3224eea641e4b96f8d10a",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "5513dbe2-7a4b-4288-82d3-bd40063c5589",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:08.6310000Z",
+    "timestamp": 1777533565,
+    "checksum": "84a61fe0bac7d399e9074cb6f10fdad7",
+    "metaFileChecksum": "2fc6ba54d18cb2c62307a7517394bb4e",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "e5089908cb86887459f5c7e737e6db29"
+}

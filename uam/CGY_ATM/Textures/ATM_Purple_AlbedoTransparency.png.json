@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Textures\\ATM_Purple_AlbedoTransparency.png",
+    "assetName": "ATM_Purple_AlbedoTransparency",
+    "assetId": "69f3224a584a38b6770c157d",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "1e1961cd-983c-4b45-bfa7-3ee5bb349126",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:37:18.7860000Z",
+    "timestamp": 1499623895,
+    "checksum": "806b4122fd6ecf62c07a705d6ac9916b",
+    "metaFileChecksum": "ab6ca63f5893d360f1fa9ccd5435f8c1",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "365ef129bf591444fa509ac5145482c2"
+}

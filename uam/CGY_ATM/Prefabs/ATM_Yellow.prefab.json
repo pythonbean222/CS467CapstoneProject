@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Prefabs\\ATM_Yellow.prefab",
+    "assetName": "ATM_Yellow",
+    "assetId": "69f3224dea641e4b96f8d0fa",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "6d5eeeae-baa8-4d0c-b8a8-980e14241701",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:04.6950000Z",
+    "timestamp": 1777532698,
+    "checksum": "616b78fecbf14e28021c63182df887ed",
+    "metaFileChecksum": "20c256db8570f62861eba4834bf6e8c5",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "c62700998e152c04caf87b3620ca2fee"
+}

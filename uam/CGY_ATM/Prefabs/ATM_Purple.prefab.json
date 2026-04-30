@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Prefabs\\ATM_Purple.prefab",
+    "assetName": "ATM_Purple",
+    "assetId": "69f3224ab103a8ece436328e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "75e05916-c440-4ed6-b5b4-02cd44295b76",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:02.1050000Z",
+    "timestamp": 1777532697,
+    "checksum": "bd8b39f4d8fbbbdaf379d84a630032d1",
+    "metaFileChecksum": "6cdc007c65ad66a808ddc8846722706c",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "63dc9e589cbbaa84c8bf6570d163cf4d"
+}

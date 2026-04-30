@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Textures\\ATM_MetallicSmoothness.png",
+    "assetName": "ATM_MetallicSmoothness",
+    "assetId": "69f32248067704c6c167eec8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "ae5201b9-553e-4478-a99e-716a05caf737",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:37:00.6260000Z",
+    "timestamp": 1499623912,
+    "checksum": "55947ddb7dc150a38ee688827bf0bf45",
+    "metaFileChecksum": "007f434c44691520a5c2c9561a943532",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "a3c442ad5a6f25347a1682dbc13d2de0"
+}

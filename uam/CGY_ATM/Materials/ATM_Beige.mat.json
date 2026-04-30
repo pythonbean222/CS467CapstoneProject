@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Materials\\ATM_Beige.mat",
+    "assetName": "ATM_Beige",
+    "assetId": "69f3224f21387dd08336c06b",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "852213d8-77b9-45b2-8707-5c3fffa03066",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:13.9890000Z",
+    "timestamp": 1777533565,
+    "checksum": "92862f16afda76bf3488859ce2ca48b8",
+    "metaFileChecksum": "e8de7ddb351cb63e7602d6d9dd1a3e62",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "ce03f7408cf481d4dbca58fd123080fc"
+}
