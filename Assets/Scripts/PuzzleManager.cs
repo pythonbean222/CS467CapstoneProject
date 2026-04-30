@@ -17,25 +17,25 @@ public void grayATM()
 
         switch (grayATMCounter)
         {
-            case 1:
+            case 0:
                 graypuzzlePieces[0].SetActive(true);
                 graypuzzlePieces[1].SetActive(false);
                 graypuzzlePieces[2].SetActive(false);
                 Debug.Log("Gray ATM interacted with. Counter: " + grayATMCounter);
                 break;
-            case 2:
+            case 1:
                 graypuzzlePieces[1].SetActive(true);
                 graypuzzlePieces[0].SetActive(false);
                 graypuzzlePieces[2].SetActive(false);
                 Debug.Log("Gray ATM interacted with. Counter: " + grayATMCounter);
                 break;
-            case 3:
+            case 2:
                 graypuzzlePieces[2].SetActive(true);
                 graypuzzlePieces[0].SetActive(false);
                 graypuzzlePieces[1].SetActive(false);
                 Debug.Log("Gray ATM interacted with. Counter: " + grayATMCounter);
                 break;
-            case 4:
+            case 3:
                 graypuzzlePieces[0].SetActive(true);
                 graypuzzlePieces[1].SetActive(false);
                 graypuzzlePieces[2].SetActive(false);
