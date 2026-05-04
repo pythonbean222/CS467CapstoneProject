@@ -42,7 +42,7 @@ public class ATM_interaction : MonoBehaviour
         if (!playerInRange)
             return;
 
-        Debug.Log("Player is interacting with the ATM.");
+        // Debug.Log("Player is interacting with the ATM.");
         // null conditional operator to check if onATMInteraction is not null before invoking it
         // same as below code
         /*        if (onATMInteraction != null)
