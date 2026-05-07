@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PuzzleManager : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class PuzzleManager : MonoBehaviour
 public GameObject[] graypuzzlePieces;
 public GameObject[] bluepuzzlePieces;
 public GameObject[] purplepuzzlePieces;
+public UnityEvent atmPuzzleWinnerEvent;
 
 private int grayATMCounter;
 private int blueATMCounter;
@@ -17,6 +19,7 @@ public void Winner()
         if (graypuzzlePieces[1].activeInHierarchy && bluepuzzlePieces[0].activeInHierarchy && purplepuzzlePieces[2].activeInHierarchy)
         {
             Debug.Log("Player has won the game!");
+            atmPuzzleWinnerEvent.Invoke();
         }
     }
 
