@@ -18,7 +18,7 @@ public void Winner()
     {
         if (graypuzzlePieces[1].activeInHierarchy && bluepuzzlePieces[0].activeInHierarchy && purplepuzzlePieces[2].activeInHierarchy)
         {
-            Debug.Log("Player has won the game!");
+            Debug.Log("Player has won the atm puzzle game!");
             atmPuzzleWinnerEvent.Invoke();
         }
     }
