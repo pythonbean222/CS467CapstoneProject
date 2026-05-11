@@ -2,28 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class InventoryUI : MonoBehaviour
 {
-    private TextMeshProUGUI cubeText;
-    private TextMeshProUGUI triangleText;
-    private TextMeshProUGUI sphereText;
+    [SerializeField] private TextMeshProUGUI cubeText;
+    [SerializeField] private TextMeshProUGUI triangleText;
+    [SerializeField] private TextMeshProUGUI sphereText;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    // Update classes for using player inventory
+
+    public void UpdateCubeCount(PlayerInventory playerInventory)
     {
-        // create references to the sphere, cube, and triangle text objects
-        sphereText = GetComponent<TextMeshProUGUI>();
-        cubeText = GetComponent<TextMeshProUGUI>();
-        triangleText = GetComponent<TextMeshProUGUI>();
+        cubeText.text = playerInventory.NumberOfCubes.ToString();
     }
 
-    // Update class for using player inventory
-    public void UpdateCollectibleCounts(PlayerInventory playerInventory)
+    public void UpdateTriangleCount(PlayerInventory playerInventory)
     {
-        // update the text of the sphere, cube, and triangle text objects to reflect the current counts in the player inventory
-        sphereText.text = playerInventory.NumberOfSpheres.ToString();
-        cubeText.text = playerInventory.NumberOfCubes.ToString();
         triangleText.text = playerInventory.NumberOfTriangles.ToString();
+    }
+
+    public void UpdateSphereCount(PlayerInventory playerInventory)
+    {
+        sphereText.text = playerInventory.NumberOfSpheres.ToString();
     }
 }

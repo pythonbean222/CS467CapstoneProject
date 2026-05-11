@@ -9,9 +9,58 @@ public GameObject[] bluepuzzlePieces;
 public GameObject[] purplepuzzlePieces;
 public UnityEvent atmPuzzleWinnerEvent;
 
+/* // Inventory-based win check settings.
+// Assign PlayerInventory in the Inspector if possible; otherwise PuzzleManager will try to find one at runtime.
+// The required counts control the conditions for the player to win.
+[SerializeField] private PlayerInventory playerInventory;
+[SerializeField] private int requiredCubes = 1;
+[SerializeField] private int requiredTriangles = 1;
+[SerializeField] private int requiredSpheres = 1; */
+
 private int grayATMCounter;
 private int blueATMCounter;
 private int purpleATMCounter;
+
+/* private void Awake()
+{
+    // Fallback lookup so the manager can still work even if the reference is not set manually.
+    if (playerInventory == null)
+    {
+        playerInventory = FindObjectOfType<PlayerInventory>();
+    }
+} */
+
+/* private void OnEnable()
+{
+    // Listen for each collectible type so the win condition is re-evaluated whenever inventory changes.
+    if (playerInventory == null)
+    {
+        return;
+    }
+
+    playerInventory.OnCubeCollected.AddListener(HandleInventoryChanged);
+    playerInventory.OnTriangleCollected.AddListener(HandleInventoryChanged);
+    playerInventory.OnSphereCollected.AddListener(HandleInventoryChanged);
+} */
+
+/* private void OnDisable()
+{
+    // Remove listeners to avoid duplicate subscriptions when the object is disabled and re-enabled.
+    if (playerInventory == null)
+    {
+        return;
+    }
+
+    playerInventory.OnCubeCollected.RemoveListener(HandleInventoryChanged);
+    playerInventory.OnTriangleCollected.RemoveListener(HandleInventoryChanged);
+    playerInventory.OnSphereCollected.RemoveListener(HandleInventoryChanged);
+} */
+
+/* private void HandleInventoryChanged(PlayerInventory inventory)
+{
+    // Central handler for all inventory updates.
+    CheckInventoryWinCondition();
+} */
 
 // win condition function
 public void Winner()
@@ -23,6 +72,27 @@ public void Winner()
         }
     }
 
+/* public void CheckInventoryWinCondition()
+{
+    // Compare the player's collected counts against the configured requirements.
+    if (playerInventory == null)
+    {
+        Debug.LogWarning("PuzzleManager could not find a PlayerInventory instance.");
+        return;
+    }
+
+    bool hasRequiredInventory =
+        playerInventory.NumberOfCubes >= requiredCubes &&
+        playerInventory.NumberOfTriangles >= requiredTriangles &&
+        playerInventory.NumberOfSpheres >= requiredSpheres;
+
+    if (hasRequiredInventory)
+    {
+        Debug.Log("Player has met the inventory win conditions!");
+        atmPuzzleWinnerEvent?.Invoke();
+    }
+}
+ */
 public void grayATM()
     {
         grayATMCounter++;
