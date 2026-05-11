@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
 
-
+/* 
 public class Timer : MonoBehaviour
 {
     public TMP_Text displayTime;
@@ -35,3 +35,4 @@ public class Timer : MonoBehaviour
 
 
 }
+ */
