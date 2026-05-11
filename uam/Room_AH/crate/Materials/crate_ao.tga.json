@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Room_AH\\crate\\Materials\\crate_ao.tga",
+    "assetName": "crate_ao",
+    "assetId": "6a01e673522994b943dcc50c",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "ab2ee637-3670-4a6d-bf13-f98f74bc5201",
+    "sequenceNumber": 1,
+    "updated": "2026-05-11T14:23:54.5130000Z",
+    "timestamp": 1472134847,
+    "checksum": "fe686140399fc61bb7ff1cf410e25f53",
+    "metaFileChecksum": "2bde971cfacd363886c91fbf914eb791",
+    "metaFileTimestamp": 1778507555,
+    "unityGUID": "ac86526e6d5f3514292a49b1c2f7654f"
+}

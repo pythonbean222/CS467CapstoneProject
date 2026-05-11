@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Room_AH\\SlashAssetStash\\SciFiCrateLowPolyFree[URP]\\Meshes\\CrateCollider.fbx",
+    "assetName": "CrateCollider",
+    "assetId": "6a01e673720b720335a540e7",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "949d6b34-052f-4d17-a368-29de9dceb06c",
+    "sequenceNumber": 1,
+    "updated": "2026-05-11T14:23:54.2340000Z",
+    "timestamp": 1593125961,
+    "checksum": "e317f83c9756a28c5bbec21c0f1c8f6a",
+    "metaFileChecksum": "2a2f5724ace973a21de0c6a6663c75f3",
+    "metaFileTimestamp": 1778507573,
+    "unityGUID": "21c0b22c279d3a94888afe0e7a8a5924"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Room_AH\\crate\\Materials\\crate.mat",
+    "assetName": "crate",
+    "assetId": "6a01e673641620dfc134d7eb",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "c4d4cd9d-bead-4477-964b-f3d453532f19",
+    "sequenceNumber": 1,
+    "updated": "2026-05-11T14:23:54.0720000Z",
+    "timestamp": 1778509423,
+    "checksum": "d2e68069b88d73e93e44685b53c98128",
+    "metaFileChecksum": "2dda315207aae66dda6d649b3539e9a3",
+    "metaFileTimestamp": 1778507555,
+    "unityGUID": "68cf276f7155052419921a97173c682d"
+}
