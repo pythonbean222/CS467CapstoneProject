@@ -13,14 +13,21 @@ public class ATMPuzzleManager : MonoBehaviour
     private int grayATMCounter;
     private int blueATMCounter;
     private int purpleATMCounter;
+    private bool hasRegisteredCompletion;
 
     // This function determines if the player has won the ATM puzzle game
     public void CheckATMPuzzleWinCondition()
         {
             if (graypuzzlePieces[1].activeInHierarchy && bluepuzzlePieces[0].activeInHierarchy && purplepuzzlePieces[2].activeInHierarchy)
             {
+                if (hasRegisteredCompletion)
+                {
+                    return;
+                }
+
+                hasRegisteredCompletion = true;
                 Debug.Log("Player has won the atm puzzle game!");
-                winEventManager.winEventCounter++;
+                winEventManager?.RegisterPuzzleCompletion();
             }
         }
 
@@ -58,6 +65,8 @@ public class ATMPuzzleManager : MonoBehaviour
                 Debug.Log("Gray ATM interacted with. Counter: " + grayATMCounter);
                 break;
         }
+
+            CheckATMPuzzleWinCondition();
     }
 
     public void blueATM()
@@ -92,6 +101,8 @@ public class ATMPuzzleManager : MonoBehaviour
                 Debug.Log("Blue ATM interacted with. Counter: " + blueATMCounter);
                 break;
         }
+
+            CheckATMPuzzleWinCondition();
     }
 
     public void purpleATM()
@@ -126,6 +137,8 @@ public class ATMPuzzleManager : MonoBehaviour
                 Debug.Log("Purple ATM interacted with. Counter: " + purpleATMCounter);
                 break;
         }
+
+            CheckATMPuzzleWinCondition();
     }
 
 }

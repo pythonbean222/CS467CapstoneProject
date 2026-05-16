@@ -12,6 +12,7 @@ public class CollectiblePuzzleManager : MonoBehaviour
     [SerializeField] private int requiredCubes = 4;
     [SerializeField] private int requiredTriangles = 2;
     [SerializeField] private int requiredSpheres = 6;
+    private bool hasRegisteredCompletion;
 
     private void Awake()
     {
@@ -35,6 +36,18 @@ public class CollectiblePuzzleManager : MonoBehaviour
         playerInventory.OnSphereCollected.AddListener(HandleInventoryChanged);
     }
 
+    private void OnDisable()
+    {
+        if (playerInventory == null)
+        {
+            return;
+        }
+
+        playerInventory.OnCubeCollected.RemoveListener(HandleInventoryChanged);
+        playerInventory.OnTriangleCollected.RemoveListener(HandleInventoryChanged);
+        playerInventory.OnSphereCollected.RemoveListener(HandleInventoryChanged);
+    }
+
      private void HandleInventoryChanged(PlayerInventory inventory)
     {
         // Central handler for all inventory updates.
@@ -51,15 +64,24 @@ public class CollectiblePuzzleManager : MonoBehaviour
             return;
         }
 
-        bool hasRequiredInventory =
+/*         bool hasRequiredInventory =
             playerInventory.NumberOfCubes >= requiredCubes &&
             playerInventory.NumberOfTriangles >= requiredTriangles &&
-            playerInventory.NumberOfSpheres >= requiredSpheres;
+            playerInventory.NumberOfSpheres >= requiredSpheres; */
 
-        if (hasRequiredInventory)
+        //if (hasRequiredInventory)
+        if (playerInventory.NumberOfCubes >= requiredCubes &&
+            playerInventory.NumberOfTriangles >= requiredTriangles &&
+            playerInventory.NumberOfSpheres >= requiredSpheres)
         {
+            if (hasRegisteredCompletion)
+            {
+                return;
+            }
+
+            hasRegisteredCompletion = true;
             Debug.Log("Player has met the inventory win conditions!");
-            winEventManager.winEventCounter++;
+            winEventManager?.RegisterPuzzleCompletion();
         }
     }
 

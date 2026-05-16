@@ -45,12 +45,12 @@ public class ATM_interaction : MonoBehaviour
         // Debug.Log("Player is interacting with the ATM.");
         // null conditional operator to check if onATMInteraction is not null before invoking it
         // same as below code
-        /*        if (onATMInteraction != null)
-        {
-            onATMInteraction.Invoke();
-        }
-        */
-        onATMInteraction?.Invoke();
+            if (onATMInteraction != null)
+            {
+                onATMInteraction.Invoke();
+            }
+        
+        // onATMInteraction?.Invoke();
     }
 
     private void OnTriggerEnter(Collider other)
