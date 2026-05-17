@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Textures\\Environment\\Table texture set\\Table Texture set 1\\Table texture set 1_Maskmap.png",
+    "assetName": "Table texture set 1_Maskmap",
+    "assetId": "6a095a1eb23f016aaaed451b",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "cdf8fa9a-b2fc-428b-9032-d1074ad5b091",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:05.4100000Z",
+    "timestamp": 1665595653,
+    "checksum": "f060e4bbb597cae7f60662a63acce932",
+    "metaFileChecksum": "331b1eb7d5d557944cad35ab4303f74b",
+    "metaFileTimestamp": 1778936339,
+    "unityGUID": "73bd44cb9023e4e43b95f96f01d472b0"
+}

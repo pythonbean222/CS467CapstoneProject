@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Textures\\Environment\\Techware\\Techware_Normal.png",
+    "assetName": "Techware_Normal",
+    "assetId": "6a095a207b3969b3adda2d9e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "268d4cfb-53d3-4526-b90e-de9d9f12e2d2",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:11.6310000Z",
+    "timestamp": 1665595725,
+    "checksum": "6e68692c8cc59d973c316270f2b14934",
+    "metaFileChecksum": "009e1f92046d21452be8cdd63b79fa95",
+    "metaFileTimestamp": 1778936340,
+    "unityGUID": "feb6553c14d1156418360e77ec9e772b"
+}
