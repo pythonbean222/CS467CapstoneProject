@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Generic\\Standing Lamp\\StandingLamp_Normal.png",
+    "assetName": "StandingLamp_Normal",
+    "assetId": "69f1cadc0f1aef7f1cb4e0e0",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "6ab9a2bc-de97-4f73-9765-a6da23aabc35",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:31:46.6010000Z",
+    "timestamp": 1777369002,
+    "checksum": "47ee093dc5b2a74b4c98fa69fc9a692c",
+    "metaFileChecksum": "01ea59e5de255a0789c163aa5b080bb5",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "74d3a6a151a601f408458f08f0316cba"
+}

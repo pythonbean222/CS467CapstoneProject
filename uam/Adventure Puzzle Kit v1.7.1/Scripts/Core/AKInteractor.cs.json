@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Core\\AKInteractor.cs",
+    "assetName": "AKInteractor",
+    "assetId": "69f1cb39f50ca0904eeaf101",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "74b9a27e-697d-480d-a879-532901388143",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:39:55.5590000Z",
+    "timestamp": 1767015813,
+    "checksum": "494b8722883ed069597171bd042331dd",
+    "metaFileChecksum": "2a4af6d9c4114658627c84317f99fd83",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "7da434045fa8c9f4a8ec629eeea6365c"
+}

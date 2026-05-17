@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\GasMask\\SFX_GasMask_ChokingGas.wav",
+    "assetName": "SFX_GasMask_ChokingGas",
+    "assetId": "69f1caf9584a38b6770bd090",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e5fbfd9c-32f4-47f7-b10c-ec41a6ea49be",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:35:46.3090000Z",
+    "timestamp": 1767015630,
+    "checksum": "d8b83fd4e7d27811f7cc37ca04f8584c",
+    "metaFileChecksum": "551183093aa97ea6748b6bdc01cd4e99",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "1c5db45859f8bf746b4df81147033d15"
+}

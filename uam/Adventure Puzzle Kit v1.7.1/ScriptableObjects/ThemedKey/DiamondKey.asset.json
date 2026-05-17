@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\ThemedKey\\DiamondKey.asset",
+    "assetName": "DiamondKey",
+    "assetId": "69f1cb45f50ca0904eeaf12e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "cbc80882-3dac-425c-a92c-641027282317",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:41:05.2500000Z",
+    "timestamp": 1777369002,
+    "checksum": "ea6fb7ff3167d06b17c2f3c12a2cb51d",
+    "metaFileChecksum": "af7c34386fa683bbaf2e4208ce0fef82",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "65150c871cc54a04f9948ac5f16d9c3b"
+}

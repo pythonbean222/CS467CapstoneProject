@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\ThemedKey\\HeartKey.asset",
+    "assetName": "HeartKey",
+    "assetId": "69f1ca8fd75576713f394287",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "88745684-33af-4849-bad4-3c1225df4a2e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:25:20.4780000Z",
+    "timestamp": 1777369002,
+    "checksum": "5f172eda5aec8c7de9caf2942a5b79a1",
+    "metaFileChecksum": "a4bc39f55b6cbf3f80ffbd70699ca1da",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "832628e860b4ffa44997b8f2f84871d1"
+}

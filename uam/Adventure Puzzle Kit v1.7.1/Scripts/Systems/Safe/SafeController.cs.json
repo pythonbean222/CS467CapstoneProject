@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Safe\\SafeController.cs",
+    "assetName": "SafeController",
+    "assetId": "69f1cab5f50ca0904eeaf01e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "0738e978-055d-4219-9fce-30f0fe373704",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:28:14.1140000Z",
+    "timestamp": 1767015940,
+    "checksum": "d2d8d67ba3d70caea71c656c441fbfe8",
+    "metaFileChecksum": "b4df27cf9a3b6ee5ac137ad62e2a90a4",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "cb7a1b2fae49cab43a12c1fad8fcff50"
+}

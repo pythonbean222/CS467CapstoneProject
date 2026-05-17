@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\FuseBox\\SFX_Electrical_Hum_Fusebox.wav",
+    "assetName": "SFX_Electrical_Hum_Fusebox",
+    "assetId": "69f1cb97b103a8ece435eed8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "2c358e7f-d389-4c25-81fe-ed6854752a64",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:48:55.6270000Z",
+    "timestamp": 1767015960,
+    "checksum": "1a4e284a44b2d5fa7a63378f187616a6",
+    "metaFileChecksum": "51399ec2d6c30c6275247edd1840564c",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "d4109c0812a0a11409367f939d05662f"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Generator\\GeneratorInventory.cs",
+    "assetName": "GeneratorInventory",
+    "assetId": "69f1ca9de8210a4ab2de0240",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "770495a1-155a-4ca0-8e5c-0ecf4880ec88",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:26:29.9160000Z",
+    "timestamp": 1767015847,
+    "checksum": "33f7c305999ecb2295eae65ba223a45a",
+    "metaFileChecksum": "0852810592bb0b8d8d9f1fd0aba47bc5",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "906bf9b4dfb176c4db765e33192f89a8"
+}

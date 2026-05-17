@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Valve\\SFX_Valve_Creak.wav",
+    "assetName": "SFX_Valve_Creak",
+    "assetId": "69f1ca46650f9664043174f6",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "af31c549-e97f-459d-982b-8f6b63ad0254",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:20:27.7210000Z",
+    "timestamp": 1767015852,
+    "checksum": "d4b1ad20135834574d3c6836765e9ae6",
+    "metaFileChecksum": "609d071e8a912489836751585438a06b",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "94e918a42c34a624db9a6cc72e4552c4"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Safe\\SafeAudioClips.cs",
+    "assetName": "SafeAudioClips",
+    "assetId": "69f1cb9cb103a8ece435eee8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "3adb110e-c9fa-45d4-838e-87078a4f6676",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:48:03.5280000Z",
+    "timestamp": 1767015694,
+    "checksum": "0715d18e270613ac10bfbdfa62121243",
+    "metaFileChecksum": "51f5195b30bad56d7c81360e95d7db63",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "3fd1ce26458865f4ba836d4eb01692c5"
+}

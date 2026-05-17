@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Doors\\Door Windowed\\door02_a_normal.png",
+    "assetName": "door02_a_normal",
+    "assetId": "69f1cb70f50ca0904eeaf18e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "b7ae9742-9237-4257-8e96-0c517b1e7483",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:44:45.2240000Z",
+    "timestamp": 1777369002,
+    "checksum": "b7069ea52457563d06ee4cd03e29a0c8",
+    "metaFileChecksum": "4e951f63b1deb4293b48962f52b627a2",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "aef7dd23dbb03b148b8f0d5747320be3"
+}

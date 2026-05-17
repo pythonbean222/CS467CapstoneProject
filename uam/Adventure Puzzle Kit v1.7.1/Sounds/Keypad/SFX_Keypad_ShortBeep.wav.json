@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Keypad\\SFX_Keypad_ShortBeep.wav",
+    "assetName": "SFX_Keypad_ShortBeep",
+    "assetId": "69f1cb17402ee5a0f020536e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "67ea1348-5122-41ad-b0bf-f06afc9f6a16",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:38:12.9140000Z",
+    "timestamp": 1767015858,
+    "checksum": "7c3187eead61292a09ffc6a26ca6de4b",
+    "metaFileChecksum": "9b7a2a007a5973ecca7bfe30429e6d14",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "972b3ad727a0c364cbe16b402305c631"
+}

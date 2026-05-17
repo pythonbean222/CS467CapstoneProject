@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Player\\AKCameraZoom.cs",
+    "assetName": "AKCameraZoom",
+    "assetId": "69f1cb1a650f966404317686",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "4d9d4bc7-2e89-4be4-a14b-96fdec2d7e8a",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:37:11.9080000Z",
+    "timestamp": 1767015632,
+    "checksum": "310f2fabd43c309cad106578ab0a7cff",
+    "metaFileChecksum": "990d580dc463611f0359f2fbc3b80272",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "1dc8d2963dafb8743b17665d9aca9fa1"
+}

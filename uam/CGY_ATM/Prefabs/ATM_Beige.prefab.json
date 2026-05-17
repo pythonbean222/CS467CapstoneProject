@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Prefabs\\ATM_Beige.prefab",
+    "assetName": "ATM_Beige",
+    "assetId": "69f3224e8979f7f8fcdbc280",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "ade08faf-c7ef-4105-b680-7ad25c051cd3",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:09.0920000Z",
+    "timestamp": 1777532698,
+    "checksum": "dc101cc1089fc152821f3da2b6c4c7b3",
+    "metaFileChecksum": "aa56c310a59bd70c2bc7d2b3ed4a847c",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "4ed252e36730dcb44ba5df09d823c485"
+}

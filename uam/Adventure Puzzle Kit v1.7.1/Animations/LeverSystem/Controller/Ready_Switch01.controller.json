@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Animations\\LeverSystem\\Controller\\Ready_Switch01.controller",
+    "assetName": "Ready_Switch01",
+    "assetId": "69f1cb41650f9664043176d6",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "d617d9a6-687c-498e-87e6-e459e8935f9e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:40:31.0760000Z",
+    "timestamp": 1767015969,
+    "checksum": "77a21ebfa0883911760a2651f5a2cb6f",
+    "metaFileChecksum": "fe4eb072cbefc7da8b4d5b99421502a3",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "da38f5b293b2a644b929e828f4ba2d9b"
+}

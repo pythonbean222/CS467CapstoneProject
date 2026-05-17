@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\GasMask\\SFX_GasMask_Warning_Alarm.wav",
+    "assetName": "SFX_GasMask_Warning_Alarm",
+    "assetId": "69f1cb28e021951e5109d502",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f581073d-1dfb-44e6-b9d1-00d1554bc3d1",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:39:44.4050000Z",
+    "timestamp": 1767015958,
+    "checksum": "82f393258d53c77b7bc84fee668e6de4",
+    "metaFileChecksum": "a38bd7a65b3be7c81ef6ec722ca24648",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "d3c4770fb706e494490eec97b47041d0"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Generic\\SO_Door_Open_Normal.asset",
+    "assetName": "SO_Door_Open_Normal",
+    "assetId": "69f1cb42e8210a4ab2de0342",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "dba33b7e-94d9-4704-be84-5cc03da2c7bf",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:40:36.9390000Z",
+    "timestamp": 1777369002,
+    "checksum": "178d1186f229ab593ed544df94150f51",
+    "metaFileChecksum": "a90702b434292a5890fa83039f752d1d",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "0f91bc3077b18cd469b5790245b46322"
+}

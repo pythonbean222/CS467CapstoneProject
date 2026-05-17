@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Prefabs\\Spawnable\\ChessPieces (Spawnable)\\Queen_Fuse.prefab",
+    "assetName": "Queen_Fuse",
+    "assetId": "69f1ca6cd75576713f394257",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "28a18aef-6c02-4aa3-bbe8-7440d4b30e88",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:23:09.7780000Z",
+    "timestamp": 1767015988,
+    "checksum": "4d3894bf2f8ae9aa130b692ab778d768",
+    "metaFileChecksum": "49b57d30ffa70f9e9e0fa0f9205a2bfe",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "e385d8abfc8e26e4cafd1d64b32b3f3b"
+}

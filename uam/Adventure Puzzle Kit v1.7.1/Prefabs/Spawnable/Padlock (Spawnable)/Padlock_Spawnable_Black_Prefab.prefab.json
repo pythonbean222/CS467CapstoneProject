@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Prefabs\\Spawnable\\Padlock (Spawnable)\\Padlock_Spawnable_Black_Prefab.prefab",
+    "assetName": "Padlock_Spawnable_Black_Prefab",
+    "assetId": "69f1cb55d75576713f3943df",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "76510531-1893-4dd0-983d-a4009430ba5d",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:42:56.9910000Z",
+    "timestamp": 1767015900,
+    "checksum": "4c3068703b34763e3dd76e2f3cd8ef44",
+    "metaFileChecksum": "b8349a04ddb97002f083df1d0ac54707",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "b2c539db484dc534caad1fec66751948"
+}

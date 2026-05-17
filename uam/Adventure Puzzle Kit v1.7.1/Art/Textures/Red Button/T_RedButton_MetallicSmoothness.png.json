@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Red Button\\T_RedButton_MetallicSmoothness.png",
+    "assetName": "T_RedButton_MetallicSmoothness",
+    "assetId": "69f1cb43e021951e5109d51a",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "243493b4-75ee-4509-881b-50cd2cb837be",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:41:14.0430000Z",
+    "timestamp": 1777369002,
+    "checksum": "cc83a6d0c0c0e3a33935268670ef4ceb",
+    "metaFileChecksum": "66269a72316ced6f7b3efb530415b1ae",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "8764de33e4fc7b7439e40b834a610e15"
+}

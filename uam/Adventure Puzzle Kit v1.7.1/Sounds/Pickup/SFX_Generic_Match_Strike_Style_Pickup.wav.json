@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Pickup\\SFX_Generic_Match_Strike_Style_Pickup.wav",
+    "assetName": "SFX_Generic_Match_Strike_Style_Pickup",
+    "assetId": "69f1ca96f50ca0904eeaefee",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "12530818-9083-44f0-8e18-9c57b5877b43",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:26:37.9840000Z",
+    "timestamp": 1767015712,
+    "checksum": "938e3ba763531c65ebde2c85db3bc4cb",
+    "metaFileChecksum": "5b959f2abcbcf47769949205b9c1d188",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "487a5c2d6cb41a84388b586e7e02a035"
+}

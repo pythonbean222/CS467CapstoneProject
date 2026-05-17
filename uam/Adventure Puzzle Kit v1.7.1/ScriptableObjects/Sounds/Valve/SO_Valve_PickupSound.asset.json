@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Valve\\SO_Valve_PickupSound.asset",
+    "assetName": "SO_Valve_PickupSound",
+    "assetId": "69f1ca48f50ca0904eeaef7e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "b7ac4eed-345a-42f8-a24a-3c14e02124ba",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:19:29.0690000Z",
+    "timestamp": 1777369002,
+    "checksum": "4b53c2517d03c6a024024d11e8016331",
+    "metaFileChecksum": "7aaa7bd0053ebafbe1edfe564236f015",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "b3686ae2caeef0c47a7e8b04474ef57a"
+}

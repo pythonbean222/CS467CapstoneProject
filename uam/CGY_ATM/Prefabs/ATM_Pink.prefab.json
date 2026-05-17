@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Prefabs\\ATM_Pink.prefab",
+    "assetName": "ATM_Pink",
+    "assetId": "69f32260517c86705a67d40d",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e3622a81-9947-4d81-9b75-075dee50500e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:29.1110000Z",
+    "timestamp": 1777532698,
+    "checksum": "443c207ff760cf87cbc3960ddc72bb01",
+    "metaFileChecksum": "085975ecc128e7871b2cfc0017ef5fc4",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "cadb7b884cfea364198536f2b0cd6999"
+}

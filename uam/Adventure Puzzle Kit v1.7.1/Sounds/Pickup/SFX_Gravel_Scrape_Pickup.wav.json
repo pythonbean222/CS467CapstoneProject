@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Pickup\\SFX_Gravel_Scrape_Pickup.wav",
+    "assetName": "SFX_Gravel_Scrape_Pickup",
+    "assetId": "69f1cb0f650f966404317666",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "c8a96c6f-9396-4948-b4fc-2039d5906379",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:37:44.6760000Z",
+    "timestamp": 1767015735,
+    "checksum": "725b4701114c24de34a8cd87f2589fdd",
+    "metaFileChecksum": "51eb1313578593d19bec33779e6a9090",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "54518fb39c7b861428b4a95c508abba9"
+}

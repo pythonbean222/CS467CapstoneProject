@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Generator\\General Scripts\\UILookAt.cs",
+    "assetName": "UILookAt",
+    "assetId": "69f1cafaf50ca0904eeaf06e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "c467804a-91e7-4a7d-8c2c-f4c2e55ebb01",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:34:32.0230000Z",
+    "timestamp": 1767015576,
+    "checksum": "cff580d69a4da223692b8369067b51d1",
+    "metaFileChecksum": "25e93516a803d83f10ab22ba429e166e",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "06aa31a6dea43dc4887611208ece80a1"
+}

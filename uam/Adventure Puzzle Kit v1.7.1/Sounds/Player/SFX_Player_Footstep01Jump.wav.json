@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Player\\SFX_Player_Footstep01Jump.wav",
+    "assetName": "SFX_Player_Footstep01Jump",
+    "assetId": "69f1cb28f50ca0904eeaf0bf",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "d75a31d5-9267-42cd-88d1-8764ecb43ba3",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:39:45.2550000Z",
+    "timestamp": 1767015755,
+    "checksum": "1a1652d920d0a9892d8435e720d3c79e",
+    "metaFileChecksum": "99381f2c382c44403751772e213a57dc",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "5897aeed9b676024fbb8c694b421a861"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Player\\SFX_Player_Footstep01Land.wav",
+    "assetName": "SFX_Player_Footstep01Land",
+    "assetId": "69f1cb9d650f96640431779e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "78388b4f-616e-4d25-9ffb-1d99cc9a7f36",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:49:27.7520000Z",
+    "timestamp": 1767015686,
+    "checksum": "35afaeb14a0d2c7962a15e26dea4ef64",
+    "metaFileChecksum": "b91d4c1ffd0fc1d020c78f6107055108",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "3b09d59f4499d45428baa7a21e954296"
+}

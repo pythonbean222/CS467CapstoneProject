@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Valve\\Outcome Example\\ValvesCompleted.cs",
+    "assetName": "ValvesCompleted",
+    "assetId": "69f1cac8e8210a4ab2de02a0",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "1c7e5031-18b6-46ec-b19a-a6968b015574",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:30:11.7960000Z",
+    "timestamp": 1767015712,
+    "checksum": "fb943675fab3d053e7b8365efbf4ae53",
+    "metaFileChecksum": "786195296be96c9987671cff7b740444",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "475786bca4a5c094d8d7feda27e14f1c"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Padlock\\SFX_PadLock_Unlock.wav",
+    "assetName": "SFX_PadLock_Unlock",
+    "assetId": "69f1cac70f1aef7f1cb4e0b8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "de3c5072-2f08-492b-95c4-bd5dbd8bcbda",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:31:11.9730000Z",
+    "timestamp": 1767015820,
+    "checksum": "6c1d12fa2aa61e048a754c9073d2d8cb",
+    "metaFileChecksum": "522cb9bed961bedd6ce0337471bdb99b",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "82ae795ad426bfb4396abd0e31989c84"
+}

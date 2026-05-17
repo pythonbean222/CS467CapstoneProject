@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Keypad\\SFX_Keypad_AccessDenied.wav",
+    "assetName": "SFX_Keypad_AccessDenied",
+    "assetId": "69f1cb2c0f1aef7f1cb4e160",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "98e1b297-167c-47d7-8ad4-986f18a644cf",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:40:02.7710000Z",
+    "timestamp": 1767016002,
+    "checksum": "5073e92ffc04e0d20e48fe6f268f4f0a",
+    "metaFileChecksum": "e7c04abe7640116fead1590458b43cba",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "edd81f165f7bb7c4081b474c521ef968"
+}

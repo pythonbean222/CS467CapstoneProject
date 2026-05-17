@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Basic Door\\DoorController.cs",
+    "assetName": "DoorController",
+    "assetId": "69f1ca4ff50ca0904eeaef8e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "ab37d265-3bc4-4117-a975-659b1c97a2a4",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:19:57.2800000Z",
+    "timestamp": 1767015911,
+    "checksum": "a8c77ff79770c04327a323b3872c3f4d",
+    "metaFileChecksum": "2200380808e4a260d0760454a7e92845",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "b8674b7b8de450245a8bdb82a7a36827"
+}

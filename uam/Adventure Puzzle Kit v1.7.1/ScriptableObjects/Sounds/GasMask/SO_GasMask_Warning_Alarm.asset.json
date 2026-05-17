@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\GasMask\\SO_GasMask_Warning_Alarm.asset",
+    "assetName": "SO_GasMask_Warning_Alarm",
+    "assetId": "69f1cb28584a38b6770bd108",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "574b178b-0841-4447-9a5a-2039e58173d8",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:38:30.3280000Z",
+    "timestamp": 1777369002,
+    "checksum": "88872e70a11778496c64a2d6c6dba452",
+    "metaFileChecksum": "63dbaca76f99a65d07f9eb728904e015",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "0759e6d861608e145a9fb74fbb88aebd"
+}

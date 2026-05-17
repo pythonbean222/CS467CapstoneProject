@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Safe\\Damaged\\Blue\\Safe_Blue_AlbedoTransparency.png",
+    "assetName": "Safe_Blue_AlbedoTransparency",
+    "assetId": "69f1cb0e584a38b6770bd0c8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "da48b5a8-d8ad-447d-ab38-dec44757fc87",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:36:53.1610000Z",
+    "timestamp": 1777369002,
+    "checksum": "54abc8a4a88f0e51b424500314a432b5",
+    "metaFileChecksum": "bd1d107b535cdf695c4fc5c95c1bb2a3",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "3452d04fb82681f499ed3ba08749913c"
+}

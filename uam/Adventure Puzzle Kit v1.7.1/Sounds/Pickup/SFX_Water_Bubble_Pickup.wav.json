@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Pickup\\SFX_Water_Bubble_Pickup.wav",
+    "assetName": "SFX_Water_Bubble_Pickup",
+    "assetId": "69f1ca70b103a8ece435ed26",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "2117b92b-10e1-4bf0-a8ae-8c53c580940b",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:23:45.9490000Z",
+    "timestamp": 1767015833,
+    "checksum": "f6d264b27fbb67506bafce4a28b82611",
+    "metaFileChecksum": "d5c5922d48522d546769b7672ade5176",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "8abadb32c634941449fafb63b30e99a6"
+}

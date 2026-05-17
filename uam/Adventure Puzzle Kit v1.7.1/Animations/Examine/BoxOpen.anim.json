@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Animations\\Examine\\BoxOpen.anim",
+    "assetName": "BoxOpen",
+    "assetId": "69f1cab3eb1436fb83713538",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "b47132df-a791-4a32-a8da-943c41f0f314",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:28:06.4270000Z",
+    "timestamp": 1767015643,
+    "checksum": "1c83c9d90b8cce7fe62c9bf3b336ff4d",
+    "metaFileChecksum": "4f7303a5327f16768ccd2de91a8d66ab",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "269cd3e4e2a432d42b5d12f1a986457c"
+}

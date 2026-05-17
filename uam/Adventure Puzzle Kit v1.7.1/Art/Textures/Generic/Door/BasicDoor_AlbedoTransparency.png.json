@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Generic\\Door\\BasicDoor_AlbedoTransparency.png",
+    "assetName": "BasicDoor_AlbedoTransparency",
+    "assetId": "69f1cb88f50ca0904eeaf1de",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "38606967-e577-4090-b6ca-b27a435a91fe",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:46:56.2130000Z",
+    "timestamp": 1777369002,
+    "checksum": "9e791377befc98d2113f599f840a2e7d",
+    "metaFileChecksum": "f4189c9ce499759b26eb9cf55246470f",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "c7a1255725139d04d8258c0f59f90a01"
+}

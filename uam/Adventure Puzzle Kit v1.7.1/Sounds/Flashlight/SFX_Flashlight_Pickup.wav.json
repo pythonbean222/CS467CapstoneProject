@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Flashlight\\SFX_Flashlight_Pickup.wav",
+    "assetName": "SFX_Flashlight_Pickup",
+    "assetId": "69f1ca3a584a38b6770bcf70",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "9b1c62bd-bc75-4fd6-be76-bf9b95099989",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:19:29.4510000Z",
+    "timestamp": 1767015917,
+    "checksum": "75faabdc6de6e643052163695cf9b5fa",
+    "metaFileChecksum": "54be74a78a933db49a3c6eb45c715042",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "bb1e702dd2d613b42b96feaca871d732"
+}

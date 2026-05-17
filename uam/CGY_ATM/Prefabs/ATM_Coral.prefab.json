@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Prefabs\\ATM_Coral.prefab",
+    "assetName": "ATM_Coral",
+    "assetId": "69f3224921387dd08336c053",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "5ed8beba-c3a3-4def-9f13-00032c6f86ce",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:00.9320000Z",
+    "timestamp": 1777532697,
+    "checksum": "0a3016a3aad7105441a5074402e46502",
+    "metaFileChecksum": "ba8873e770e63b422a8f3f2d9006644b",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "a73983cbfc3f2c94e9a87d90fc6d5edb"
+}

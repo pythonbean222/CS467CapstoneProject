@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Flashlight\\SO_Flashlight_Reload_Battery.asset",
+    "assetName": "SO_Flashlight_Reload_Battery",
+    "assetId": "69f1ca9bd75576713f394297",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "86efdc1d-f5db-4466-85ad-8bc2a32d33a1",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:26:15.5290000Z",
+    "timestamp": 1777369002,
+    "checksum": "7357216c9afca98a1575756b46bc3df6",
+    "metaFileChecksum": "f5c86c3faf9da05c18c19de73f101ff0",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "bf57132c9866f0642ac7c341e5af3454"
+}

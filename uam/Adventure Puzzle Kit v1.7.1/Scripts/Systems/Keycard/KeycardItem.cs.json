@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Keycard\\KeycardItem.cs",
+    "assetName": "KeycardItem",
+    "assetId": "69f1cb41e8210a4ab2de033a",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "599c6428-707b-4f80-8b56-a1fb98adb76b",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:40:34.4560000Z",
+    "timestamp": 1767015813,
+    "checksum": "bb0a7e8cde1fbe9dfd9cb90ba5a166e2",
+    "metaFileChecksum": "520825d94092172bbac1f19d6b4ec108",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "7d7ae1f3219d5494ca0b256d7e8145e1"
+}

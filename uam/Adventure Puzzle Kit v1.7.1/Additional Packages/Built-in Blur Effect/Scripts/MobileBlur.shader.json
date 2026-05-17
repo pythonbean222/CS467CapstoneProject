@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Additional Packages\\Built-in Blur Effect\\Scripts\\MobileBlur.shader",
+    "assetName": "MobileBlur",
+    "assetId": "69f1ca230f1aef7f1cb4df90",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "61c60392-0b64-4176-8741-f4bb93efdc5b",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:16:46.2360000Z",
+    "timestamp": 1767016034,
+    "checksum": "359596033ed58bb513ff82d1d2516c06",
+    "metaFileChecksum": "5a0a69c301a372aa82751d150dae964c",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "f9d5fa183cd6b45eeb1491f74863cd91"
+}

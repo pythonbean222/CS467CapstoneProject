@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Textures\\ATM_Beige_AlbedoTransparency.png",
+    "assetName": "ATM_Beige_AlbedoTransparency",
+    "assetId": "69f3224f460d408fb7c887f8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "1293f040-b281-433e-ae0b-f2a6a50f9095",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:02.9870000Z",
+    "timestamp": 1499623900,
+    "checksum": "83246cd416b7577e009d7f8650587c9f",
+    "metaFileChecksum": "3f9e66718f777f4f88fd8c20f8c12e72",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "4ec79ab9d3054f2409228f065da14c85"
+}

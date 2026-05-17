@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Doors\\Door Windowed\\door02_a_diffuse.png",
+    "assetName": "door02_a_diffuse",
+    "assetId": "69f1cb6fb103a8ece435eea0",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "22b760c8-5859-4567-88c2-87cd4c8bfd6b",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:44:38.3390000Z",
+    "timestamp": 1777369002,
+    "checksum": "1daa14cf834f163b18fcc52d5b1f4a5b",
+    "metaFileChecksum": "3c9d5aaf169b4d9276364d20260630bc",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "2cc7da74548522b4bbfc88e89ec18a70"
+}

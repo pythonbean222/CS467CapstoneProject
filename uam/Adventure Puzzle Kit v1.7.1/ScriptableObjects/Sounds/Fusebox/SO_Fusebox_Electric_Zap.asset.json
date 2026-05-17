@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Fusebox\\SO_Fusebox_Electric_Zap.asset",
+    "assetName": "SO_Fusebox_Electric_Zap",
+    "assetId": "69f1cb01f50ca0904eeaf086",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "cec86275-2c44-49a6-bc0a-fd6de353ee05",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:35:19.7510000Z",
+    "timestamp": 1777369002,
+    "checksum": "b001ee7758587f3383d86f73a6c04413",
+    "metaFileChecksum": "28d83da38c62a543fdd4fefe2876fc41",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "2abf786aa38676040adc1920cdb3d09c"
+}

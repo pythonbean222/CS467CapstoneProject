@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Padlock\\SO_Padlock_Spin.asset",
+    "assetName": "SO_Padlock_Spin",
+    "assetId": "69f1ca73e021951e5109d3da",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "c87aab92-c5d0-4f07-a492-e2c152a84b06",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:23:09.1740000Z",
+    "timestamp": 1777369002,
+    "checksum": "1e2cf86a37397d80cf2e33fbb3774ee7",
+    "metaFileChecksum": "0fb9315ce820dab8f9b7a2710a880f58",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "05bd134a450a6ac419a36e727a4ffdac"
+}

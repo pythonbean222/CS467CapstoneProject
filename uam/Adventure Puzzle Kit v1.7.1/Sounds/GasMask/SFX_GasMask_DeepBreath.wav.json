@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\GasMask\\SFX_GasMask_DeepBreath.wav",
+    "assetName": "SFX_GasMask_DeepBreath",
+    "assetId": "69f1caeee021951e5109d4aa",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e23b26e2-57d8-4bf2-8b6a-1358348ded99",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:34:25.3890000Z",
+    "timestamp": 1767015826,
+    "checksum": "c3b8b110cafac11ff3a4552afd47c656",
+    "metaFileChecksum": "301a0f28b5fb21bb678ff860116619be",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "870cc9ed07806514aab791092d2827f4"
+}

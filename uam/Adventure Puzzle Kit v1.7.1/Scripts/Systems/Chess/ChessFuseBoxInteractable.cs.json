@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Chess\\ChessFuseBoxInteractable.cs",
+    "assetName": "ChessFuseBoxInteractable",
+    "assetId": "69f1caa8650f9664043175a6",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "61a35923-cac4-41e5-bf0f-adb3ed13ddae",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:27:09.2300000Z",
+    "timestamp": 1767015760,
+    "checksum": "519c1266145c9a960831eb6ab202384c",
+    "metaFileChecksum": "659fdf4095551c2d7b668590319f6d0a",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "5c9675eba9957284cbe44cc71e750450"
+}

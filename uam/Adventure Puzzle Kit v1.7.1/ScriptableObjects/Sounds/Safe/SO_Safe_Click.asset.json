@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\Safe\\SO_Safe_Click.asset",
+    "assetName": "SO_Safe_Click",
+    "assetId": "69f1caf1650f96640431760e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "69ba0135-f73a-40b5-816e-66fe0cb998d8",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:33:45.8060000Z",
+    "timestamp": 1777369002,
+    "checksum": "f63c83cc844006cd75816b6d42716c4a",
+    "metaFileChecksum": "31e517a72dfca254f264b86dec4a07eb",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "1b4007181dbf6e8499dbf15465f4d729"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\ScriptableObjects\\Sounds\\GasMask\\SO_GasMask_BreathIn_Rustle.asset",
+    "assetName": "SO_GasMask_BreathIn_Rustle",
+    "assetId": "69f1ca47e021951e5109d3a2",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f82541f0-da17-4a61-8539-a3f8abaf340e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:19:18.4540000Z",
+    "timestamp": 1777369002,
+    "checksum": "0c55a9c2c6c80b8d1784ae4fee4f01b6",
+    "metaFileChecksum": "b98c355742b8e5b9b102ec4bd6d8991a",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "38d2e778812c95541bd7d74e429b8467"
+}

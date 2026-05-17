@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Additional Packages\\Built-in Blur Effect\\Scripts\\VignetteAndChromaticAberration.cs",
+    "assetName": "VignetteAndChromaticAberration",
+    "assetId": "69f1cb5c584a38b6770bd163",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "54f56b7d-3583-4c72-848a-c6b64263aafb",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:42:26.9320000Z",
+    "timestamp": 1767015977,
+    "checksum": "8a45999485675950c516ded273aa8034",
+    "metaFileChecksum": "619be5256b6320c56172ff8ec0bd962e",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "dd6d4281e5d7cd44d8c6e38bc2c1b8d8"
+}

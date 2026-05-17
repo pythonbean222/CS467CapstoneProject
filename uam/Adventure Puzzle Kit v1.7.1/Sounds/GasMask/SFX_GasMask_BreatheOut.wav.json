@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\GasMask\\SFX_GasMask_BreatheOut.wav",
+    "assetName": "SFX_GasMask_BreatheOut",
+    "assetId": "69f1cab90f1aef7f1cb4e090",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "027b4a99-dbbe-4908-b85c-00192dc9acf5",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:30:02.6140000Z",
+    "timestamp": 1767015700,
+    "checksum": "1be390933223e7c0b9f435e951748b21",
+    "metaFileChecksum": "1dd16cb32dfed1adfd1473f3879f05ad",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "43e4b4f0f05596444ac3f65d1998dbe8"
+}

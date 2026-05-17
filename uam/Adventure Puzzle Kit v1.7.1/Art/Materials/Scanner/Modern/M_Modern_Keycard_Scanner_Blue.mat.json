@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Materials\\Scanner\\Modern\\M_Modern_Keycard_Scanner_Blue.mat",
+    "assetName": "M_Modern_Keycard_Scanner_Blue",
+    "assetId": "69f1cac80f1aef7f1cb4e0c8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "b6d13ef8-2e61-4828-addb-07566e2b17d6",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:31:06.7940000Z",
+    "timestamp": 1777205663,
+    "checksum": "49ba1b2054e9aa48f5cf9463ca9ab41d",
+    "metaFileChecksum": "b7a190d686cf3f441aebe4fd5b16055b",
+    "metaFileTimestamp": 1777202220,
+    "unityGUID": "cb76db6f321cf454bb05b701e27d1c64"
+}

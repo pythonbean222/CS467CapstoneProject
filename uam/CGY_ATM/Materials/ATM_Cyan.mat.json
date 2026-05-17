@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Materials\\ATM_Cyan.mat",
+    "assetName": "ATM_Cyan",
+    "assetId": "69f3225021387dd08336c073",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f05f7d0d-f17c-4550-83eb-51ec286e9613",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:17.8040000Z",
+    "timestamp": 1777533565,
+    "checksum": "adcb47c4719ed10fb616cbe280145be2",
+    "metaFileChecksum": "6d598ce3a9a745146744cb507a13e2b2",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "82d545cb1c5b1d74c9399da5566d86b4"
+}

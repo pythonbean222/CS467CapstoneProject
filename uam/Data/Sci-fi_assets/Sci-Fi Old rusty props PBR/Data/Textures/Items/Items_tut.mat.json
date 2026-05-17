@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Data\\Sci-fi_assets\\Sci-Fi Old rusty props PBR\\Data\\Textures\\Items\\Items_tut.mat",
+    "assetName": "Items_tut",
+    "assetId": "69f1daa60f1aef7f1cb4e91f",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f80e1b0c-54a0-4960-9373-521203087000",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:20:36.1420000Z",
+    "timestamp": 1777206366,
+    "checksum": "ba60ce366bad6025b70cb27c2e65177c",
+    "metaFileChecksum": "8d3298b20b4ae2e490a90f9c499e25de",
+    "metaFileTimestamp": 1777109552,
+    "unityGUID": "499f636039cff53419956b156122b2f3"
+}

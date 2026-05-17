@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Prefabs\\2- Main Prefabs\\3- Puzzle Controllers\\Flashlight - Controller.prefab",
+    "assetName": "Flashlight - Controller",
+    "assetId": "69f1cb480f1aef7f1cb4e1a8",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "3bbb9113-bc23-4040-9c23-81d2fc5f17b9",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:41:23.5190000Z",
+    "timestamp": 1767015712,
+    "checksum": "b02baeac53f3e5a93ce518ff8352b3dc",
+    "metaFileChecksum": "4c0f3b41e3b27e089a6165822fc1e7f5",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "47f73355062bcf94288e5ff6596e0c39"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Gas Mask\\GasMask Mark1\\GasMask_Exterior_AO.png",
+    "assetName": "GasMask_Exterior_AO",
+    "assetId": "69f1ca7a402ee5a0f020525e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "2f3bc2fa-05ef-467b-959b-cd21e484933b",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:23:36.1620000Z",
+    "timestamp": 1777369002,
+    "checksum": "ca9502039c8436fac6c8c8b8af80c1d6",
+    "metaFileChecksum": "14a55c9ce24fe45c4a65cbdc4c5d8e20",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "d52bdeff799ff414b89916c25ee73616"
+}

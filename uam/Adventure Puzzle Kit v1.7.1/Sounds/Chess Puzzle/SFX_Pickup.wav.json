@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Sounds\\Chess Puzzle\\SFX_Pickup.wav",
+    "assetName": "SFX_Pickup",
+    "assetId": "69f1ca90d75576713f39428f",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f5f87cc1-7baf-4ed4-a715-3b0dfdd49455",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:26:37.0490000Z",
+    "timestamp": 1767015879,
+    "checksum": "d34ecbe937ceac4009e4ce080927ab60",
+    "metaFileChecksum": "2f08014f601b056bff58581800c922ee",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "a4cacdf1e1989bd4285e6253cdf3ae74"
+}

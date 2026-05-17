@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Data\\Sci-fi_assets\\Sci-Fi Old rusty props PBR\\Prefabs\\Container_small.prefab",
+    "assetName": "Container_small",
+    "assetId": "69f1daa8584a38b6770bd8dc",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "d96be84a-6678-4ace-91bd-5c3cece87f4e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:20:42.0280000Z",
+    "timestamp": 1631129134,
+    "checksum": "24911dfcc5aa4d1271833112b5a99cd5",
+    "metaFileChecksum": "08270f210c54c8336987324b9cdf475d",
+    "metaFileTimestamp": 1777109552,
+    "unityGUID": "767a1075f1ec4394d88256559f7c8d1c"
+}

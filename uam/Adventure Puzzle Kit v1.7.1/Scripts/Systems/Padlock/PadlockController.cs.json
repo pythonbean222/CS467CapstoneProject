@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Padlock\\PadlockController.cs",
+    "assetName": "PadlockController",
+    "assetId": "69f1cb1a650f96640431768d",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "b216f580-66b9-449e-abd7-e180691468fd",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:37:15.1260000Z",
+    "timestamp": 1767016034,
+    "checksum": "4e0bef0656c58ee9e332e495f271e430",
+    "metaFileChecksum": "cbe21446e932bf9c2a5f12d24e571b7b",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "f9e7b1af1ad6f0a4da4422d2f4e625cb"
+}

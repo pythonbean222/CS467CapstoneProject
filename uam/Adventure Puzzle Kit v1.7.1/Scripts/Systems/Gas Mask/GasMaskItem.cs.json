@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Systems\\Gas Mask\\GasMaskItem.cs",
+    "assetName": "GasMaskItem",
+    "assetId": "69f1cad1e021951e5109d472",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "df331f13-228e-4749-89a4-e269af289a76",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:30:39.6230000Z",
+    "timestamp": 1767015780,
+    "checksum": "7ab744718435563d0a8f1a5e678c8bbb",
+    "metaFileChecksum": "239884ecd8dc2175bd537611f33d5f6a",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "6a5f25a1c74dc4d4cadddb87596b6e69"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Scripts\\Core\\AKInputManager.cs",
+    "assetName": "AKInputManager",
+    "assetId": "69f1ca60584a38b6770bcfc0",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "c713e084-8392-4bb7-aa02-6f3f8523f501",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:21:34.4350000Z",
+    "timestamp": 1767015801,
+    "checksum": "c31fa108c99cb1f1a2c9556e2e296407",
+    "metaFileChecksum": "7b749db5f9d9f772970d5340090fb24b",
+    "metaFileTimestamp": 1777202222,
+    "unityGUID": "75ef0819030622a49af0f973696fc7aa"
+}

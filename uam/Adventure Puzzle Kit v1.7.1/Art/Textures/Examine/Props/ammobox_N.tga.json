@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Adventure Puzzle Kit v1.7.1\\Art\\Textures\\Examine\\Props\\ammobox_N.tga",
+    "assetName": "ammobox_N",
+    "assetId": "69f1ca40b103a8ece435ecc6",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "a7ab525e-ec9a-450b-9a69-20053e078c49",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T09:19:24.5800000Z",
+    "timestamp": 1767015947,
+    "checksum": "bbfa8e95de89dbc180ddf97478cb65d9",
+    "metaFileChecksum": "c26d9b5484acdba647189521f9cf5e29",
+    "metaFileTimestamp": 1777202221,
+    "unityGUID": "d06d12c0d79dc5a4780ee8b645e302a6"
+}
