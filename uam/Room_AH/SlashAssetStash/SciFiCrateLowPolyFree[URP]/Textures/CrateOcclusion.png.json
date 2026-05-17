@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Room_AH\\SlashAssetStash\\SciFiCrateLowPolyFree[URP]\\Textures\\CrateOcclusion.png",
+    "assetName": "CrateOcclusion",
+    "assetId": "6a01e67372570f023a982419",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "4f218555-b58f-4526-8cf0-068f49ee2f23",
+    "sequenceNumber": 1,
+    "updated": "2026-05-11T14:23:53.4680000Z",
+    "timestamp": 1593125962,
+    "checksum": "f8b07e6ffd828ac7358d5de92ff2a191",
+    "metaFileChecksum": "6b7eb53c0f03de9c07ad66878db2bb13",
+    "metaFileTimestamp": 1778507573,
+    "unityGUID": "5c4f8e71b68371049b492558483c6094"
+}
