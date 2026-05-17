@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Textures\\Environment\\Techware\\Techware_Height.png",
+    "assetName": "Techware_Height",
+    "assetId": "6a095a21b23f016aaaed4523",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "edd870df-5482-42c1-a552-d991a4658142",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:09.7940000Z",
+    "timestamp": 1665595676,
+    "checksum": "6c03450360cc9c7c14c9b2e57913f953",
+    "metaFileChecksum": "d5ea78e4e1185d2dc838d68e05b3d66f",
+    "metaFileTimestamp": 1778936340,
+    "unityGUID": "975e257f44c497d479c69e023fbb5c13"
+}

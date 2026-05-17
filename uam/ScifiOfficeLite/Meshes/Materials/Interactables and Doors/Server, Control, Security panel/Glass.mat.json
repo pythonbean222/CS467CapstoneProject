@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Materials\\Interactables and Doors\\Server, Control, Security panel\\Glass.mat",
+    "assetName": "Glass",
+    "assetId": "6a095a21ca41156dca639ad6",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "7f719efa-1cda-41ae-bdbd-ff24424bf898",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:19.8740000Z",
+    "timestamp": 1778936893,
+    "checksum": "a00c288b131f69eea850a37a03016d2e",
+    "metaFileChecksum": "a36d6bc74f3aa8d6c596980423724054",
+    "metaFileTimestamp": 1778936339,
+    "unityGUID": "a8110a263a9aa234690b7fdb5703417a"
+}

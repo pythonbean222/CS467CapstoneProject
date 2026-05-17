@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Textures\\Environment\\Table texture set\\Table Set Glass\\Table Glass_Diffuse.png",
+    "assetName": "Table Glass_Diffuse",
+    "assetId": "6a095a23084534c3d7a134a0",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "7fda30fe-eb68-4a7f-955c-e407daab975a",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:14.9950000Z",
+    "timestamp": 1665595630,
+    "checksum": "6991a491889501d5ca4a6d977dcffa63",
+    "metaFileChecksum": "1bb8ef4bf8b20320afe3d3c6eb0033c9",
+    "metaFileTimestamp": 1778936339,
+    "unityGUID": "306a88abae0890849890ec9e7428de94"
+}
