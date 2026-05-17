@@ -1,16 +1,18 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
+// Code adapted from Unity Unlocked's tutorial on making an inventory system in Unity.
 // https://www.youtube.com/watch?v=PUKYv-afRnc&list=PLXG1jSmcT-NVNBRb-dCMBsCUbn_xtcwBo
 
+// Class for the inventory, holds a list of slots and has a method to add items to the inventory
 public class Inventory : MonoBehaviour
 {
     public ItemSO fuseItem;
-
     public GameObject inventorySlotParent;
     private List<Slot> inventorySlots = new List<Slot>();
 
     private void Awake() {
+        // get all slots in the inventory and add them to a list
         inventorySlots.AddRange(inventorySlotParent.GetComponentsInChildren<Slot>());
     }
 
@@ -37,7 +39,6 @@ public class Inventory : MonoBehaviour
 
                     if (remaining <= 0)
                         return;
-
                 }
             }
         }
