@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Demo_SceneSettings.lighting",
+    "assetName": "Demo_SceneSettings",
+    "assetId": "69f3224c3554674f3b481ecb",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "6ede98ea-3c1e-4308-b5c7-62da73d2ba52",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:37:35.9750000Z",
+    "timestamp": 1777532697,
+    "checksum": "1f87e388fa6660680a47d15b88ac0f53",
+    "metaFileChecksum": "602d774222c5a3cd643684b1a48c86e8",
+    "metaFileTimestamp": 1777532697,
+    "unityGUID": "5300a77fa7130e649bdac35454ff77c5"
+}

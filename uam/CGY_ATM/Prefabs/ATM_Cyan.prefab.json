@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Prefabs\\ATM_Cyan.prefab",
+    "assetName": "ATM_Cyan",
+    "assetId": "69f3224fea641e4b96f8d115",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e8420fd9-b4cc-41c2-b26f-9d1a86a1f01c",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:14.4590000Z",
+    "timestamp": 1777532698,
+    "checksum": "18744cf20626c40bc4f93090dcd17a21",
+    "metaFileChecksum": "919d69a45df71528820f931e1e8b0ec5",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "e2cfa0db9aa4a7545a6ab6b61088ceab"
+}

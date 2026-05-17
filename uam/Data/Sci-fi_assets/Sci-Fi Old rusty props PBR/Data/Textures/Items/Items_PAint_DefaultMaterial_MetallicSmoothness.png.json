@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Data\\Sci-fi_assets\\Sci-Fi Old rusty props PBR\\Data\\Textures\\Items\\Items_PAint_DefaultMaterial_MetallicSmoothness.png",
+    "assetName": "Items_PAint_DefaultMaterial_MetallicSmoothness",
+    "assetId": "69f1daa7d75576713f394b65",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "166e3a65-323f-44a4-ae1e-d1436a38a94e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:20:19.7570000Z",
+    "timestamp": 1777369002,
+    "checksum": "46c13466322932157396605a9148c8b7",
+    "metaFileChecksum": "1b07b1f97fa8a899ea63c047c70cb0fe",
+    "metaFileTimestamp": 1777109552,
+    "unityGUID": "abd3ea575926112418999ab254828b5c"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Materials\\Techware\\Techware.mat",
+    "assetName": "Techware",
+    "assetId": "6a095a20ca41156dca639ace",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "bf715265-3434-41d8-ab05-842a1b4bb109",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:19.3920000Z",
+    "timestamp": 1778936893,
+    "checksum": "26e4976593d063aa5cb5976fb1ebbfdc",
+    "metaFileChecksum": "4955b7bc4d46d6950feddc6f31490fc3",
+    "metaFileTimestamp": 1778936339,
+    "unityGUID": "5666f87358c9a75449f82ea12d7deef4"
+}

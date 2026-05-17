@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8d3ff06ebde66ab4b82f637f1940c06b
+timeCreated: 1520784315
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 113568
+  packageName: Sci-fi Loot Chests
+  packageVersion: 1.0
+  assetPath: Assets/Loot_Chest_Pack/Sci-fi_Loot_Chests/Prefabs/Sci_Fi_01_Red.prefab
+  uploadId: 234265

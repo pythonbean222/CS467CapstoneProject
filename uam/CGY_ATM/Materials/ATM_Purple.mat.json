@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Materials\\ATM_Purple.mat",
+    "assetName": "ATM_Purple",
+    "assetId": "69f3224a8979f7f8fcdbc270",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "21968f3f-b247-4982-976c-7b29c65823e3",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:02.7410000Z",
+    "timestamp": 1777535287,
+    "checksum": "1a0c45f82f66bd9c869abe128d370042",
+    "metaFileChecksum": "609a7029b126559814d65a6e61f21491",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "b1f9ee7634a9a0340bc6abd5a1fca1a5"
+}

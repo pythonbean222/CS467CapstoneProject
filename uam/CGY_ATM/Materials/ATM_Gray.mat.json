@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Materials\\ATM_Gray.mat",
+    "assetName": "ATM_Gray",
+    "assetId": "69f32247ea641e4b96f8d0ea",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "d41e75a0-81a1-424c-8c8c-bdd514802f7e",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:00.4910000Z",
+    "timestamp": 1777535287,
+    "checksum": "b128673943d450db6eca7721370b40b8",
+    "metaFileChecksum": "083daf6465a4c2efca7ec04a9b04e836",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "e5c9b732aeebe2341b455d5034f745b3"
+}

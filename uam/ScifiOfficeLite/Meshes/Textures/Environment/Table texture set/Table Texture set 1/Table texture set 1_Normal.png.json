@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Textures\\Environment\\Table texture set\\Table Texture set 1\\Table texture set 1_Normal.png",
+    "assetName": "Table texture set 1_Normal",
+    "assetId": "6a095a1f2f7107417de2075e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "5eb2f0a8-3a1a-4ea1-a4ef-b8f106e5de85",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:09.6630000Z",
+    "timestamp": 1665595628,
+    "checksum": "82d7db9f35b55f0f821a5092928b1510",
+    "metaFileChecksum": "6a6ed13c782a5abb65a51d290407c857",
+    "metaFileTimestamp": 1778936339,
+    "unityGUID": "2ecdc09e7c348e640a2c1b78607e4995"
+}

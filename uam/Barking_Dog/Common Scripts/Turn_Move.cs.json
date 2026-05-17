@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Barking_Dog\\Common Scripts\\Turn_Move.cs",
+    "assetName": "Turn_Move",
+    "assetId": "69f1da9feb1436fb83713d2f",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "d0d8c7d5-4474-4794-b53d-968dde8d02e0",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:19:00.1050000Z",
+    "timestamp": 1776689001,
+    "checksum": "9187178b43040927d4fa47b098175168",
+    "metaFileChecksum": "5b8b208a29069d1ff6507a6cee5abfdb",
+    "metaFileTimestamp": 1776689001,
+    "unityGUID": "5009e9d1b4124d742b8cdf74e3c3f8a6"
+}

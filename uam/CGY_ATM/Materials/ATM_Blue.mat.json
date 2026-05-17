@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Materials\\ATM_Blue.mat",
+    "assetName": "ATM_Blue",
+    "assetId": "69f322618979f7f8fcdbc288",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "3301bec1-5fa1-4545-aeb5-dc5880d1c3e7",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:34.5840000Z",
+    "timestamp": 1777535287,
+    "checksum": "3587050e631a6b0bd2fc1889ccf18ff9",
+    "metaFileChecksum": "5c60ee8b9a31e1ddb806478a70d56731",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "d39c7e9f61c9d2041b40ba70799609cb"
+}

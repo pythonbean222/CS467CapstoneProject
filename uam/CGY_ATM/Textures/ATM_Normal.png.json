@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Textures\\ATM_Normal.png",
+    "assetName": "ATM_Normal",
+    "assetId": "69f32248b103a8ece4363286",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "0fbddbc5-5d29-4369-b7ec-ad8e03afe299",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:36:44.9940000Z",
+    "timestamp": 1499623915,
+    "checksum": "79f142df4bdd469de456a92f50908b4e",
+    "metaFileChecksum": "001aed625a3572aa93b540590dc23cf7",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "b71052bfeaf5b954eb3c71391407827a"
+}

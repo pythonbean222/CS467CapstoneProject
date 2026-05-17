@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Textures\\Environment\\Table texture set\\Table Set Glass\\Table Glass_Maskmap.png",
+    "assetName": "Table Glass_Maskmap",
+    "assetId": "6a095a237b3969b3adda2db6",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "327aa54a-7219-41a0-a8d2-adb9d8951e67",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:15.4720000Z",
+    "timestamp": 1665595645,
+    "checksum": "9ac0e84f6feabbeccecd3e3670385127",
+    "metaFileChecksum": "57b3e1967f11a50992d5f38485554b5c",
+    "metaFileTimestamp": 1778936339,
+    "unityGUID": "52a1a9adada4ee2478177240b01d4d12"
+}

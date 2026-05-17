@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 152a824eeba606147aac1c27e950e03a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 324746
+  packageName: SCI-FI Locker Vol. 1
+  packageVersion: 1.0.0
+  assetPath: Assets/SCIFILockerVol1/Materials/TX_SCI_FI_Locker_1_8.mat
+  uploadId: 767847

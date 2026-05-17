@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Barking_Dog\\3D Free Modular Kit\\Prefabs\\Wall_HalfArc_90_03.prefab",
+    "assetName": "Wall_HalfArc_90_03",
+    "assetId": "69f1daa4402ee5a0f0205ae2",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "19d00e17-a7e5-4dd3-b4a0-f9416e17ac6a",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:20:35.7100000Z",
+    "timestamp": 1777109078,
+    "checksum": "ead4a170a59ace7c7c6db62a57c5cc2c",
+    "metaFileChecksum": "295a3398926fea4db722af4145a26d6d",
+    "metaFileTimestamp": 1776689001,
+    "unityGUID": "ff42754d1c37f4da7b050c07fe83d3af"
+}

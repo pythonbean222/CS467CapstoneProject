@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Settings\\SampleSceneProfile.asset",
+    "assetName": "SampleSceneProfile",
+    "assetId": "6a01e673ae1995e7ae1eb55d",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "4311a73c-cd0a-48ae-80b8-e6fe48e16fde",
+    "sequenceNumber": 1,
+    "updated": "2026-05-11T14:23:52.8050000Z",
+    "timestamp": 1777394079,
+    "checksum": "ad6871f0449932e54194c22b81a3c3db",
+    "metaFileChecksum": "ff661768dc6a8663ec15d7c9b0ea9822",
+    "metaFileTimestamp": 1777381010,
+    "unityGUID": "10fc4df2da32a41aaa32d77bc913491c"
+}

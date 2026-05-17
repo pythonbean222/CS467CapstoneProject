@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\ATM.fbx",
+    "assetName": "ATM",
+    "assetId": "69f32246584a38b6770c1575",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "c60bfa3f-89e7-401e-91b7-b10c871e2f36",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:00.4600000Z",
+    "timestamp": 1499623910,
+    "checksum": "39247fdb95246bbf2064a957b418d603",
+    "metaFileChecksum": "6e6261ba38c9511b53da80cb22c83aae",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "9c9c01ea5d9bcf74db52c9818f202508"
+}

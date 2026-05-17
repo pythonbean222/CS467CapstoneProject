@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Textures\\Environment\\Table texture set\\Table Set Glass\\Table Glass_Normal.png",
+    "assetName": "Table Glass_Normal",
+    "assetId": "6a095a23575cf928bf96f104",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "0916cd22-8d77-4988-b095-4a332925449b",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:17.7470000Z",
+    "timestamp": 1665595691,
+    "checksum": "e499c452fa9faa6c4023688c0e5aa733",
+    "metaFileChecksum": "be41e3f42a2c0df45a5fc0fb4f5e8806",
+    "metaFileTimestamp": 1778936339,
+    "unityGUID": "bfde01976dacdcd4288b56a96973d4b5"
+}
