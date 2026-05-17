@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Textures\\ATM_Emission.png",
+    "assetName": "ATM_Emission",
+    "assetId": "69f322488979f7f8fcdbc260",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "5c3adae4-329f-431c-b09a-82fc3d59d620",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:36:41.0570000Z",
+    "timestamp": 1499623911,
+    "checksum": "d06f4e929b1f1065009b5f8aa6d73159",
+    "metaFileChecksum": "04e8c75f82fd994c0545ef55426504e8",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "9fffa34f9a9b32a42ba3e230f9fa8b92"
+}

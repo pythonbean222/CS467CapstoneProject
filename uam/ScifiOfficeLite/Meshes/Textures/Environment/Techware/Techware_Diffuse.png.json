@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Meshes\\Textures\\Environment\\Techware\\Techware_Diffuse.png",
+    "assetName": "Techware_Diffuse",
+    "assetId": "6a095a20f8286cc4e6de608e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "3a16e7fb-66c4-48b5-9038-8da28b732f30",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:11.2260000Z",
+    "timestamp": 1665595702,
+    "checksum": "0e4453ee5e2f26016d8ad85f3a494999",
+    "metaFileChecksum": "c7700140320f46557a498393e434e9d4",
+    "metaFileTimestamp": 1778936340,
+    "unityGUID": "d42ed7b358012eb4cadcee751c2039f8"
+}

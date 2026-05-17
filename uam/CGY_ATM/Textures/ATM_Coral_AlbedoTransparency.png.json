@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Textures\\ATM_Coral_AlbedoTransparency.png",
+    "assetName": "ATM_Coral_AlbedoTransparency",
+    "assetId": "69f3224a8979f7f8fcdbc268",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "a4ae723a-df3d-4574-a0ed-7058b883dba4",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:37:05.7370000Z",
+    "timestamp": 1499623898,
+    "checksum": "4dae1e89a71fbd0e7f1661e031c61088",
+    "metaFileChecksum": "bd37ed26eb701fc4473d1a426e05b9c0",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "476603ba792abcd479c26330b085e714"
+}

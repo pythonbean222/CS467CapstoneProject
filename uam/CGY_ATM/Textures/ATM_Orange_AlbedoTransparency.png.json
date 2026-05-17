@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Textures\\ATM_Orange_AlbedoTransparency.png",
+    "assetName": "ATM_Orange_AlbedoTransparency",
+    "assetId": "69f3224eb103a8ece436329e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "4a8978d3-b0be-4fea-a712-a62df6539036",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:37:57.6940000Z",
+    "timestamp": 1499623931,
+    "checksum": "a038e8d98cb6f6a89048d2204d8b5e21",
+    "metaFileChecksum": "f3a5ed554b303ddece8f4b92cf182f0e",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "ebfc9c89e0ab7574f8ba57af3bbb7ba9"
+}

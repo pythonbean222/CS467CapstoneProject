@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Prefabs\\ATM_Orange.prefab",
+    "assetName": "ATM_Orange",
+    "assetId": "69f3224dea641e4b96f8d102",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "cfd5a1c7-472f-40cc-aefd-92b0f3661ce7",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:08.1010000Z",
+    "timestamp": 1777532698,
+    "checksum": "d36ffe81f7391a562bf74e9ecccb797a",
+    "metaFileChecksum": "76e8abd839c5496acfd97765f1e88ae8",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "40ac3af1a5cdec948893235580e5aba6"
+}

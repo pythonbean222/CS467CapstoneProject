@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "ScifiOfficeLite\\Prefabs\\TVs\\Tv 32 Inch.prefab",
+    "assetName": "Tv 32 Inch",
+    "assetId": "6a095a21d6266b5344c52789",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "8df9a604-dcaf-4e67-b3d0-1a5ca2e4accc",
+    "sequenceNumber": 1,
+    "updated": "2026-05-17T06:04:19.4440000Z",
+    "timestamp": 1665595724,
+    "checksum": "651d9649899a0bf5c22ed96e8b51c919",
+    "metaFileChecksum": "5e14feb5242b2447d7be3074182b16cb",
+    "metaFileTimestamp": 1778936340,
+    "unityGUID": "fe19f183652f0434dba515f0a67f32fe"
+}

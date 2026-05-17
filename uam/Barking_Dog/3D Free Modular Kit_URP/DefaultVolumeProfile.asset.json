@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Barking_Dog\\3D Free Modular Kit_URP\\DefaultVolumeProfile.asset",
+    "assetName": "DefaultVolumeProfile",
+    "assetId": "69f1dab2584a38b6770bd8fd",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "5336b54e-8b07-44bf-9cb7-aa04d8603089",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:20:49.8230000Z",
+    "timestamp": 1777369002,
+    "checksum": "c2bc944fc100615ea3daf354916303ee",
+    "metaFileChecksum": "8857d1f08fc866962c87c6a3ff31ff75",
+    "metaFileTimestamp": 1776689001,
+    "unityGUID": "60b5ff46efe7c094486e0124a5b0c5ee"
+}

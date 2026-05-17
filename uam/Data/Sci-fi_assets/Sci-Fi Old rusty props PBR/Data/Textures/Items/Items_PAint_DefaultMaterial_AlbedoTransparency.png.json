@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Data\\Sci-fi_assets\\Sci-Fi Old rusty props PBR\\Data\\Textures\\Items\\Items_PAint_DefaultMaterial_AlbedoTransparency.png",
+    "assetName": "Items_PAint_DefaultMaterial_AlbedoTransparency",
+    "assetId": "69f1daa8402ee5a0f0205aea",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "e66274cf-e428-4e27-b50f-d6bee9ce8d73",
+    "sequenceNumber": 1,
+    "updated": "2026-04-29T10:20:25.1870000Z",
+    "timestamp": 1777369002,
+    "checksum": "5b00ac777797f790ae07b01dd291f2ea",
+    "metaFileChecksum": "c53fcc3bfcf38de8d9ae3dde2d43795b",
+    "metaFileTimestamp": 1777109552,
+    "unityGUID": "2f076916495a0f740bccb35e9c2efc1d"
+}

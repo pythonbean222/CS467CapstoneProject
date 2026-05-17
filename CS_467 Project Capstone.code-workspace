@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.asset": "yaml",
+			"*.meta": "yaml",
+			"*.prefab": "yaml",
+			"*.unity": "yaml"
+		},
+		"dotnet.defaultSolution": "CS_467 Project Capstone.slnx",
+		"dotnet.enableWorkspaceBasedDevelopment": false
+	}
+}

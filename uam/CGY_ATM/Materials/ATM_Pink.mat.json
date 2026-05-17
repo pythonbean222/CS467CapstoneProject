@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Materials\\ATM_Pink.mat",
+    "assetName": "ATM_Pink",
+    "assetId": "69f32260584a38b6770c1585",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "f30ae4ff-b5bd-4da0-bfb2-94965b60e9fc",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:38:29.6030000Z",
+    "timestamp": 1777533565,
+    "checksum": "78a556de77cfd27307b112f10e4c01bd",
+    "metaFileChecksum": "267754291cd08252d118d9c35bea875d",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "313ef4bc07518a14d8fce4c5aba3c0d2"
+}

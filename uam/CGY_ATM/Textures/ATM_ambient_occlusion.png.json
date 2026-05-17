@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "CGY_ATM\\Textures\\ATM_ambient_occlusion.png",
+    "assetName": "ATM_ambient_occlusion",
+    "assetId": "69f32248b103a8ece436327e",
+    "datasetId": "",
+    "projectId": "9554cf63-1fe9-4034-97d1-ac0b1a93b597",
+    "organizationId": "18968408146466",
+    "versionId": "5a9968a7-27b6-4a46-90c6-e522c30b38d4",
+    "sequenceNumber": 1,
+    "updated": "2026-04-30T09:36:42.2340000Z",
+    "timestamp": 1499623886,
+    "checksum": "33bbebe7403a2a011d763e6dcc0ab03f",
+    "metaFileChecksum": "f8046f3a8fbd47fad2f46c406482a170",
+    "metaFileTimestamp": 1777532690,
+    "unityGUID": "01cd9b791f5e1144cb14ea5c6a8b6d74"
+}
