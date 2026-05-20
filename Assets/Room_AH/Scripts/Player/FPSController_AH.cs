@@ -11,7 +11,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class FPSController : MonoBehaviour
+public class FPSController_AH : MonoBehaviour
 {
     public CharacterController controller;
     public Transform cameraTransform;
@@ -35,7 +35,7 @@ public class FPSController : MonoBehaviour
     // Used to track the Camera angle
     float xRotation;
 
-    void Start()
+    void Start_AH()
     {
         // Hides the mouse cursor
         Cursor.lockState = CursorLockMode.Locked;
@@ -43,7 +43,7 @@ public class FPSController : MonoBehaviour
     }
 
     // Enables our implemented input actions (Necessary for Unity's latest input system)
-    void OnEnable()
+    void OnEnable_AH()
     {
         moveAction.action.Enable();
         lookAction.action.Enable();
@@ -51,23 +51,23 @@ public class FPSController : MonoBehaviour
     }
 
     // Disables our implemented input actions
-    void OnDisable()
+    void OnDisable_AH()
     {
         moveAction.action.Disable();
         lookAction.action.Disable();
         jumpAction.action.Disable();
     }
     
-    void Update()
+    void Update_AH()
     {
-        Look();
-        Jump();
-        ApplyGravity();
-        MoveCharacter();
+        Look_AH();
+        Jump_AH();
+        ApplyGravity_AH();
+        MoveCharacter_AH();
     }
 
     // Method that handles player movement
-    void MoveCharacter()
+    void MoveCharacter_AH()
     {
         Vector2 input = moveAction.action.ReadValue<Vector2>();
 
@@ -87,7 +87,7 @@ public class FPSController : MonoBehaviour
     }
 
     // Method that handles player mouse look
-    void Look()
+    void Look_AH()
     {
         Vector2 look = lookAction.action.ReadValue<Vector2>();
 
@@ -100,7 +100,7 @@ public class FPSController : MonoBehaviour
         transform.Rotate(Vector3.up * mouseX);
     }
 
-    void Jump()
+    void Jump_AH()
     {
         if (jumpAction.action.triggered && controller.isGrounded)
         {
@@ -108,7 +108,7 @@ public class FPSController : MonoBehaviour
         }
     }
 
-    void ApplyGravity()
+    void ApplyGravity_AH()
     {
         if (controller.isGrounded && velocity.y < 0f)
         {
