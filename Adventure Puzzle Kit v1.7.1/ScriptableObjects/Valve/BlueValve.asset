@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41f6385f2ee208a1ca3135cea234eaa2dbb866fb6044158656b5075c225e26e8
-size 482
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617e514229c2c58428d65f1812181d94, type: 3}
+  m_Name: BlueValve
+  m_EditorClassIdentifier: 
+  _valveSprite: {fileID: 21300000, guid: 97fc7824fe4f66a4baeb4c8d44bd608c, type: 3}

@@ -1,0 +1,54 @@
+using UnityEngine;
+
+public class Computer : MonoBehaviour, IInteractable
+{
+    [SerializeField] private FPSController_SC playerController;
+    [SerializeField] private GameObject SecurityCamera;
+    [SerializeField] private Canvas SecurityCameraCanvas;
+    private GameObject cameraReference;
+
+    private bool isActive;
+
+    void Awake()
+    {
+        // Get a reference to the Camera game object
+        cameraReference = SecurityCamera.transform.Find("Camera").gameObject;
+    }
+
+    public void Interact()
+    {
+        if (!isActive)
+        {
+            playerController.enabled = false;
+
+            cameraReference.SetActive(true);
+
+            SecurityCameraCanvas.gameObject.SetActive(true);
+
+            isActive = true;
+        }
+        else
+        {
+            playerController.enabled = true;
+
+            cameraReference.SetActive(false);
+
+            SecurityCameraCanvas.gameObject.SetActive(false);
+
+            isActive = false;
+        }
+    }
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

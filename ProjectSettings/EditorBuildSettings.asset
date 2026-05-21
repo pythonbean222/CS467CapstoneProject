@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e6a51a6b8d73fe47d04e028cd423a422ec73672cca07a0a2db53144599ef5f23
-size 838
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Lobby-Tutorial/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Lobby-Tutorial/Scenes/MainMenuScene.unity
+    guid: c5860a7a56dbaac459d4856d3f21b6db
+  - enabled: 1
+    path: Assets/Primary Scenes/TutorialScene.unity
+    guid: 076fe3e3f487a4fbe876ad501f06d4b3
+  - enabled: 1
+    path: Assets/Lobby-Tutorial/Scenes/TutorialPuzzle.unity
+    guid: 2b6fe1eeffcd44761b1dbb6e6b7d4dd7
+  - enabled: 1
+    path: Assets/Primary Scenes/LobbyScene.unity
+    guid: 7b533dfe561bc47c8975c955fe4ef3d3
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
