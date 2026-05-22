@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PickupItem : MonoBehaviour, IInteractable {
+public class PickupItem : MonoBehaviour, IInteractable_AH {
 
     public ItemSO item;
     public int amount = 1;

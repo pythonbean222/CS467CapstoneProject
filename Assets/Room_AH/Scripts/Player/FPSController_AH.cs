@@ -35,31 +35,27 @@ public class FPSController_AH : MonoBehaviour
     // Used to track the Camera angle
     float xRotation;
 
-    void Start_AH()
-    {
+    void Start() {
         // Hides the mouse cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     // Enables our implemented input actions (Necessary for Unity's latest input system)
-    void OnEnable_AH()
-    {
+    void OnEnable() {
         moveAction.action.Enable();
         lookAction.action.Enable();
         jumpAction.action.Enable();
     }
 
     // Disables our implemented input actions
-    void OnDisable_AH()
-    {
+    void OnDisable() {
         moveAction.action.Disable();
         lookAction.action.Disable();
         jumpAction.action.Disable();
     }
     
-    void Update_AH()
-    {
+    void Update() {
         Look_AH();
         Jump_AH();
         ApplyGravity_AH();
@@ -67,51 +63,40 @@ public class FPSController_AH : MonoBehaviour
     }
 
     // Method that handles player movement
-    void MoveCharacter_AH()
-    {
+    void MoveCharacter_AH() {
         Vector2 input = moveAction.action.ReadValue<Vector2>();
 
         Vector3 move = new Vector3(input.x, 0f, input.y);
         move = Vector3.ClampMagnitude(move, 1f);
-
         move = transform.TransformDirection(move);
 
         // Apply acceleration for more natural movement/inertia
         Vector3 targetVelocity = move * speed;
-
         currentVelocity = Vector3.Lerp(currentVelocity, targetVelocity, acceleration * Time.deltaTime);
 
         Vector3 finalMove = currentVelocity + Vector3.up * velocity.y;
-
         controller.Move(finalMove * Time.deltaTime);
     }
 
     // Method that handles player mouse look
-    void Look_AH()
-    {
+    void Look_AH(){
         Vector2 look = lookAction.action.ReadValue<Vector2>();
-
         float mouseX = look.x * mouseSensitivity;
         float mouseY = look.y * mouseSensitivity;
 
         xRotation = Mathf.Clamp(xRotation - mouseY, -90f, 90f);
-
         cameraTransform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         transform.Rotate(Vector3.up * mouseX);
     }
 
-    void Jump_AH()
-    {
-        if (jumpAction.action.triggered && controller.isGrounded)
-        {
+    void Jump_AH() {
+        if (jumpAction.action.triggered && controller.isGrounded) {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
     }
 
-    void ApplyGravity_AH()
-    {
-        if (controller.isGrounded && velocity.y < 0f)
-        {
+    void ApplyGravity_AH() {
+        if (controller.isGrounded && velocity.y < 0f) {
             velocity.y = -2f;
         }
         velocity.y += gravity * Time.deltaTime;
