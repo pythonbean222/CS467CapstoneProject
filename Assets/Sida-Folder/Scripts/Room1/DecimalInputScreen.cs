@@ -30,7 +30,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class DecimalInputScreen : MonoBehaviour, IInteractable
+public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
 {
     [SerializeField] private Room1PuzzleManager puzzleManager;
     [SerializeField] private FPSController_SC playerController;

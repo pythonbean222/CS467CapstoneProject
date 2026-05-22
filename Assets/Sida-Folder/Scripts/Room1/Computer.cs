@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Computer : MonoBehaviour, IInteractable
+public class Computer : MonoBehaviour, IInteractable_SC
 {
     [SerializeField] private FPSController_SC playerController;
     [SerializeField] private GameObject SecurityCamera;
