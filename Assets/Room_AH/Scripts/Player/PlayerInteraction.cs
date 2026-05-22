@@ -14,27 +14,24 @@ using UnityEngine.InputSystem;
 public class PlayerInteraction : MonoBehaviour
 {
     public Camera cameraObject;
-
     // The distance of our Ray Cast
     public float distance = 3f;
-
     // Player Input Action References (Unity's latest input system)
     public InputActionReference interactAction;
 
+    // Added by AH
+    private IInteractable currentInteractable;
+
     // Enables our implemented input actions (Necessary for Unity's latest input system)
-    void OnEnable()
-    {
+    void OnEnable() {
         // Subscribe interact input action to OnInteract() method
         interactAction.action.started += OnInteract;
-
         interactAction.action.Enable();
     }
 
-    void OnDisable()
-    {
+    void OnDisable() {
         // Unsubscribe interact input action from OnInteract() method
         interactAction.action.started -= OnInteract;
-
         interactAction.action.Disable();
     }
 
@@ -54,21 +51,44 @@ public class PlayerInteraction : MonoBehaviour
  
         // Adding layer mask to ensure that the raycast does not interact with player - AH
         int layerMask = ~LayerMask.GetMask("Player");
+        // If there is an interactable object currently in range, interact with it
+        if (currentInteractable != null) {
+            currentInteractable.Interact();
+        }
+    }
 
-        if (Physics.Raycast(cameraObject.transform.position, cameraObject.transform.forward, out RaycastHit hit, distance, layerMask))
-        {
+    // Checks for interactable objects in front of the player using a raycast - used in tooltip system
+    private void Update() {
+        CheckForInteractable();
+    }
+
+    private void CheckForInteractable() {
+        // Blocking is set so that the player cannot interact with objects inside boxes
+        int layerMask = LayerMask.GetMask("Interactable", "Blocking");
+        
+        if (Physics.Raycast(cameraObject.transform.position, cameraObject.transform.forward, out RaycastHit hit, distance, layerMask)) {
             Debug.Log($"Raycast hit: {hit.collider.gameObject.name}");
 
             // If the raycast hits a collider that implements IInteractable interface, then trigger the interact() method for this particular object
-            if (hit.collider.TryGetComponent<IInteractable>(out var interactableObj))
-            {
+            if (hit.collider.TryGetComponent<IInteractable>(out var interactableObj)) {
                 Debug.Log($"Interacting with: {hit.collider.gameObject.name}");
-
                 // Makes the Raycast visible for 10 seconds when Gizmos are enabled (for debugging purposes)
                 Debug.DrawRay(cameraObject.transform.position, cameraObject.transform.forward * distance, Color.red, 10f);
 
-                interactableObj.Interact();
+                // Set the current interactable object and show the tooltip
+                currentInteractable = interactableObj;
+                TooltipSystem.Show(interactableObj.GetInteractionText());
+                return;
             }
         }
+        
+        ClearInteractable();
     }   
+
+    void ClearInteractable() {
+        if (currentInteractable != null) {
+            currentInteractable = null;
+            TooltipSystem.Hide();
+        }
+    }
 }
