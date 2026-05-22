@@ -73,7 +73,7 @@ public class PlayerInteraction : MonoBehaviour
             if (hit.collider.TryGetComponent<IInteractable_AH>(out var interactableObj)) {
                 Debug.Log($"Interacting with: {hit.collider.gameObject.name}");
                 // Makes the Raycast visible for 10 seconds when Gizmos are enabled (for debugging purposes)
-                Debug.DrawRay(cameraObject.transform.position, cameraObject.transform.forward * distance, Color.red, 10f);
+                //Debug.DrawRay(cameraObject.transform.position, cameraObject.transform.forward * distance, Color.red, 10f);
 
                 // Set the current interactable object and show the tooltip
                 currentInteractable = interactableObj;
