@@ -20,7 +20,7 @@ public class PlayerInteraction : MonoBehaviour
     public InputActionReference interactAction;
 
     // Added by AH
-    private IInteractable currentInteractable;
+    private IInteractable_AH currentInteractable;
 
     // Enables our implemented input actions (Necessary for Unity's latest input system)
     void OnEnable() {
@@ -70,7 +70,7 @@ public class PlayerInteraction : MonoBehaviour
             Debug.Log($"Raycast hit: {hit.collider.gameObject.name}");
 
             // If the raycast hits a collider that implements IInteractable interface, then trigger the interact() method for this particular object
-            if (hit.collider.TryGetComponent<IInteractable>(out var interactableObj)) {
+            if (hit.collider.TryGetComponent<IInteractable_AH>(out var interactableObj)) {
                 Debug.Log($"Interacting with: {hit.collider.gameObject.name}");
                 // Makes the Raycast visible for 10 seconds when Gizmos are enabled (for debugging purposes)
                 Debug.DrawRay(cameraObject.transform.position, cameraObject.transform.forward * distance, Color.red, 10f);

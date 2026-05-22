@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Button : MonoBehaviour, IInteractable
+public class Button : MonoBehaviour, IInteractable_AH
 {
     [Header("Button Puzzle Manager")]
     public ButtonManager puzzleManager;

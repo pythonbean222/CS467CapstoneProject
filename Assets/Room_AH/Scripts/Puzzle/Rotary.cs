@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Rotary : MonoBehaviour, IInteractable
+public class Rotary : MonoBehaviour, IInteractable_AH
 {
     [Header("Rotary Puzzle Manager")]
     public RotaryManager puzzleManager;
