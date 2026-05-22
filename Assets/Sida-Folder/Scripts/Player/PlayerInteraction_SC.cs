@@ -50,7 +50,7 @@ public class PlayerInteraction_SC : MonoBehaviour
         if (Physics.Raycast(cameraObject.transform.position, cameraObject.transform.forward, out RaycastHit hit, distance))
         {
             // If the raycast hits a collider that implements IInteractable interface, then trigger the interact() method for this particular object
-            if (hit.collider.TryGetComponent<IInteractable>(out var interactableObj))
+            if (hit.collider.TryGetComponent<IInteractable_SC>(out var interactableObj))
             {
                 // Makes the Raycast visible for 10 seconds when Gizmos are enabled (for debugging purposes)
                 Debug.DrawRay(cameraObject.transform.position, cameraObject.transform.forward * distance, Color.red, 10f);

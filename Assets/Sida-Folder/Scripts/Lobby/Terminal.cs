@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Terminal : MonoBehaviour, IInteractable
+public class Terminal : MonoBehaviour, IInteractable_SC
 {
     public Canvas canvasMenu;
     public FPSController_SC playerController;
