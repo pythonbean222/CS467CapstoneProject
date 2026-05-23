@@ -6,7 +6,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class PowerSwitch : MonoBehaviour, IInteractable
+public class PowerSwitch : MonoBehaviour, IInteractable_SC
 {
     [SerializeField] private Room1PuzzleManager puzzleManager;
     [SerializeField] private Material offlineMaterial;

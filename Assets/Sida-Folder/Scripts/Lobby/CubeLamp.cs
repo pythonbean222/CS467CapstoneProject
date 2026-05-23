@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CubeLamp : MonoBehaviour, IInteractable
+public class CubeLamp : MonoBehaviour, IInteractable_SC
 {
     public Material defaultMat;
     public Material emissiveMat;

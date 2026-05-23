@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fuse
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: 
-  itemIcon: {fileID: 21300000, guid: 2bf539b08afc23547bf07136decebad3, type: 3}
+  itemIcon: {fileID: 21300000, guid: 5336f53bd265c8e4e9a40ff9ff07bcc6, type: 3}
   maxStackSize: 1
   itemPrefab: {fileID: 0}
   handItemPrefab: {fileID: 0}
