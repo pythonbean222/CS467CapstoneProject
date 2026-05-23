@@ -28,7 +28,21 @@ public class Room1PuzzleManager : MonoBehaviour
     [SerializeField] private Animator pentagonWallAnim;
     [SerializeField] private Animator diamondWallAnim;
 
-    // Puzzle 1 Method
+    [Header("Puzzle 3 Variables")]
+    [Space(10)]
+
+    [SerializeField] private int randomSpawnSet;
+    [SerializeField] private GameObject pictureFrameSpawnSet1;
+    [SerializeField] private GameObject pictureFrameSpawnSet2;
+    [SerializeField] private GameObject pictureFrameSpawnSet3;
+
+    void Start()
+    {
+        // Set one of the three possible PictureFrameSpawnSets as active for Puzzle 3
+        RandomSpawnSetSelector();
+    }
+
+    // Puzzle 1 Completion Condition Check
     public void concatenateString(string switchID)
     {
         stringCount++;
@@ -66,7 +80,7 @@ public class Room1PuzzleManager : MonoBehaviour
         }
     }
 
-    // Puzzle 2 Method
+    // Puzzle 2 Completion Condition Check
     public void BinaryPuzzle()
     {
         if (!isComplete)
@@ -80,6 +94,29 @@ public class Room1PuzzleManager : MonoBehaviour
             // Move the Walls back to reveal hidden room
             pentagonWallAnim.enabled = true;
             diamondWallAnim.enabled = true;
+        }
+    }
+
+    private void RandomSpawnSetSelector()
+    {
+        // Generate a random value from 0 to 2
+        randomSpawnSet = UnityEngine.Random.Range(0, 3);
+
+        // Enable the corresponding PictureFrameSpawnSet
+        if (randomSpawnSet == 0)
+        {
+            pictureFrameSpawnSet1.gameObject.SetActive(true);
+            Debug.Log(randomSpawnSet);
+        }
+        else if (randomSpawnSet == 1)
+        {
+            pictureFrameSpawnSet2.gameObject.SetActive(true);
+            Debug.Log(randomSpawnSet);
+        }
+        else
+        {
+            pictureFrameSpawnSet3.gameObject.SetActive(true);
+            Debug.Log(randomSpawnSet);
         }
     }
 
