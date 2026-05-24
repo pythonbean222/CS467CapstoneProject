@@ -1,29 +1,127 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.InputSystem;
-
 
 public class NumberGuessingGame : MonoBehaviour
 {
-    // This script will be attached to the computer screen in the escape room. It will handle the number guessing game logic.
-    // local variables
+    [Header("UI")]
+    [SerializeField] private TMP_Text promptText;
+    [SerializeField] private TMP_Text feedbackText;
+    [SerializeField] private TMP_InputField guessInputField;
+
+    [Header("Game")]
+    [SerializeField] private int minNumber = 1;
+    [SerializeField] private int maxNumber = 100;
+
     private int randomNumber;
-    private int playerGuess;
+    private bool isSolved;
+
     public UnityEvent OnCorrectGuess;
+
+    private void OnEnable()
+    {
+        if (guessInputField != null)
+        {
+            guessInputField.onSubmit.AddListener(SubmitGuess);
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (guessInputField != null)
+        {
+            guessInputField.onSubmit.RemoveListener(SubmitGuess);
+        }
+    }
+
     private void Start()
     {
-        // Generate a random number between 1 and 100
-        randomNumber = Random.Range(1, 101);
+        StartNewGame();
+    }
+
+    public void StartNewGame()
+    {
+        randomNumber = Random.Range(minNumber, maxNumber + 1);
+        isSolved = false;
+
+        if (promptText != null)
+        {
+            promptText.text = $"Guess a number between {minNumber} and {maxNumber}.";
+        }
+
+        if (feedbackText != null)
+        {
+            feedbackText.text = "Enter your guess and press Enter.";
+            feedbackText.color = Color.white;
+        }
+
+        if (guessInputField != null)
+        {
+            guessInputField.text = string.Empty;
+            guessInputField.interactable = true;
+            guessInputField.ActivateInputField();
+        }
+
         Debug.Log("Random Number (for testing): " + randomNumber);
     }
 
-    
-    
-    
-
-    // Update is called once per frame
-    void Update()
+    public void SubmitGuess()
     {
-        
+        if (guessInputField != null)
+        {
+            SubmitGuess(guessInputField.text);
+        }
+    }
+
+    public void SubmitGuess(string guessInput)
+    {
+        if (isSolved)
+        {
+            return;
+        }
+
+        if (!int.TryParse(guessInput, out int playerGuess))
+        {
+            SetFeedback("Please enter a whole number.", Color.yellow);
+            return;
+        }
+
+        if (playerGuess == randomNumber)
+        {
+            isSolved = true;
+            SetFeedback($"Correct! The number was {randomNumber}.", Color.green);
+
+            if (guessInputField != null)
+            {
+                guessInputField.interactable = false;
+            }
+
+            OnCorrectGuess?.Invoke();
+            return;
+        }
+
+        if (playerGuess < randomNumber)
+        {
+            SetFeedback("Too low. Try again.", Color.red);
+        }
+        else
+        {
+            SetFeedback("Too high. Try again.", Color.red);
+        }
+
+        if (guessInputField != null)
+        {
+            guessInputField.text = string.Empty;
+            guessInputField.ActivateInputField();
+        }
+    }
+
+    private void SetFeedback(string message, Color color)
+    {
+        if (feedbackText != null)
+        {
+            feedbackText.text = message;
+            feedbackText.color = color;
+        }
     }
 }

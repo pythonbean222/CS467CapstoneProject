@@ -60,6 +60,7 @@ public class ComputerInteraction : MonoBehaviour
             return;
 
         playerInRange = true;
+        Debug.Log("Player entered computer interaction range.");
         //LeanTween.scale(computerScreen, Vector3.one, 2).setEaseInBounce();
     }
 
@@ -69,6 +70,7 @@ public class ComputerInteraction : MonoBehaviour
             return;
 
         playerInRange = false;
+        Debug.Log("Player exited computer interaction range.");
         //LeanTween.scale(computerScreen, Vector3.zero, 2).setEaseInBounce();
     }
 }
