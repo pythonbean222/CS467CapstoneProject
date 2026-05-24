@@ -60,5 +60,44 @@ public class Inventory : MonoBehaviour
             Debug.Log("Not enough space in inventory to add {remaining} {itemToAdd.itemName}");
         }
     }
+
+    public bool HasItem(ItemSO item) {
+        // check if any slot has the item
+        foreach (Slot slot in inventorySlots) {
+            if (slot.HasItem() && slot.GetItem() == item) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void RemoveItem(ItemSO itemToRemove, int amount) {
+        int remaining = amount;
+
+        // remove from stacks of the item
+        foreach (Slot slot in inventorySlots) {
+            // if slot has the item to remove
+            if (slot.HasItem() && slot.GetItem() == itemToRemove) {
+                int currentAmount = slot.GetAmount();
+
+                // if slot has less than or equal to the remaining amount to remove, clear the slot
+                if (currentAmount > 0) {
+                    int amountToRemove = Mathf.Min(currentAmount, remaining);
+                    slot.RemoveAmount(amountToRemove);
+                    remaining -= amountToRemove;
+                }
+
+                // if all of the item has been removed, return
+                if (remaining <= 0) {
+                    return;
+                }
+            }
+        }
+
+        // if not enough of the item to remove
+        if(remaining > 0) {
+            Debug.Log($"Not enough {itemToRemove.itemName} in inventory to remove {amount}");
+        }
+    }
 }
 

@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 20016997}
   - component: {fileID: 20017001}
   - component: {fileID: 20017000}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 1.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 32700807}
   - component: {fileID: 32700809}
   - component: {fileID: 32700808}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 55362628}
   - component: {fileID: 55362630}
   - component: {fileID: 55362629}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 70565145}
   - component: {fileID: 70565147}
   - component: {fileID: 70565146}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -985,7 +985,7 @@ GameObject:
   - component: {fileID: 75907130}
   - component: {fileID: 75907132}
   - component: {fileID: 75907131}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1064,6 +1064,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75907129}
   m_Mesh: {fileID: -9179922939168585196, guid: 3acb4592b0e53564dab684392dcb116e, type: 3}
+--- !u!4 &84883247 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+  m_PrefabInstance: {fileID: 127406115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &90786300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c7f0be1a7661a448388e936acefcd607, type: 3}
@@ -1300,7 +1305,7 @@ GameObject:
   - component: {fileID: 115047032}
   - component: {fileID: 115047034}
   - component: {fileID: 115047033}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1444,7 +1449,7 @@ GameObject:
   - component: {fileID: 124519815}
   - component: {fileID: 124519819}
   - component: {fileID: 124519818}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 2.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1601,7 +1606,7 @@ GameObject:
   - component: {fileID: 126692473}
   - component: {fileID: 126692477}
   - component: {fileID: 126692476}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 4.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1744,6 +1749,67 @@ MonoBehaviour:
   horizontalRotation: {x: 0, y: 0, z: 0}
   verticalRotation: {x: 0, y: 0, z: 90}
   rotationDuration: 0.25
+--- !u!1001 &127406115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1504107582}
+    m_Modifications:
+    - target: {fileID: 3420790032113252516, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 40a241c6ba053fc4bb1d990fa6335901, type: 2}
+    - target: {fileID: 3781310754408438129, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_Name
+      value: Sci-Fi Barrel_Blue (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.193
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.206
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.259
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.68374836
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.54758227
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.18024504
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.4473853
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 65.518
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 35.983
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
 --- !u!1 &140651552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,7 +1824,7 @@ GameObject:
   - component: {fileID: 140651554}
   - component: {fileID: 140651558}
   - component: {fileID: 140651557}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 2.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1917,7 +1983,7 @@ GameObject:
   - component: {fileID: 149793203}
   - component: {fileID: 149793205}
   - component: {fileID: 149793204}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1F Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2191,7 +2257,7 @@ GameObject:
   - component: {fileID: 182509793}
   - component: {fileID: 182509795}
   - component: {fileID: 182509794}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2338,7 +2404,7 @@ GameObject:
   - component: {fileID: 192014636}
   - component: {fileID: 192014638}
   - component: {fileID: 192014637}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2428,7 +2494,7 @@ GameObject:
   - component: {fileID: 197108955}
   - component: {fileID: 197108957}
   - component: {fileID: 197108956}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2518,7 +2584,7 @@ GameObject:
   - component: {fileID: 199057007}
   - component: {fileID: 199057009}
   - component: {fileID: 199057008}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2670,7 +2736,7 @@ GameObject:
   - component: {fileID: 220262720}
   - component: {fileID: 220262721}
   - component: {fileID: 220262722}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3215,7 +3281,7 @@ GameObject:
   - component: {fileID: 277948759}
   - component: {fileID: 277948761}
   - component: {fileID: 277948760}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3491,7 +3557,7 @@ GameObject:
   - component: {fileID: 295448131}
   - component: {fileID: 295448135}
   - component: {fileID: 295448134}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3753,6 +3819,96 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+--- !u!1 &302404147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 302404150}
+  - component: {fileID: 302404149}
+  - component: {fileID: 302404148}
+  m_Layer: 7
+  m_Name: Fuse Box_Light 2 Red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &302404148
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302404147}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4ee74f8b65897cb4f8226fe2d5ec51df, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &302404149
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302404147}
+  m_Mesh: {fileID: -3546180400704771484, guid: aad7a84e2d214544d9e364512e9308ca, type: 3}
+--- !u!4 &302404150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302404147}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -0.027489293, y: 0.0198481, z: -0.062751286}
+  m_LocalScale: {x: 0.002424, y: 0.0024240003, z: 0.002424}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 374926480}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &303843348
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,7 +3920,7 @@ GameObject:
   - component: {fileID: 303843349}
   - component: {fileID: 303843351}
   - component: {fileID: 303843350}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3854,7 +4010,7 @@ GameObject:
   - component: {fileID: 317441147}
   - component: {fileID: 317441149}
   - component: {fileID: 317441148}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4199,7 +4355,7 @@ GameObject:
   - component: {fileID: 344003537}
   - component: {fileID: 344003539}
   - component: {fileID: 344003538}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4294,7 +4450,7 @@ GameObject:
   - component: {fileID: 350892176}
   - component: {fileID: 350892178}
   - component: {fileID: 350892177}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4467,6 +4623,96 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dfe34770a18fb5468258627c66e80bf, type: 3}
+--- !u!1 &373065524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 373065525}
+  - component: {fileID: 373065527}
+  - component: {fileID: 373065526}
+  m_Layer: 7
+  m_Name: Fuse Box_Light 4 Red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &373065525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373065524}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -0.027489293, y: 0.0198481, z: -0.062751286}
+  m_LocalScale: {x: 0.002424, y: 0.0024240003, z: 0.002424}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1374336521}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &373065526
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373065524}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4ee74f8b65897cb4f8226fe2d5ec51df, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &373065527
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373065524}
+  m_Mesh: {fileID: -949320839274021394, guid: aad7a84e2d214544d9e364512e9308ca, type: 3}
 --- !u!1 &374205130
 GameObject:
   m_ObjectHideFlags: 0
@@ -4499,6 +4745,95 @@ Transform:
   - {fileID: 241373702}
   m_Father: {fileID: 2124186478}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &374926477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 374926480}
+  - component: {fileID: 374926478}
+  - component: {fileID: 374926479}
+  - component: {fileID: 374926481}
+  m_Layer: 7
+  m_Name: Fuse Slot 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &374926478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374926477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b771ed42b51744dbd5040c5c74c5cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseSlot
+  lightController: {fileID: 374926479}
+  fuseBox: {fileID: 7962652584506416424}
+  inventory: {fileID: 116834655}
+  fuseInsertPoint: {fileID: 679280161}
+  fusePrefab: {fileID: 3203825935540588360, guid: ba469500a31ebb744b15fc28255aff86, type: 3}
+--- !u!114 &374926479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374926477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc084414fe09f645a8369dce4858dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseBoxLightController
+  fuseRed: {fileID: 302404148}
+  fuseGreen: {fileID: 4516613254412635133}
+--- !u!4 &374926480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374926477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4443943226709710585}
+  - {fileID: 302404150}
+  - {fileID: 679280161}
+  m_Father: {fileID: 6458353438195982166}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &374926481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374926477}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02, y: 0.05, z: 0.15}
+  m_Center: {x: -0.065, y: 0, z: 0.02}
 --- !u!1 &375444447
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,7 +4845,7 @@ GameObject:
   - component: {fileID: 375444448}
   - component: {fileID: 375444450}
   - component: {fileID: 375444449}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4631,7 +4966,7 @@ GameObject:
   - component: {fileID: 377876860}
   - component: {fileID: 377876862}
   - component: {fileID: 377876861}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5256,7 +5591,7 @@ GameObject:
   - component: {fileID: 460322071}
   - component: {fileID: 460322073}
   - component: {fileID: 460322072}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5439,7 +5774,7 @@ GameObject:
   - component: {fileID: 487470296}
   - component: {fileID: 487470298}
   - component: {fileID: 487470297}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5627,7 +5962,7 @@ GameObject:
   - component: {fileID: 505386557}
   - component: {fileID: 505386559}
   - component: {fileID: 505386558}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5732,7 +6067,7 @@ GameObject:
   - component: {fileID: 519475123}
   - component: {fileID: 519475125}
   - component: {fileID: 519475124}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6043,7 +6378,7 @@ GameObject:
   - component: {fileID: 577680834}
   - component: {fileID: 577680836}
   - component: {fileID: 577680835}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6279,6 +6614,151 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 450040, guid: 530f5ce44fdac4197a29f5bec8818d85, type: 3}
   m_PrefabInstance: {fileID: 1118671616}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &593321641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 593321642}
+  - component: {fileID: 593321647}
+  - component: {fileID: 593321646}
+  - component: {fileID: 593321645}
+  - component: {fileID: 593321644}
+  - component: {fileID: 593321643}
+  m_Layer: 7
+  m_Name: Single_Fuse Locker (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &593321642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593321641}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.846, y: -2.1084716, z: 4.807}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201992996}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &593321643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593321641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffdfc2f223012f43a25b46a6efcf01e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickupItem
+  item: {fileID: 11400000, guid: cf4cf055ec7768f4e93eb1adf7d3b84b, type: 2}
+  amount: 1
+  itemName: Fuse
+--- !u!114 &593321644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593321641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53090c3be33dc754f813787e72fb09b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inventory
+  fuseItem: {fileID: 11400000, guid: cf4cf055ec7768f4e93eb1adf7d3b84b, type: 2}
+  inventorySlotParent: {fileID: 103588634}
+--- !u!136 &593321645
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593321641}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Height: 0.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: -4.656613e-10}
+--- !u!23 &593321646
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593321641}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8657abb4ad2b60944b720d3375fc4d28, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &593321647
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593321641}
+  m_Mesh: {fileID: -602386670669875341, guid: 3fe752948c7d92047bbe32c7ce23e7b1, type: 3}
 --- !u!4 &595124594 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 13aac7515de6a4dd4b3c7979f7dbe7a2, type: 3}
@@ -6295,7 +6775,7 @@ GameObject:
   - component: {fileID: 599322173}
   - component: {fileID: 599322175}
   - component: {fileID: 599322174}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6517,7 +6997,7 @@ GameObject:
   - component: {fileID: 627566510}
   - component: {fileID: 627566514}
   - component: {fileID: 627566513}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 4.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6671,7 +7151,7 @@ GameObject:
   - component: {fileID: 635540230}
   - component: {fileID: 635540232}
   - component: {fileID: 635540231}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6897,6 +7377,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2137296024}
   - {fileID: 1201992996}
   - {fileID: 1105619417}
   - {fileID: 1563615797}
@@ -6951,7 +7432,7 @@ GameObject:
   - component: {fileID: 668306460}
   - component: {fileID: 668306462}
   - component: {fileID: 668306461}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7087,6 +7568,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dce4bad8285329c4f9ce358b5c86ae55, type: 3}
+--- !u!1 &679280160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 679280161}
+  m_Layer: 7
+  m_Name: InsertPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &679280161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679280160}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0666, y: 0.0302, z: 0.0189}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 374926480}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &682531992
 GameObject:
   m_ObjectHideFlags: 0
@@ -7098,7 +7610,7 @@ GameObject:
   - component: {fileID: 682531993}
   - component: {fileID: 682531995}
   - component: {fileID: 682531994}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7188,7 +7700,7 @@ GameObject:
   - component: {fileID: 683738977}
   - component: {fileID: 683738979}
   - component: {fileID: 683738978}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7417,7 +7929,7 @@ GameObject:
   - component: {fileID: 717361384}
   - component: {fileID: 717361386}
   - component: {fileID: 717361385}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7724,7 +8236,7 @@ GameObject:
   - component: {fileID: 746282480}
   - component: {fileID: 746282484}
   - component: {fileID: 746282483}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 2.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8091,7 +8603,7 @@ GameObject:
   - component: {fileID: 766260191}
   - component: {fileID: 766260193}
   - component: {fileID: 766260192}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8241,7 +8753,7 @@ GameObject:
   - component: {fileID: 777464623}
   - component: {fileID: 777464625}
   - component: {fileID: 777464624}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8331,7 +8843,7 @@ GameObject:
   - component: {fileID: 785116251}
   - component: {fileID: 785116253}
   - component: {fileID: 785116252}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8421,7 +8933,7 @@ GameObject:
   - component: {fileID: 787648163}
   - component: {fileID: 787648165}
   - component: {fileID: 787648164}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8511,7 +9023,7 @@ GameObject:
   - component: {fileID: 789156840}
   - component: {fileID: 789156842}
   - component: {fileID: 789156841}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8765,6 +9277,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9038ed84a1fe4aecb34086f7f42d1bf, type: 3}
+--- !u!4 &795596990 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+  m_PrefabInstance: {fileID: 1776841946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &807388694 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 318fc5659f68549feb9d55d15a12de2a, type: 3}
@@ -8869,7 +9386,7 @@ GameObject:
   - component: {fileID: 832231390}
   - component: {fileID: 832231392}
   - component: {fileID: 832231391}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9109,7 +9626,7 @@ GameObject:
   - component: {fileID: 850472780}
   - component: {fileID: 850472782}
   - component: {fileID: 850472781}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9199,7 +9716,7 @@ GameObject:
   - component: {fileID: 855553654}
   - component: {fileID: 855553656}
   - component: {fileID: 855553655}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9339,6 +9856,96 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edd4dd89a0a0ddc45953fe764fd8cc34, type: 3}
+--- !u!1 &871511049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 871511052}
+  - component: {fileID: 871511051}
+  - component: {fileID: 871511050}
+  m_Layer: 7
+  m_Name: Fuse Box_Light 3 Red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &871511050
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871511049}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4ee74f8b65897cb4f8226fe2d5ec51df, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &871511051
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871511049}
+  m_Mesh: {fileID: 2544683886169500748, guid: aad7a84e2d214544d9e364512e9308ca, type: 3}
+--- !u!4 &871511052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871511049}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -0.027489293, y: 0.0198481, z: -0.062751286}
+  m_LocalScale: {x: 0.002424, y: 0.0024240003, z: 0.002424}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1618046001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &872872207 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 76e15ece664ee41ada45b8500a673f22, type: 3}
@@ -9349,6 +9956,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dfe34770a18fb5468258627c66e80bf, type: 3}
   m_PrefabInstance: {fileID: 1158782621}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &875089971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 875089974}
+  - component: {fileID: 875089973}
+  - component: {fileID: 875089972}
+  m_Layer: 7
+  m_Name: Fuse Box_Light 1 Red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &875089972
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875089971}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4ee74f8b65897cb4f8226fe2d5ec51df, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &875089973
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875089971}
+  m_Mesh: {fileID: 5103118831461591291, guid: aad7a84e2d214544d9e364512e9308ca, type: 3}
+--- !u!4 &875089974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875089971}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -0.027489293, y: 0.0198481, z: -0.062751286}
+  m_LocalScale: {x: 0.002424, y: 0.0024240003, z: 0.002424}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1599326855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &875655001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9474,7 +10171,7 @@ GameObject:
   - component: {fileID: 890166492}
   - component: {fileID: 890166494}
   - component: {fileID: 890166493}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9778,7 +10475,7 @@ GameObject:
   - component: {fileID: 926234452}
   - component: {fileID: 926234454}
   - component: {fileID: 926234453}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10017,7 +10714,7 @@ GameObject:
   - component: {fileID: 950941171}
   - component: {fileID: 950941173}
   - component: {fileID: 950941172}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10107,7 +10804,7 @@ GameObject:
   - component: {fileID: 960804894}
   - component: {fileID: 960804896}
   - component: {fileID: 960804895}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10433,7 +11130,7 @@ GameObject:
   - component: {fileID: 1016905259}
   - component: {fileID: 1016905261}
   - component: {fileID: 1016905260}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11065,7 +11762,7 @@ GameObject:
   - component: {fileID: 1083874627}
   - component: {fileID: 1083874629}
   - component: {fileID: 1083874628}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11210,7 +11907,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1105619417}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11262,7 +11959,7 @@ GameObject:
   - component: {fileID: 1106345648}
   - component: {fileID: 1106345652}
   - component: {fileID: 1106345651}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 3.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11532,6 +12229,11 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!4 &1112614565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+  m_PrefabInstance: {fileID: 2072202714}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1118671616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11613,7 +12315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1135942076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11652,7 +12354,7 @@ GameObject:
   - component: {fileID: 1143772646}
   - component: {fileID: 1143772648}
   - component: {fileID: 1143772647}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12072,7 +12774,7 @@ GameObject:
   - component: {fileID: 1179718077}
   - component: {fileID: 1179718079}
   - component: {fileID: 1179718078}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1D Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12347,7 +13049,7 @@ GameObject:
   - component: {fileID: 1200984707}
   - component: {fileID: 1200984709}
   - component: {fileID: 1200984708}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1C Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12435,7 +13137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1201992996}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fuse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12457,6 +13159,8 @@ Transform:
   m_Children:
   - {fileID: 6458353438195982166}
   - {fileID: 2827581179851935548}
+  - {fileID: 1384305744}
+  - {fileID: 593321642}
   - {fileID: 2827581181502008785}
   - {fileID: 2827581180777416066}
   - {fileID: 2827581181426168305}
@@ -12598,7 +13302,7 @@ GameObject:
   - component: {fileID: 1219190356}
   - component: {fileID: 1219190358}
   - component: {fileID: 1219190357}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12723,7 +13427,7 @@ GameObject:
   - component: {fileID: 1246725801}
   - component: {fileID: 1246725803}
   - component: {fileID: 1246725802}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12813,7 +13517,7 @@ GameObject:
   - component: {fileID: 1247801035}
   - component: {fileID: 1247801037}
   - component: {fileID: 1247801036}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12988,23 +13692,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1506342031}
+    m_TransformParent: {fileID: 2137296024}
     m_Modifications:
     - target: {fileID: 100000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_Name
-      value: Door_Left_01
+      value: Door_Left
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.5571346
+      value: 3.8468533
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.53
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.821945
+      value: -6.9594555
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13146,7 +13850,7 @@ GameObject:
   - component: {fileID: 1273551111}
   - component: {fileID: 1273551113}
   - component: {fileID: 1273551112}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13296,7 +14000,7 @@ GameObject:
   - component: {fileID: 1293729656}
   - component: {fileID: 1293729658}
   - component: {fileID: 1293729657}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13375,6 +14079,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293729655}
   m_Mesh: {fileID: 5310739114289118864, guid: 3acb4592b0e53564dab684392dcb116e, type: 3}
+--- !u!1 &1296213617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296213618}
+  m_Layer: 7
+  m_Name: InsertPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1296213618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296213617}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.1063, y: 0.0302, z: 0.0183}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1618046001}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &1303526865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dfe34770a18fb5468258627c66e80bf, type: 3}
@@ -13391,7 +14126,7 @@ GameObject:
   - component: {fileID: 1307228727}
   - component: {fileID: 1307228729}
   - component: {fileID: 1307228728}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13541,23 +14276,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1506342031}
+    m_TransformParent: {fileID: 2137296024}
     m_Modifications:
     - target: {fileID: 100000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_Name
-      value: Door_Left_01 (1)
+      value: Door_Right
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5571308
+      value: -2.1531506
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.53
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.8219452
+      value: -5.9594555
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe4a827493384beea453a7d680fa266, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13665,7 +14400,7 @@ GameObject:
   - component: {fileID: 1339316706}
   - component: {fileID: 1339316708}
   - component: {fileID: 1339316707}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13902,7 +14637,7 @@ GameObject:
   - component: {fileID: 1368104295}
   - component: {fileID: 1368104297}
   - component: {fileID: 1368104296}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13981,7 +14716,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368104294}
   m_Mesh: {fileID: 5310739114289118864, guid: 3acb4592b0e53564dab684392dcb116e, type: 3}
---- !u!1 &1370361343
+--- !u!1 &1374336520
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13989,24 +14724,73 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1370361347}
-  - component: {fileID: 1370361346}
-  - component: {fileID: 1370361345}
-  - component: {fileID: 1370361344}
-  m_Layer: 0
-  m_Name: Cube
+  - component: {fileID: 1374336521}
+  - component: {fileID: 1374336523}
+  - component: {fileID: 1374336522}
+  - component: {fileID: 1374336524}
+  m_Layer: 7
+  m_Name: Fuse Slot 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1370361344
+--- !u!4 &1374336521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374336520}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5534444750434518364}
+  - {fileID: 373065525}
+  - {fileID: 1812770337}
+  m_Father: {fileID: 6458353438195982166}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1374336522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374336520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc084414fe09f645a8369dce4858dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseBoxLightController
+  fuseRed: {fileID: 373065526}
+  fuseGreen: {fileID: 7484455947090694762}
+--- !u!114 &1374336523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374336520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b771ed42b51744dbd5040c5c74c5cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseSlot
+  lightController: {fileID: 1374336522}
+  fuseBox: {fileID: 7962652584506416424}
+  inventory: {fileID: 116834655}
+  fuseInsertPoint: {fileID: 1812770337}
+  fusePrefab: {fileID: 3203825935540588360, guid: ba469500a31ebb744b15fc28255aff86, type: 3}
+--- !u!65 &1374336524
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370361343}
+  m_GameObject: {fileID: 1374336520}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -14019,80 +14803,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1370361345
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370361343}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1370361346
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370361343}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1370361347
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370361343}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.46174863, z: 0, w: 0.8870109}
-  m_LocalPosition: {x: -17.96063, y: 0.8897478, z: 25.718529}
-  m_LocalScale: {x: 2.6629717, y: 0.06534881, z: 0.79130256}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -55, z: 0}
+  m_Size: {x: 0.02, y: 0.05, z: 0.15}
+  m_Center: {x: -0.15, y: 0, z: 0.02}
 --- !u!1 &1382422668
 GameObject:
   m_ObjectHideFlags: 0
@@ -14104,7 +14816,7 @@ GameObject:
   - component: {fileID: 1382422669}
   - component: {fileID: 1382422671}
   - component: {fileID: 1382422670}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14183,6 +14895,151 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382422668}
   m_Mesh: {fileID: 3428576314264272584, guid: 3acb4592b0e53564dab684392dcb116e, type: 3}
+--- !u!1 &1384305743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1384305744}
+  - component: {fileID: 1384305749}
+  - component: {fileID: 1384305748}
+  - component: {fileID: 1384305747}
+  - component: {fileID: 1384305746}
+  - component: {fileID: 1384305745}
+  m_Layer: 7
+  m_Name: Single_Fuse Locker (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1384305744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384305743}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.847, y: -2.1084716, z: 4.863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1201992996}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1384305745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384305743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffdfc2f223012f43a25b46a6efcf01e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickupItem
+  item: {fileID: 11400000, guid: cf4cf055ec7768f4e93eb1adf7d3b84b, type: 2}
+  amount: 1
+  itemName: Fuse
+--- !u!114 &1384305746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384305743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53090c3be33dc754f813787e72fb09b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inventory
+  fuseItem: {fileID: 11400000, guid: cf4cf055ec7768f4e93eb1adf7d3b84b, type: 2}
+  inventorySlotParent: {fileID: 103588634}
+--- !u!136 &1384305747
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384305743}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Height: 0.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: -4.656613e-10}
+--- !u!23 &1384305748
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384305743}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8657abb4ad2b60944b720d3375fc4d28, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1384305749
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384305743}
+  m_Mesh: {fileID: -602386670669875341, guid: 3fe752948c7d92047bbe32c7ce23e7b1, type: 3}
 --- !u!4 &1387564303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 433114, guid: b9038ed84a1fe4aecb34086f7f42d1bf, type: 3}
@@ -14835,7 +15692,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7180474826093630034, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3365269
+      value: -1.85
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093630034, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14843,7 +15700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093630034, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.353777
+      value: -2.03
       objectReference: {fileID: 0}
     - target: {fileID: 7180474826093630034, guid: 305be5e0fdd8efe4ba012079676d5c7c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15015,7 +15872,7 @@ GameObject:
   - component: {fileID: 1470787049}
   - component: {fileID: 1470787051}
   - component: {fileID: 1470787050}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15309,6 +16166,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76e15ece664ee41ada45b8500a673f22, type: 3}
+--- !u!1 &1480965281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1480965282}
+  m_Layer: 7
+  m_Name: InsertPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1480965282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480965281}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0261, y: 0.0302, z: 0.0188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1599326855}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1484711555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15571,6 +16459,9 @@ Transform:
   - {fileID: 1311055568}
   - {fileID: 160552117}
   - {fileID: 1038324997}
+  - {fileID: 1112614565}
+  - {fileID: 84883247}
+  - {fileID: 795596990}
   - {fileID: 272023368}
   - {fileID: 1669687432}
   - {fileID: 618650538}
@@ -15626,8 +16517,6 @@ Transform:
   - {fileID: 595124594}
   - {fileID: 1990712982}
   - {fileID: 994608456}
-  - {fileID: 505982762}
-  - {fileID: 1330267866}
   - {fileID: 430925069}
   - {fileID: 1886338397}
   - {fileID: 695726831}
@@ -15780,7 +16669,7 @@ GameObject:
   - component: {fileID: 1517203287}
   - component: {fileID: 1517203289}
   - component: {fileID: 1517203288}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16229,7 +17118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1563615797}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16266,7 +17155,7 @@ GameObject:
   - component: {fileID: 1566728727}
   - component: {fileID: 1566728729}
   - component: {fileID: 1566728728}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1C Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16387,7 +17276,7 @@ GameObject:
   - component: {fileID: 1575596766}
   - component: {fileID: 1575596768}
   - component: {fileID: 1575596767}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16624,6 +17513,95 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6526717110290182137, guid: d08f5f473995ba04581179dd248489a1, type: 3}
   m_PrefabInstance: {fileID: 1060799974}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1599326852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1599326855}
+  - component: {fileID: 1599326853}
+  - component: {fileID: 1599326854}
+  - component: {fileID: 1599326856}
+  m_Layer: 7
+  m_Name: Fuse Slot 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1599326853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599326852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b771ed42b51744dbd5040c5c74c5cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseSlot
+  lightController: {fileID: 1599326854}
+  fuseBox: {fileID: 7962652584506416424}
+  inventory: {fileID: 116834655}
+  fuseInsertPoint: {fileID: 1480965282}
+  fusePrefab: {fileID: 3203825935540588360, guid: ba469500a31ebb744b15fc28255aff86, type: 3}
+--- !u!114 &1599326854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599326852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc084414fe09f645a8369dce4858dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseBoxLightController
+  fuseRed: {fileID: 875089972}
+  fuseGreen: {fileID: 5103979700161287901}
+--- !u!4 &1599326855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599326852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2189160314953475358}
+  - {fileID: 875089974}
+  - {fileID: 1480965282}
+  m_Father: {fileID: 6458353438195982166}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1599326856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599326852}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02, y: 0.05, z: 0.15}
+  m_Center: {x: -0.02, y: 0, z: 0.02}
 --- !u!1 &1600072450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 318fc5659f68549feb9d55d15a12de2a, type: 3}
@@ -16702,7 +17680,7 @@ GameObject:
   - component: {fileID: 1615646051}
   - component: {fileID: 1615646053}
   - component: {fileID: 1615646052}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16781,6 +17759,95 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615646050}
   m_Mesh: {fileID: 3428576314264272584, guid: 3acb4592b0e53564dab684392dcb116e, type: 3}
+--- !u!1 &1618045998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1618046001}
+  - component: {fileID: 1618045999}
+  - component: {fileID: 1618046000}
+  - component: {fileID: 1618046002}
+  m_Layer: 7
+  m_Name: Fuse Slot 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1618045999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618045998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b771ed42b51744dbd5040c5c74c5cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseSlot
+  lightController: {fileID: 1618046000}
+  fuseBox: {fileID: 7962652584506416424}
+  inventory: {fileID: 116834655}
+  fuseInsertPoint: {fileID: 1296213618}
+  fusePrefab: {fileID: 3203825935540588360, guid: ba469500a31ebb744b15fc28255aff86, type: 3}
+--- !u!114 &1618046000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618045998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc084414fe09f645a8369dce4858dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseBoxLightController
+  fuseRed: {fileID: 871511050}
+  fuseGreen: {fileID: 1395399075527005509}
+--- !u!4 &1618046001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618045998}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8636425330223750538}
+  - {fileID: 871511052}
+  - {fileID: 1296213618}
+  m_Father: {fileID: 6458353438195982166}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1618046002
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618045998}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02, y: 0.05, z: 0.15}
+  m_Center: {x: -0.11, y: 0, z: 0.02}
 --- !u!1 &1618895660
 GameObject:
   m_ObjectHideFlags: 0
@@ -16792,7 +17859,7 @@ GameObject:
   - component: {fileID: 1618895661}
   - component: {fileID: 1618895663}
   - component: {fileID: 1618895662}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16944,7 +18011,7 @@ GameObject:
   - component: {fileID: 1631750883}
   - component: {fileID: 1631750884}
   - component: {fileID: 1631750885}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17039,7 +18106,7 @@ GameObject:
   - component: {fileID: 1644338228}
   - component: {fileID: 1644338230}
   - component: {fileID: 1644338229}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17129,7 +18196,7 @@ GameObject:
   - component: {fileID: 1650324299}
   - component: {fileID: 1650324301}
   - component: {fileID: 1650324300}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17222,7 +18289,7 @@ GameObject:
   - component: {fileID: 1653369443}
   - component: {fileID: 1653369447}
   - component: {fileID: 1653369446}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 4.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17376,7 +18443,7 @@ GameObject:
   - component: {fileID: 1662998646}
   - component: {fileID: 1662998648}
   - component: {fileID: 1662998647}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17471,7 +18538,7 @@ GameObject:
   - component: {fileID: 1669802928}
   - component: {fileID: 1669802930}
   - component: {fileID: 1669802929}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1F Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17624,7 +18691,7 @@ GameObject:
   - component: {fileID: 1689436349}
   - component: {fileID: 1689436353}
   - component: {fileID: 1689436352}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 3.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18119,7 +19186,7 @@ GameObject:
   - component: {fileID: 1754890001}
   - component: {fileID: 1754890005}
   - component: {fileID: 1754890004}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 1.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18278,7 +19345,7 @@ GameObject:
   - component: {fileID: 1763546594}
   - component: {fileID: 1763546596}
   - component: {fileID: 1763546595}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18366,7 +19433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1769915844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Puzzle Boxes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18390,6 +19457,67 @@ Transform:
   - {fileID: 4295806071693734221}
   m_Father: {fileID: 656492275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1776841946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1504107582}
+    m_Modifications:
+    - target: {fileID: 3420790032113252516, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 40a241c6ba053fc4bb1d990fa6335901, type: 2}
+    - target: {fileID: 3781310754408438129, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_Name
+      value: Sci-Fi Barrel_Blue (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.472
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.544
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
 --- !u!1001 &1778178625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18566,6 +19694,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5991391873743446988, guid: 9b8eb3977e316df4a844588b024c4e67, type: 3}
   m_PrefabInstance: {fileID: 1810620924}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1812770336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1812770337}
+  m_Layer: 7
+  m_Name: InsertPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1812770337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812770336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.1445, y: 0.0302, z: 0.0184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1374336521}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1816331356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18634,7 +19793,7 @@ GameObject:
   - component: {fileID: 1817551788}
   - component: {fileID: 1817551790}
   - component: {fileID: 1817551789}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18784,7 +19943,7 @@ GameObject:
   - component: {fileID: 1824252908}
   - component: {fileID: 1824252910}
   - component: {fileID: 1824252909}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1D Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19090,7 +20249,7 @@ GameObject:
   - component: {fileID: 1862076994}
   - component: {fileID: 1862076996}
   - component: {fileID: 1862076995}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1E Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19300,7 +20459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1887127424}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Hinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19334,7 +20493,7 @@ GameObject:
   - component: {fileID: 1892149670}
   - component: {fileID: 1892149672}
   - component: {fileID: 1892149671}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19522,7 +20681,7 @@ GameObject:
   - component: {fileID: 1900522684}
   - component: {fileID: 1900522686}
   - component: {fileID: 1900522685}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19780,7 +20939,7 @@ GameObject:
   - component: {fileID: 1927151432}
   - component: {fileID: 1927151434}
   - component: {fileID: 1927151433}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19870,7 +21029,7 @@ GameObject:
   - component: {fileID: 1927291151}
   - component: {fileID: 1927291153}
   - component: {fileID: 1927291152}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20022,7 +21181,7 @@ GameObject:
   - component: {fileID: 1948177680}
   - component: {fileID: 1948177682}
   - component: {fileID: 1948177681}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20117,7 +21276,7 @@ GameObject:
   - component: {fileID: 1955035435}
   - component: {fileID: 1955035437}
   - component: {fileID: 1955035436}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20318,7 +21477,7 @@ GameObject:
   - component: {fileID: 1990470207}
   - component: {fileID: 1990470209}
   - component: {fileID: 1990470208}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1E Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20418,7 +21577,7 @@ GameObject:
   - component: {fileID: 2013628745}
   - component: {fileID: 2013628747}
   - component: {fileID: 2013628746}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20614,7 +21773,7 @@ GameObject:
   - component: {fileID: 2016691896}
   - component: {fileID: 2016691900}
   - component: {fileID: 2016691899}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 3.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20768,7 +21927,7 @@ GameObject:
   - component: {fileID: 2017801500}
   - component: {fileID: 2017801502}
   - component: {fileID: 2017801501}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20866,7 +22025,7 @@ GameObject:
   - component: {fileID: 2021704712}
   - component: {fileID: 2021704715}
   - component: {fileID: 2021704710}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 4.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21020,7 +22179,7 @@ GameObject:
   - component: {fileID: 2024887279}
   - component: {fileID: 2024887281}
   - component: {fileID: 2024887280}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21227,7 +22386,7 @@ GameObject:
   - component: {fileID: 2041427239}
   - component: {fileID: 2041427243}
   - component: {fileID: 2041427242}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 3.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21381,7 +22540,7 @@ GameObject:
   - component: {fileID: 2041813557}
   - component: {fileID: 2041813556}
   - component: {fileID: 2041813555}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21474,7 +22633,7 @@ GameObject:
   - component: {fileID: 2044497439}
   - component: {fileID: 2044497443}
   - component: {fileID: 2044497442}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21860,7 +23019,7 @@ GameObject:
   - component: {fileID: 2071561332}
   - component: {fileID: 2071561334}
   - component: {fileID: 2071561333}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21939,6 +23098,67 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071561331}
   m_Mesh: {fileID: -9179922939168585196, guid: 3acb4592b0e53564dab684392dcb116e, type: 3}
+--- !u!1001 &2072202714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1504107582}
+    m_Modifications:
+    - target: {fileID: 3420790032113252516, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 40a241c6ba053fc4bb1d990fa6335901, type: 2}
+    - target: {fileID: 3781310754408438129, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_Name
+      value: Sci-Fi Barrel_Blue (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.498
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.226
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.662
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.62998796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6299879
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.32111564
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.32111564
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553766719458460619, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 54.017
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d01b94e65bdf5e409b04166af9290cd, type: 3}
 --- !u!1001 &2072316907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22187,7 +23407,7 @@ GameObject:
   - component: {fileID: 2087353213}
   - component: {fileID: 2087353215}
   - component: {fileID: 2087353214}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22313,7 +23533,7 @@ GameObject:
   - component: {fileID: 2096657918}
   - component: {fileID: 2096657919}
   - component: {fileID: 2096657920}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22403,7 +23623,7 @@ GameObject:
   - component: {fileID: 2103254127}
   - component: {fileID: 2103254129}
   - component: {fileID: 2103254128}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22743,6 +23963,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 433114, guid: b9038ed84a1fe4aecb34086f7f42d1bf, type: 3}
   m_PrefabInstance: {fileID: 2025853112}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2137296023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2137296024}
+  - component: {fileID: 2137296025}
+  m_Layer: 0
+  m_Name: Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2137296024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137296023}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 505982762}
+  - {fileID: 1330267866}
+  m_Father: {fileID: 656492275}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2137296025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137296023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48aa04676c0e07d4ab42c5578a8c214f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorController
+  leftDoor: {fileID: 505982762}
+  rightDoor: {fileID: 1330267866}
+  leftDoorOpenOffset: {x: 2, y: 0, z: 0}
+  rightDoorOpenOffset: {x: -2, y: 0, z: 0}
+  speed: 1
 --- !u!1001 &2140843184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22937,7 +24208,7 @@ GameObject:
   - component: {fileID: 4086147140578147833}
   - component: {fileID: 4312646025402419036}
   - component: {fileID: 2103039469954154790}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1D Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23003,8 +24274,8 @@ GameObject:
   - component: {fileID: 5534444750434518364}
   - component: {fileID: 2009172863629275352}
   - component: {fileID: 7484455947090694762}
-  m_Layer: 0
-  m_Name: Fuse Box_Light 4
+  m_Layer: 7
+  m_Name: Fuse Box_Light 4 Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23035,7 +24306,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4ee74f8b65897cb4f8226fe2d5ec51df, type: 2}
+  - {fileID: 2100000, guid: 0cf5c3e368feaaa43999c59498c39135, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23196,6 +24467,7 @@ GameObject:
   - component: {fileID: 6191130933467227967}
   - component: {fileID: 7962652584506416423}
   - component: {fileID: 1939172049142100410}
+  - component: {fileID: 7962652584506416424}
   m_Layer: 0
   m_Name: Fuse Box
   m_TagString: Untagged
@@ -23332,12 +24604,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2471046806375837103}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.02748838, y: 0.01984786, z: -0.062751316}
-  m_LocalScale: {x: 0.002424, y: 0.002424, z: 0.002424}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -0.027489293, y: 0.0198481, z: -0.062751286}
+  m_LocalScale: {x: 0.002424, y: 0.0024240003, z: 0.002424}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6458353438195982166}
+  m_Father: {fileID: 1599326855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2200365895768268304
 GameObject:
@@ -23353,7 +24625,7 @@ GameObject:
   - component: {fileID: 2480724895229119250}
   - component: {fileID: 2480724895229119249}
   - component: {fileID: 2480724895229119248}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1E_PlasticDark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23418,8 +24690,8 @@ GameObject:
   - component: {fileID: 2189160314953475358}
   - component: {fileID: 1822785875915770718}
   - component: {fileID: 5103979700161287901}
-  m_Layer: 0
-  m_Name: Fuse Box_Light 1
+  m_Layer: 7
+  m_Name: Fuse Box_Light 1 Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23522,7 +24794,7 @@ GameObject:
   - component: {fileID: 4055769254267399054}
   - component: {fileID: 4055769254267399056}
   - component: {fileID: 4055769254267399055}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Rotary A1A_Metal 1.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23589,7 +24861,7 @@ GameObject:
   - component: {fileID: 5391949331885887336}
   - component: {fileID: 24715167575397337}
   - component: {fileID: 6561030896639849395}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1C Left Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23613,7 +24885,7 @@ Transform:
   m_GameObject: {fileID: 3203825934769051014}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.419613, y: -2.5464716, z: -2.1643658}
+  m_LocalPosition: {x: 2.9866123, y: -2.1084716, z: 4.926634}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23642,13 +24914,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3203825936425036619}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.7696133, y: -2.5464716, z: -2.134367}
+  m_LocalRotation: {x: 0.65583974, y: 0.26433748, z: -0.26433748, w: 0.65583974}
+  m_LocalPosition: {x: 3.0004, y: -2.1582, z: 4.7725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1201992996}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 43.904, z: 0}
 --- !u!4 &2827581181502008785
 Transform:
   m_ObjectHideFlags: 0
@@ -23747,8 +25019,8 @@ GameObject:
   - component: {fileID: 933905281}
   - component: {fileID: 933905280}
   - component: {fileID: 933905279}
-  m_Layer: 6
-  m_Name: Single_Fuse
+  m_Layer: 7
+  m_Name: Single_Fuse Locker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23768,7 +25040,7 @@ GameObject:
   - component: {fileID: 1836421237}
   - component: {fileID: 1836421236}
   - component: {fileID: 1836421235}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Single_Fuse Rotary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23789,7 +25061,7 @@ GameObject:
   - component: {fileID: 1504016424}
   - component: {fileID: 1504016423}
   - component: {fileID: 1504016422}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Single_Fuse Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23810,8 +25082,8 @@ GameObject:
   - component: {fileID: 1423483912}
   - component: {fileID: 1423483911}
   - component: {fileID: 1423483910}
-  m_Layer: 6
-  m_Name: Single_Fuse (3)
+  m_Layer: 7
+  m_Name: 'Single_Fuse '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23941,7 +25213,7 @@ GameObject:
   - component: {fileID: 4995647117171966980}
   - component: {fileID: 6125860282043095783}
   - component: {fileID: 1798205987805209951}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: ButtonHandle A1C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23958,7 +25230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4295806071407303253}
   - component: {fileID: 4295806071407303254}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Cyber_Box Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23976,7 +25248,7 @@ GameObject:
   - component: {fileID: 4295806071693734221}
   - component: {fileID: 4295806071693734222}
   - component: {fileID: 4295806071693734223}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cyber_Box Rotary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23994,7 +25266,7 @@ GameObject:
   - component: {fileID: 4183992684330366432}
   - component: {fileID: 1234144313856517239}
   - component: {fileID: 1592096845816628224}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1F Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24027,8 +25299,8 @@ GameObject:
   - component: {fileID: 4443943226709710585}
   - component: {fileID: 4588204028018722475}
   - component: {fileID: 4516613254412635133}
-  m_Layer: 0
-  m_Name: Fuse Box_Light 2
+  m_Layer: 7
+  m_Name: Fuse Box_Light 2 Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24076,7 +25348,7 @@ GameObject:
   - component: {fileID: 371533769931907297}
   - component: {fileID: 9110539175555216843}
   - component: {fileID: 4954564277502421458}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1C Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24560,12 +25832,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3626663416811952509}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.02748838, y: 0.01984786, z: -0.062751316}
-  m_LocalScale: {x: 0.002424, y: 0.002424, z: 0.002424}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -0.027489293, y: 0.0198481, z: -0.062751286}
+  m_LocalScale: {x: 0.002424, y: 0.0024240003, z: 0.002424}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6458353438195982166}
+  m_Father: {fileID: 374926480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &4492705362965110621
 MeshRenderer:
@@ -24641,7 +25913,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4ee74f8b65897cb4f8226fe2d5ec51df, type: 2}
+  - {fileID: 2100000, guid: 0cf5c3e368feaaa43999c59498c39135, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24761,7 +26033,7 @@ GameObject:
   - component: {fileID: 2440575462535979178}
   - component: {fileID: 2352913448267491647}
   - component: {fileID: 7408514465511033366}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24851,7 +26123,7 @@ GameObject:
   - component: {fileID: 1912408773574930273}
   - component: {fileID: 4537133349363495327}
   - component: {fileID: 3333611502672496619}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1E Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24883,7 +26155,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4577455020673369023, guid: aad7a84e2d214544d9e364512e9308ca, type: 3}
+  - {fileID: 2100000, guid: 0cf5c3e368feaaa43999c59498c39135, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25016,7 +26288,7 @@ GameObject:
   - component: {fileID: 407853471857991245}
   - component: {fileID: 4234088676207638382}
   - component: {fileID: 7261502858567987444}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: ButtonHandle A1E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25037,7 +26309,7 @@ GameObject:
   - component: {fileID: 8542145274502163913}
   - component: {fileID: 8542145274502163914}
   - component: {fileID: 8542145274502163912}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1D_PlasticDark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25082,12 +26354,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318868788926213481}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.02748838, y: 0.01984786, z: -0.062751316}
-  m_LocalScale: {x: 0.002424, y: 0.002424, z: 0.002424}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -0.027489293, y: 0.0198481, z: -0.062751286}
+  m_LocalScale: {x: 0.002424, y: 0.0024240003, z: 0.002424}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6458353438195982166}
+  m_Father: {fileID: 1374336521}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5648543876053234316
 GameObject:
@@ -25100,7 +26372,7 @@ GameObject:
   - component: {fileID: 3752230409673676577}
   - component: {fileID: 2297478476321804608}
   - component: {fileID: 6038619102776470682}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: RotaryHandle A1A_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25119,7 +26391,7 @@ GameObject:
   - component: {fileID: 3802678444327345701}
   - component: {fileID: 9086701103688173680}
   - component: {fileID: 9086701103688173681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25138,7 +26410,7 @@ GameObject:
   - component: {fileID: 3802678445119190333}
   - component: {fileID: 9086701103395660648}
   - component: {fileID: 9086701103395660649}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25223,7 +26495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6458353438195982166}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FuseBox_HingedDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25314,7 +26586,7 @@ GameObject:
   - component: {fileID: 6288615631194215251}
   - component: {fileID: 5195228582077576603}
   - component: {fileID: 6288615631194215252}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Cap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25333,7 +26605,7 @@ GameObject:
   - component: {fileID: 6288615631478290507}
   - component: {fileID: 5195228581256961667}
   - component: {fileID: 6288615631478290508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25427,7 +26699,7 @@ GameObject:
   - component: {fileID: 7310794536693332128}
   - component: {fileID: 7310794536693332129}
   - component: {fileID: 7310794536693332127}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1F_PlasticDark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25448,10 +26720,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6191130933467227967}
-  - {fileID: 2189160314953475358}
-  - {fileID: 4443943226709710585}
-  - {fileID: 8636425330223750538}
-  - {fileID: 5534444750434518364}
+  - {fileID: 1599326855}
+  - {fileID: 374926480}
+  - {fileID: 1618046001}
+  - {fileID: 1374336521}
   - {fileID: 8044270255501900980}
   - {fileID: 587710921454538600}
   m_Father: {fileID: 1201992996}
@@ -25516,7 +26788,7 @@ GameObject:
   - component: {fileID: 6121461468735505028}
   - component: {fileID: 1108390454624712841}
   - component: {fileID: 7015023899499090411}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: ButtonHandle A1F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25534,7 +26806,7 @@ GameObject:
   - component: {fileID: 7030748553253237133}
   - component: {fileID: 8901648616752048611}
   - component: {fileID: 3483722518765082414}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: ButtonHandle A1D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25552,7 +26824,7 @@ GameObject:
   - component: {fileID: 9124927836661546588}
   - component: {fileID: 431537039957285515}
   - component: {fileID: 2614579714468263496}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1F Right Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25642,8 +26914,8 @@ GameObject:
   - component: {fileID: 8636425330223750538}
   - component: {fileID: 2434477746903949862}
   - component: {fileID: 1395399075527005509}
-  m_Layer: 0
-  m_Name: Fuse Box_Light 3
+  m_Layer: 7
+  m_Name: Fuse Box_Light 3 Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25943,7 +27215,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4ee74f8b65897cb4f8226fe2d5ec51df, type: 2}
+  - {fileID: 2100000, guid: 0cf5c3e368feaaa43999c59498c39135, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25978,7 +27250,7 @@ GameObject:
   - component: {fileID: 5463981705191200879}
   - component: {fileID: 8693549906625299927}
   - component: {fileID: 3050559874103541206}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Lever A1A Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26139,6 +27411,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878407525305767845}
   m_Mesh: {fileID: 7445097722519611649, guid: aad7a84e2d214544d9e364512e9308ca, type: 3}
+--- !u!114 &7962652584506416424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878407525305767845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3778cdfabcf44764fa2a7515915d3e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseBox
+  fuseSlots:
+  - {fileID: 1599326853}
+  - {fileID: 374926478}
+  - {fileID: 1618045999}
+  - {fileID: 1374336523}
+  door: {fileID: 2137296025}
 --- !u!4 &8044270255501900980
 Transform:
   m_ObjectHideFlags: 0
@@ -26277,12 +27567,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7068481547122414388}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.02748838, y: 0.01984786, z: -0.062751316}
-  m_LocalScale: {x: 0.002424, y: 0.002424, z: 0.002424}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -0.027489293, y: 0.0198481, z: -0.062751286}
+  m_LocalScale: {x: 0.002424, y: 0.0024240003, z: 0.002424}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6458353438195982166}
+  m_Father: {fileID: 1618046001}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8647186551288162907
 GameObject:
@@ -26298,7 +27588,7 @@ GameObject:
   - component: {fileID: 8647186551288162909}
   - component: {fileID: 8647186551288162910}
   - component: {fileID: 8647186551288162908}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1C_PlasticDark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26381,7 +27671,7 @@ GameObject:
   - component: {fileID: 3326055556896309652}
   - component: {fileID: 7007482360214498064}
   - component: {fileID: 7943832314859305943}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1E Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26399,7 +27689,7 @@ GameObject:
   - component: {fileID: 3570133220457486602}
   - component: {fileID: 7098240177707206670}
   - component: {fileID: 4492705362965110621}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Button A1D Left Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26587,6 +27877,5 @@ SceneRoots:
   - {fileID: 224812428}
   - {fileID: 1712910619}
   - {fileID: 2124186478}
-  - {fileID: 1370361347}
   - {fileID: 1722738578}
   - {fileID: 1583894475}
