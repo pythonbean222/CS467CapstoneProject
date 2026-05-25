@@ -1,9 +1,13 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class NumberGuessingGame : MonoBehaviour
 {
+    [Header("Win")]
+    [SerializeField] private WinEventManager winEventManager;
+
     [Header("Panels")]
     [SerializeField] private GameObject promptPanel;
     [SerializeField] private GameObject feedbackPanel;
@@ -63,10 +67,13 @@ public class NumberGuessingGame : MonoBehaviour
         randomNumber = Random.Range(minNumber, maxNumber + 1);
         isSolved = false;
 
-        if (promptText != null)
+        // start panels sequence method
+        StartCoroutine(ShowPanelsInSequence());
+
+/*         if (promptText != null)
         {
             promptPanel.SetActive(true);
-            promptText.text = $"Guess a number between {minNumber} and {maxNumber}.";
+            
             
         }
 
@@ -81,10 +88,34 @@ public class NumberGuessingGame : MonoBehaviour
             guessInputField.text = string.Empty;
             guessInputField.interactable = true;
             guessInputField.ActivateInputField();
-        }
+        } */
 
         Debug.Log("Random Number (for testing): " + randomNumber);
     }
+
+    // timed sequence method to call inside StartNewGame() to show panels in order
+    private IEnumerator ShowPanelsInSequence()
+    {
+        // turns on prompt panel and sets prompt text
+        promptPanel.SetActive(true);
+        promptText.text = $"Guess a number between {minNumber} and {maxNumber}.";
+        
+        // waits for 2 seconds before showing feedback panel
+        yield return new WaitForSeconds(2f);
+
+        // turns off prompt panel; turns on feedback panel and input panel;
+        // sets feedback text and activates input field
+        promptPanel.SetActive(false);       
+        feedbackPanel.SetActive(true);
+        guessInputPanel.SetActive(true);
+
+        feedbackText.text = "Enter your guess and press Enter.";
+        
+        guessInputField.interactable = true;
+        guessInputField.ActivateInputField();
+
+    }
+
 
     public void SubmitGuess()
     {
@@ -117,6 +148,7 @@ public class NumberGuessingGame : MonoBehaviour
                 guessInputField.interactable = false;
             }
 
+            winEventManager?.RegisterPuzzleCompletion();
             OnCorrectGuess?.Invoke();
             return;
         }
