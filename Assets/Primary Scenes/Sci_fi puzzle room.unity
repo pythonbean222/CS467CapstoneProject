@@ -2285,7 +2285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &361658957
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2303,8 +2303,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.000000009313226, y: 0}
+  m_SizeDelta: {x: 160.00002, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &361658958
 MonoBehaviour:
@@ -5664,7 +5664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 673de0e6d1f00f04b915c2a07ec3fe0f, type: 2}
+  - {fileID: 2100000, guid: 9e004b47b0a40984597127d895b8a1af, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8113,8 +8113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2, y: 0.5}
+  m_AnchoredPosition: {x: 0.000000029802322, y: 0.4}
+  m_SizeDelta: {x: 2.0000005, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1138028780
 PrefabInstance:
@@ -8389,7 +8389,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 673de0e6d1f00f04b915c2a07ec3fe0f, type: 2}
+  - {fileID: 2100000, guid: 9e004b47b0a40984597127d895b8a1af, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9996,7 +9996,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 673de0e6d1f00f04b915c2a07ec3fe0f, type: 2}
+  - {fileID: 2100000, guid: 9e004b47b0a40984597127d895b8a1af, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12132,7 +12132,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.4}
   m_SizeDelta: {x: 2, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1556888765
@@ -12517,10 +12517,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 527768633}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1594995416
 MonoBehaviour:
@@ -12542,7 +12542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 300 seconds
+  m_text: 300 secs
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -15653,6 +15653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5543dd893e5fa264ea972ead7084a2d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NumberGuessingGame
+  winEventManager: {fileID: 2106191980}
   promptPanel: {fileID: 1547367870}
   feedbackPanel: {fileID: 1136634054}
   guessInputPanel: {fileID: 962217286}
