@@ -4,6 +4,11 @@ using UnityEngine.Events;
 
 public class NumberGuessingGame : MonoBehaviour
 {
+    [Header("Panels")]
+    [SerializeField] private GameObject promptPanel;
+    [SerializeField] private GameObject feedbackPanel;
+    [SerializeField] private GameObject guessInputPanel;
+
     [Header("UI")]
     [SerializeField] private TMP_Text promptText;
     [SerializeField] private TMP_Text feedbackText;
@@ -17,6 +22,24 @@ public class NumberGuessingGame : MonoBehaviour
     private bool isSolved;
 
     public UnityEvent OnCorrectGuess;
+
+    private void Awake()
+    {
+        if (promptPanel != null)
+        {
+            promptPanel.SetActive(false);
+        }
+
+        if (feedbackPanel != null)
+        {
+            feedbackPanel.SetActive(false);
+        }
+
+        if (guessInputPanel != null)
+        {
+            guessInputPanel.SetActive(false);
+        }
+    }
 
     private void OnEnable()
     {
@@ -32,11 +55,6 @@ public class NumberGuessingGame : MonoBehaviour
         {
             guessInputField.onSubmit.RemoveListener(SubmitGuess);
         }
-    }
-
-    private void Start()
-    {
-        StartNewGame();
     }
 
     public void StartNewGame()
