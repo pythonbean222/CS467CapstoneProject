@@ -1,6 +1,6 @@
 // Bryanna Rosales
 // Script for slice puzzle in tutorial scene when clicked on the computer
-// Last Edited: 4 May 2026 - Added more comments throughout the script
+// Last Edited: 24 May 2026 - Added functionality for button + tutorial text for player
 
 // Citation for Sliding Game Puzzle
 // Date: 1 May 2025
@@ -11,11 +11,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private Transform gameTransform;
     [SerializeField] private Transform piecePrefab;
+    [SerializeField] private TMP_Text tutorialText;
+    [SerializeField] private UnityEngine.UI.Button continueButton;
+    public AudioClip PuzzleCorrect;
+    AudioSource audioSource;
+
+    private string[] tutorialMessages =
+    {
+        "Click the tiles to move them",
+        "Look for patterns that align correctly when pieces are in the right place.",
+        "Complete the image to reveal the code."
+    };
+
+    private int currentMessage = 0;
 
     private List<Transform> pieces;
     private int emptyLocation;
@@ -69,10 +84,18 @@ public class GameManager : MonoBehaviour
     // Start called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        audioSource = GetComponent<AudioSource>();
         pieces = new List<Transform>();
         size = 3;
         CreateGamePieces(0.01f); // Passes the parameter of the thickness of the tiles
         Shuffle();
+        if (tutorialText != null)
+            tutorialText.text = tutorialMessages[currentMessage];
+        if (continueButton != null)
+            continueButton.onClick.AddListener(NextMessage);
     }
 
     // Update once per frame 
@@ -168,7 +191,25 @@ public class GameManager : MonoBehaviour
     // Code is left on display for 5 seconds and Tutorial scene is reloaded
     {
         pieces[emptyLocation].gameObject.SetActive(true);
+        audioSource.PlayOneShot(PuzzleCorrect);
+        tutorialText.text = "You got it! Keep this code in mind...";
         yield return new WaitForSeconds(5f);
+
+        // Changing progress in GameProgressLobbyTutorial.cs to continue dialouge
+        GameProgressLobbyTutorial.puzzleCompleted = true;
         SceneManager.LoadScene("TutorialScene");
+    }
+
+    private void NextMessage()
+    {
+        currentMessage++;
+        if (currentMessage < tutorialMessages.Length)
+        {
+            tutorialText.text = tutorialMessages[currentMessage];
+        }
+        else
+        {
+            continueButton.gameObject.SetActive(false);
+        }
     }
 }

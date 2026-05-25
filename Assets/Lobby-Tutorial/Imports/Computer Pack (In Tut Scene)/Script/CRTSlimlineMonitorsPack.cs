@@ -7,12 +7,15 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
     public MeshRenderer screenRenderer;
     public Material emissiveMaterial;
     public Material normalMaterial;
+    public AudioClip ComputerClick;
+    AudioSource audioSource;
 
     private bool isOn = false;
 
     private void Start()
     {
         TurnOffComputer();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnMouseDown()
@@ -36,8 +39,7 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
             textMesh.SetActive(true);
 
         isOn = true;
-
-            SceneManager.LoadScene("TutorialPuzzle");
+            StartCoroutine(LoadSceneAfterSound());
     }
 
     private void TurnOffComputer()
@@ -53,5 +55,11 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
             textMesh.SetActive(false);
 
         isOn = false;
+    }
+    private System.Collections.IEnumerator LoadSceneAfterSound()
+    {
+        audioSource.PlayOneShot(ComputerClick);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("TutorialPuzzle");
     }
 }
