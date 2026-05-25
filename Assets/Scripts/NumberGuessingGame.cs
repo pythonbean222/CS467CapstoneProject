@@ -41,6 +41,7 @@ public class NumberGuessingGame : MonoBehaviour
         }
     }
 
+
     private void OnEnable()
     {
         if (guessInputField != null)
@@ -64,7 +65,9 @@ public class NumberGuessingGame : MonoBehaviour
 
         if (promptText != null)
         {
+            promptPanel.SetActive(true);
             promptText.text = $"Guess a number between {minNumber} and {maxNumber}.";
+            
         }
 
         if (feedbackText != null)

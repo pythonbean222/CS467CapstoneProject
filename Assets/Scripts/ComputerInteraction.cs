@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class ComputerInteraction : MonoBehaviour
 {
     [SerializeField] private GameObject computerScreen;
+    [SerializeField] private GameObject computerText;
     [SerializeField] private UnityEvent onComputerInteraction;
 
     private escapeRoomControls inputActions;
