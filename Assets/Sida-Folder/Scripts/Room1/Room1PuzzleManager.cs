@@ -35,11 +35,36 @@ public class Room1PuzzleManager : MonoBehaviour
     [SerializeField] private GameObject pictureFrameSpawnSet1;
     [SerializeField] private GameObject pictureFrameSpawnSet2;
     [SerializeField] private GameObject pictureFrameSpawnSet3;
+    [SerializeField] private bool isFlightPasswordComplete;
+    [SerializeField] private Animator endDoorAnim;
 
     void Start()
     {
         // Set one of the three possible PictureFrameSpawnSets as active for Puzzle 3
         RandomSpawnSetSelector();
+    }
+
+    private void RandomSpawnSetSelector()
+    {
+        // Generate a random value from 0 to 2
+        randomSpawnSet = UnityEngine.Random.Range(0, 3);
+
+        // Enable the corresponding PictureFrameSpawnSet
+        if (randomSpawnSet == 0)
+        {
+            pictureFrameSpawnSet1.gameObject.SetActive(true);
+            // Debug.Log(randomSpawnSet);
+        }
+        else if (randomSpawnSet == 1)
+        {
+            pictureFrameSpawnSet2.gameObject.SetActive(true);
+            // Debug.Log(randomSpawnSet);
+        }
+        else
+        {
+            pictureFrameSpawnSet3.gameObject.SetActive(true);
+            // Debug.Log(randomSpawnSet);
+        }
     }
 
     // Puzzle 1 Completion Condition Check
@@ -97,27 +122,14 @@ public class Room1PuzzleManager : MonoBehaviour
         }
     }
 
-    private void RandomSpawnSetSelector()
-    {
-        // Generate a random value from 0 to 2
-        randomSpawnSet = UnityEngine.Random.Range(0, 3);
+    
 
-        // Enable the corresponding PictureFrameSpawnSet
-        if (randomSpawnSet == 0)
-        {
-            pictureFrameSpawnSet1.gameObject.SetActive(true);
-            Debug.Log(randomSpawnSet);
-        }
-        else if (randomSpawnSet == 1)
-        {
-            pictureFrameSpawnSet2.gameObject.SetActive(true);
-            Debug.Log(randomSpawnSet);
-        }
-        else
-        {
-            pictureFrameSpawnSet3.gameObject.SetActive(true);
-            Debug.Log(randomSpawnSet);
-        }
+
+    // Puzzle 3 Completion Condition Check
+    public void FlightPuzzle()
+    {
+        Debug.Log("Finished FLIGHT Puzzle!");
+        endDoorAnim.enabled=true;
     }
 
 
