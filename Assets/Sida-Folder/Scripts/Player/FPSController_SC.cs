@@ -20,13 +20,13 @@ public class FPSController_SC : MonoBehaviour
     public float speed = 5f;
     public float gravity = -9.81f;
     public float acceleration = 10f;
-    public float jumpHeight = 2f;
+    // public float jumpHeight = 2f;
     public float mouseSensitivity = 0.15f;
     
     // Player Input Action References (Unity's latest input system)
     public InputActionReference moveAction;
     public InputActionReference lookAction;
-    public InputActionReference jumpAction;
+    // public InputActionReference jumpAction;
 
     // Used to apply acceleration and inertia to Player movement
     Vector3 velocity;
@@ -47,7 +47,7 @@ public class FPSController_SC : MonoBehaviour
     {
         moveAction.action.Enable();
         lookAction.action.Enable();
-        jumpAction.action.Enable();
+        // jumpAction.action.Enable();
     }
 
     // Disables our implemented input actions
@@ -55,13 +55,13 @@ public class FPSController_SC : MonoBehaviour
     {
         moveAction.action.Disable();
         lookAction.action.Disable();
-        jumpAction.action.Disable();
+        // jumpAction.action.Disable();
     }
     
     void Update()
     {
         Look();
-        Jump();
+        // Jump();
         ApplyGravity();
         MoveCharacter();
     }
@@ -100,6 +100,7 @@ public class FPSController_SC : MonoBehaviour
         transform.Rotate(Vector3.up * mouseX);
     }
 
+    /* Disabling Jump Functionality
     void Jump()
     {
         if (jumpAction.action.triggered && controller.isGrounded)
@@ -107,6 +108,7 @@ public class FPSController_SC : MonoBehaviour
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
     }
+    */
 
     void ApplyGravity()
     {

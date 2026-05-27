@@ -10,6 +10,7 @@ public class FlightInputScreen : MonoBehaviour, IInteractable_SC
     [SerializeField] private Room1PuzzleManager puzzleManager;
     [SerializeField] private FPSController_SC playerController;
     [SerializeField] private TMP_InputField inputField;
+    [SerializeField] private Canvas interactPrompt;
 
     [SerializeField] private string playerStringInput;
 
@@ -30,6 +31,9 @@ public class FlightInputScreen : MonoBehaviour, IInteractable_SC
 
             // Set the input text color to white
             inputField.textComponent.color = Color.white;
+
+            // Hide the interact prompt
+            interactPrompt.gameObject.SetActive(false);
 
             isActive = true;
         }
@@ -56,6 +60,9 @@ public class FlightInputScreen : MonoBehaviour, IInteractable_SC
 
         // Force the input field to Deactivate immediately
         inputField.DeactivateInputField();
+
+        // Hide the interact prompt
+        interactPrompt.gameObject.SetActive(true);
 
         CheckIfPuzzleSolved();
     }

@@ -40,6 +40,7 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
     [SerializeField] private string playerStringInput;
     [SerializeField] private string binaryString;
     [SerializeField] private string decimalString;
+    [SerializeField] private Canvas interactPrompt;
 
     private bool isActive;
     private bool isSolved;
@@ -76,6 +77,9 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
             // Set the input text color to white
             inputField.textComponent.color = Color.white;
 
+            // Hide the interact prompt
+            interactPrompt.gameObject.SetActive(false);
+
             isActive = true;
         }
     }
@@ -91,6 +95,9 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
 
         // Force the input field to Deactivate immediately
         inputField.DeactivateInputField();
+
+        // Reveal the interact prompt
+        interactPrompt.gameObject.SetActive(true);
 
         CheckIfPuzzleSolved();
     }

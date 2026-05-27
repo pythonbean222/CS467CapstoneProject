@@ -5,6 +5,7 @@ public class Computer : MonoBehaviour, IInteractable_SC
     [SerializeField] private FPSController_SC playerController;
     [SerializeField] private GameObject SecurityCamera;
     [SerializeField] private Canvas SecurityCameraCanvas;
+    [SerializeField] private Canvas interactPrompt;
     private GameObject cameraReference;
 
     private bool isActive;
@@ -25,6 +26,8 @@ public class Computer : MonoBehaviour, IInteractable_SC
 
             SecurityCameraCanvas.gameObject.SetActive(true);
 
+            interactPrompt.gameObject.SetActive(false);
+
             isActive = true;
         }
         else
@@ -34,6 +37,8 @@ public class Computer : MonoBehaviour, IInteractable_SC
             cameraReference.SetActive(false);
 
             SecurityCameraCanvas.gameObject.SetActive(false);
+
+            interactPrompt.gameObject.SetActive(true);
 
             isActive = false;
         }

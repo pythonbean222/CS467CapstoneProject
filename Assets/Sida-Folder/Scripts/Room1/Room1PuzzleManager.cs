@@ -122,9 +122,6 @@ public class Room1PuzzleManager : MonoBehaviour
         }
     }
 
-    
-
-
     // Puzzle 3 Completion Condition Check
     public void FlightPuzzle()
     {
