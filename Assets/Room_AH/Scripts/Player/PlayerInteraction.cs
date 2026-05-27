@@ -47,12 +47,13 @@ public class PlayerInteraction : MonoBehaviour
 
     void OnInteract(InputAction.CallbackContext context)
     {
-        Debug.Log("Interact input action triggered!");
+        Debug.Log("Current interactable = " + currentInteractable);
  
         // Adding layer mask to ensure that the raycast does not interact with player - AH
         int layerMask = ~LayerMask.GetMask("Player");
         // If there is an interactable object currently in range, interact with it
         if (currentInteractable != null) {
+            Debug.Log("Calling Interact()");
             currentInteractable.Interact();
         }
     }
