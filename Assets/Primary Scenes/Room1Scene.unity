@@ -27882,6 +27882,14 @@ PrefabInstance:
       propertyPath: m_text
       value: RETURN TO MAIN MENU
       objectReference: {fileID: 0}
+    - target: {fileID: 3791509467804475914, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ae8c8a38fee23cd42abf19b5c0cc0b74, type: 2}
+    - target: {fileID: 3791509467804475914, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3871353350346018988, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
       propertyPath: m_SizeDelta.x
       value: 900
@@ -68002,7 +68010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1046948626
 MonoBehaviour:
   m_ObjectHideFlags: 0
