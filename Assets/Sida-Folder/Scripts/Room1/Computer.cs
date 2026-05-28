@@ -6,6 +6,7 @@ public class Computer : MonoBehaviour, IInteractable_SC
     [SerializeField] private GameObject SecurityCamera;
     [SerializeField] private Canvas SecurityCameraCanvas;
     [SerializeField] private Canvas interactPrompt;
+    [SerializeField] private AudioSource computerInteractAudio;
     private GameObject cameraReference;
 
     private bool isActive;
@@ -21,6 +22,9 @@ public class Computer : MonoBehaviour, IInteractable_SC
         if (!isActive)
         {
             playerController.enabled = false;
+
+            // Play Computer Audio
+            computerInteractAudio.Play();
 
             cameraReference.SetActive(true);
 

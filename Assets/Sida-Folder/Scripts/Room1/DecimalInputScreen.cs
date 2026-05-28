@@ -42,6 +42,10 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
     [SerializeField] private string decimalString;
     [SerializeField] private Canvas interactPrompt;
 
+    [SerializeField] private AudioSource decimalWallAudioSource;
+    [SerializeField] private AudioClip decimalWallCorrect;
+    [SerializeField] private AudioClip decimalWallIncorrect;
+
     private bool isActive;
     private bool isSolved;
 
@@ -108,6 +112,9 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
         {
             Debug.Log("Conversion Puzzle Solved!");
 
+            // Play Correct Audio
+            decimalWallAudioSource.PlayOneShot(decimalWallCorrect);
+
             // This Bool is necessary to prevent the user from being able to interact with the input field after getting it correct
             isSolved = true;
 
@@ -120,6 +127,9 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
         }
         else
         {
+            // Play Incorrect Audio
+            decimalWallAudioSource.PlayOneShot(decimalWallIncorrect);
+
             // Change the text color to Red to display they're wrong
             inputField.textComponent.color = Color.red;
         }

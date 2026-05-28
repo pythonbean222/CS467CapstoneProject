@@ -1,3 +1,13 @@
+// Citation for How to Trigger a Cutscene in Unity
+// Date: 27 May 2026
+// Adapted from YouTube Channel: Jimmy Vegas
+// Source URL: https://www.youtube.com/watch?v=pru5sx_hqeE
+
+// Citation for How to Play a Cutscene Video in Unity
+// Date: 27 May 2026
+// Adapted from YouTube Channel: Solo game Dev
+// Source URL: https://www.youtube.com/watch?v=-XzVq7qIuys
+
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
