@@ -41,6 +41,7 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
     [SerializeField] private string binaryString;
     [SerializeField] private string decimalString;
     [SerializeField] private Canvas interactPrompt;
+    [SerializeField] private Canvas pressEnterPrompt;
 
     [SerializeField] private AudioSource decimalWallAudioSource;
     [SerializeField] private AudioClip decimalWallCorrect;
@@ -84,6 +85,9 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
             // Hide the interact prompt
             interactPrompt.gameObject.SetActive(false);
 
+            // Display the Press Enter to confirm value prompt
+            pressEnterPrompt.gameObject.SetActive(true);
+
             isActive = true;
         }
     }
@@ -102,6 +106,9 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
 
         // Reveal the interact prompt
         interactPrompt.gameObject.SetActive(true);
+
+        // Hide the Press Enter to confirm value prompt
+        pressEnterPrompt.gameObject.SetActive(false);
 
         CheckIfPuzzleSolved();
     }

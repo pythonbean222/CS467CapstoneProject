@@ -20,6 +20,7 @@ public class CutsceneScript : MonoBehaviour
     [SerializeField] private Camera endMenuCamera;
     [SerializeField] private GameObject musicGameObject;
 
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -33,6 +34,10 @@ public class CutsceneScript : MonoBehaviour
             // Disable the Background Music
             musicGameObject.SetActive(false);
 
+            // Enable the audio listener to prevent error logs (One audio listener is required to be on at all times)
+            // Aside from minimizing errors, this code doesn't do anything
+            GetComponent<AudioListener>().enabled = true;
+
             // Start Coroutine Event
             StartCoroutine(DelayEvent());
 
@@ -40,14 +45,13 @@ public class CutsceneScript : MonoBehaviour
     }
 
     IEnumerator DelayEvent()
-    {
-        yield return new WaitForSeconds(19f);
-
-        // Disable the cutscene after 19 seconds
-        cutsceneCanvas.gameObject.SetActive(false);
+    {   
+        yield return new WaitForSeconds(1f);
         
-        // Enable a new camera
+        // Enable a new camera to prevent error logs, similar to audio listener
         endMenuCamera.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(19f);
 
         // Enable the End Menu Canvas
         endMenuCanvas.gameObject.SetActive(true);
@@ -55,5 +59,10 @@ public class CutsceneScript : MonoBehaviour
         // Display the mouse cursor
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        yield return new WaitForSeconds(72f);
+
+        // Disable the cutscene after 72 seconds
+        cutsceneCanvas.gameObject.SetActive(false);
     }
 }

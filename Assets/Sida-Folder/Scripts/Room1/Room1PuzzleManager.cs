@@ -49,6 +49,8 @@ public class Room1PuzzleManager : MonoBehaviour
     [SerializeField] private AudioClip powerSwitchCorrect;
     [SerializeField] private AudioClip powerSwitchIncorrect;
     [SerializeField] private AudioClip doorOpen1;
+    [SerializeField] private AudioClip decimalWallMovement;
+    [SerializeField] private GameObject musicGameObject;
 
     
 
@@ -137,6 +139,9 @@ public class Room1PuzzleManager : MonoBehaviour
         {
             isComplete = true;
 
+            // Play Sound
+            masterAudioSource.PlayOneShot(decimalWallMovement);
+
             // Move the Walls back to reveal hidden room
             pentagonWallAnim.enabled = true;
             diamondWallAnim.enabled = true;
@@ -148,6 +153,9 @@ public class Room1PuzzleManager : MonoBehaviour
     {
         Debug.Log("Finished FLIGHT Puzzle!");
         endDoorAnim.enabled=true;
+
+        // Stop the Background Music
+        musicGameObject.SetActive(false);
     }
 
 

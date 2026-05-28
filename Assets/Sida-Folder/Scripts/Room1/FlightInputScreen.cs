@@ -11,8 +11,16 @@ public class FlightInputScreen : MonoBehaviour, IInteractable_SC
     [SerializeField] private FPSController_SC playerController;
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private Canvas interactPrompt;
+    [SerializeField] private Canvas pressEnterPrompt;
 
     [SerializeField] private string playerStringInput;
+
+    [SerializeField] private AudioSource flightCanvasAudioSource;
+    [SerializeField] private AudioClip flightCorrect;
+    [SerializeField] private AudioClip flightIncorrect;
+    [SerializeField] private AudioClip flightWallMovement;
+    [SerializeField] private AudioClip flightAmbience;
+    [SerializeField] private AudioClip endDoorOpen;
 
     private bool isActive;
     private bool isSolved;
@@ -34,6 +42,9 @@ public class FlightInputScreen : MonoBehaviour, IInteractable_SC
 
             // Hide the interact prompt
             interactPrompt.gameObject.SetActive(false);
+
+            // Display the Press Enter to confirm value prompt
+            pressEnterPrompt.gameObject.SetActive(true);
 
             isActive = true;
         }
@@ -64,6 +75,9 @@ public class FlightInputScreen : MonoBehaviour, IInteractable_SC
         // Hide the interact prompt
         interactPrompt.gameObject.SetActive(true);
 
+        // Hide the Press Enter to confirm value prompt
+        pressEnterPrompt.gameObject.SetActive(false);
+
         CheckIfPuzzleSolved();
     }
 
@@ -74,6 +88,14 @@ public class FlightInputScreen : MonoBehaviour, IInteractable_SC
             // This Bool is necessary to prevent the user from being able to interact with the input field after getting it correct
             isSolved = true;
 
+            // Play Correct Sound
+            flightCanvasAudioSource.PlayOneShot(flightCorrect);
+            flightCanvasAudioSource.PlayOneShot(flightAmbience);
+            flightCanvasAudioSource.PlayOneShot(flightWallMovement);
+
+            // Start Door Audio Coroutine
+            StartCoroutine(DoorAudioDelay());
+
             // Change the text color to Green to display they're correct
             inputField.textComponent.color = Color.green;
 
@@ -83,10 +105,21 @@ public class FlightInputScreen : MonoBehaviour, IInteractable_SC
         }
         else
         {
+            // Play Incorrect Sound
+            flightCanvasAudioSource.PlayOneShot(flightIncorrect);
+
             // Change the text color to Red to display they're wrong
             inputField.textComponent.color = Color.red;
         }
 
         isActive = false;
+    }
+
+    private IEnumerator DoorAudioDelay()
+    {
+        yield return new WaitForSeconds(4.2f);
+
+        // Play the End Door Opening Sound
+        flightCanvasAudioSource.PlayOneShot(endDoorOpen);
     }
 }
