@@ -100120,8 +100120,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: YOU WIN!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ae8c8a38fee23cd42abf19b5c0cc0b74, type: 2}
+  m_sharedMaterial: {fileID: 5845852071118804946, guid: ae8c8a38fee23cd42abf19b5c0cc0b74, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -100145,8 +100145,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 194
-  m_fontSizeBase: 194
+  m_fontSize: 204
+  m_fontSizeBase: 204
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
