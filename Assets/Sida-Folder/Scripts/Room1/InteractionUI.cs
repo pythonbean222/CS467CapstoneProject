@@ -18,7 +18,7 @@ public class InteractionUI : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Hello");
+            // Debug.Log("Hello");
             interactPromptCanvas.enabled = true;
         }
     }
@@ -27,7 +27,7 @@ public class InteractionUI : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Goodbye");
+            // Debug.Log("Goodbye");
             interactPromptCanvas.enabled = false;
         }
     }
