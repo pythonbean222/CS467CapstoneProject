@@ -40,6 +40,12 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
     [SerializeField] private string playerStringInput;
     [SerializeField] private string binaryString;
     [SerializeField] private string decimalString;
+    [SerializeField] private Canvas interactPrompt;
+    [SerializeField] private Canvas pressEnterPrompt;
+
+    [SerializeField] private AudioSource decimalWallAudioSource;
+    [SerializeField] private AudioClip decimalWallCorrect;
+    [SerializeField] private AudioClip decimalWallIncorrect;
 
     private bool isActive;
     private bool isSolved;
@@ -76,6 +82,12 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
             // Set the input text color to white
             inputField.textComponent.color = Color.white;
 
+            // Hide the interact prompt
+            interactPrompt.gameObject.SetActive(false);
+
+            // Display the Press Enter to confirm value prompt
+            pressEnterPrompt.gameObject.SetActive(true);
+
             isActive = true;
         }
     }
@@ -92,6 +104,12 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
         // Force the input field to Deactivate immediately
         inputField.DeactivateInputField();
 
+        // Reveal the interact prompt
+        interactPrompt.gameObject.SetActive(true);
+
+        // Hide the Press Enter to confirm value prompt
+        pressEnterPrompt.gameObject.SetActive(false);
+
         CheckIfPuzzleSolved();
     }
 
@@ -100,6 +118,9 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
         if (playerStringInput == decimalString)
         {
             Debug.Log("Conversion Puzzle Solved!");
+
+            // Play Correct Audio
+            decimalWallAudioSource.PlayOneShot(decimalWallCorrect);
 
             // This Bool is necessary to prevent the user from being able to interact with the input field after getting it correct
             isSolved = true;
@@ -113,6 +134,9 @@ public class DecimalInputScreen : MonoBehaviour, IInteractable_SC
         }
         else
         {
+            // Play Incorrect Audio
+            decimalWallAudioSource.PlayOneShot(decimalWallIncorrect);
+
             // Change the text color to Red to display they're wrong
             inputField.textComponent.color = Color.red;
         }

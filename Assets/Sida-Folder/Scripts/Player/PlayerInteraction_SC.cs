@@ -10,13 +10,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerInteraction_SC : MonoBehaviour
 {
-    public Camera cameraObject;
+    [SerializeField] private Camera cameraObject;
 
     // The distance of our Ray Cast
-    public float distance = 3f;
+    [SerializeField] private float distance = 1.8f;
 
     // Player Input Action References (Unity's latest input system)
-    public InputActionReference interactAction;
+    [SerializeField] private InputActionReference interactAction;
 
     // Enables our implemented input actions (Necessary for Unity's latest input system)
     void OnEnable()
@@ -47,7 +47,23 @@ public class PlayerInteraction_SC : MonoBehaviour
 
     void OnInteract(InputAction.CallbackContext context)
     {
-        if (Physics.Raycast(cameraObject.transform.position, cameraObject.transform.forward, out RaycastHit hit, distance))
+        if (Physics.Raycast(
+            cameraObject.transform.position,
+            cameraObject.transform.forward,
+            out RaycastHit hit,
+            distance,
+
+            // Citation for how to use layer and trigger filtering
+            // Date: 26 May 2026
+            // Adapted from Unity Discussions
+            // Source URL: https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Physics.DefaultRaycastLayers.html
+            // Source URL: https://docs.unity3d.com/ScriptReference/QueryTriggerInteraction.Ignore.html
+
+            // Layer mask that selects the default raycast layers
+            Physics.DefaultRaycastLayers,
+
+            // Used to ignore is-trigger colliders (Used to keep Player Interaction and Interaction Prompts separate)
+            QueryTriggerInteraction.Ignore))
         {
             // If the raycast hits a collider that implements IInteractable interface, then trigger the interact() method for this particular object
             if (hit.collider.TryGetComponent<IInteractable_SC>(out var interactableObj))

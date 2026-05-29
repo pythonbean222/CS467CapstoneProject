@@ -1,5 +1,5 @@
 // Citation for how to use "Transform.Find" to find a child object by string name
-// Date: 6 May, 2026
+// Date: 6 May 2026
 // Adapted from Unity Documentation
 // Source URL: https://docs.unity3d.com/6000.3/Documentation/ScriptReference/Transform.Find.html
 
@@ -12,6 +12,7 @@ public class PowerSwitch : MonoBehaviour, IInteractable_SC
     [SerializeField] private Material offlineMaterial;
     [SerializeField] private Material onlineMaterial;
     [SerializeField] private Animator powerSwitchAnimator;
+    [SerializeField] private AudioSource powerSwitchAudio;
 
     [SerializeField] private string switchID;
     [SerializeField] private bool isActive;
@@ -24,6 +25,9 @@ public class PowerSwitch : MonoBehaviour, IInteractable_SC
 
             // Play the Power Switch animation turning ON
             powerSwitchAnimator.SetBool("isOn", true);
+
+            // Play 2D Sound
+            powerSwitchAudio.Play();
 
             // Change the Power Switch display color to Green
             transform.Find("display").GetComponent<MeshRenderer>().material = onlineMaterial;

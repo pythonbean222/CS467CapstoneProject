@@ -8,9 +8,11 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
     public Material emissiveMaterial;
     public Material normalMaterial;
     public AudioClip ComputerClick;
-    AudioSource audioSource;
+
+    private AudioSource audioSource;
 
     private bool isOn = false;
+    private bool playerInRange = false;
 
     private void Start()
     {
@@ -18,12 +20,31 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    private void OnMouseDown()
+    private void Update()
     {
-        if (isOn)
-            TurnOffComputer();
-        else
-            TurnOnComputer();
+        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        {
+            if (isOn)
+                TurnOffComputer();
+            else
+                TurnOnComputer();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInRange = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInRange = false;
+        }
     }
 
     private void TurnOnComputer()
@@ -31,7 +52,7 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
         if (screenRenderer != null && emissiveMaterial != null)
         {
             Material[] mats = screenRenderer.materials;
-            mats[1] = emissiveMaterial; 
+            mats[1] = emissiveMaterial;
             screenRenderer.materials = mats;
         }
 
@@ -39,7 +60,8 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
             textMesh.SetActive(true);
 
         isOn = true;
-            StartCoroutine(LoadSceneAfterSound());
+
+        StartCoroutine(LoadSceneAfterSound());
     }
 
     private void TurnOffComputer()
@@ -56,10 +78,13 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
 
         isOn = false;
     }
+
     private System.Collections.IEnumerator LoadSceneAfterSound()
     {
         audioSource.PlayOneShot(ComputerClick);
+
         yield return new WaitForSeconds(1f);
+
         SceneManager.LoadScene("TutorialPuzzle");
     }
 }

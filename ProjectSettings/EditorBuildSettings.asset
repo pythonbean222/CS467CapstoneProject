@@ -6,34 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Lobby-Tutorial/Scenes/SampleScene.unity
-    guid: eb82dc72b8c833646a1bf6881386e8f9
-  - enabled: 0
-    path: Assets/Lobby-Tutorial/Scenes/MainMenuScene.unity
-    guid: c5860a7a56dbaac459d4856d3f21b6db
-  - enabled: 1
-    path: Assets/Primary Scenes/TutorialScene.unity
-    guid: 076fe3e3f487a4fbe876ad501f06d4b3
-  - enabled: 0
-    path: Assets/Lobby-Tutorial/Scenes/TutorialPuzzle.unity
-    guid: 2b6fe1eeffcd44761b1dbb6e6b7d4dd7
+    path: Assets/Primary Scenes/MainMenuScene.unity
+    guid: 6d8994f68b9647d42bb60c6f65a25334
   - enabled: 1
     path: Assets/Primary Scenes/LobbyScene.unity
     guid: 7b533dfe561bc47c8975c955fe4ef3d3
   - enabled: 1
-    path: Assets/Primary Scenes/MainMenuScene.unity
-    guid: 7ff4a0cea27684646ba3260aa5fd264a
+    path: Assets/Primary Scenes/TutorialScene.unity
+    guid: 076fe3e3f487a4fbe876ad501f06d4b3
   - enabled: 1
-    path: Assets/Primary Scenes/Room1Scene.unity
-    guid: 02dc03619e8f70d4b9d9ebf7bc7803ab
+    path: Assets/Primary Scenes/TutorialPuzzle.unity
+    guid: 8bad2be5480f6b749aeaaf089f9adec8
   - enabled: 1
     path: Assets/Primary Scenes/Room_AH.unity
-    guid: f2889a48b337b8e469d5d4f33b75959b
+    guid: cd8befa68230ec34893da319b5d032f0
   - enabled: 1
     path: Assets/Primary Scenes/Sci_fi puzzle room.unity
     guid: a0feaac4eb469a54fad95359c70ff414
   - enabled: 1
-    path: Assets/Primary Scenes/TutorialPuzzle.unity
-    guid: 8bad2be5480f6b749aeaaf089f9adec8
+    path: Assets/Primary Scenes/Room1Scene.unity
+    guid: 02dc03619e8f70d4b9d9ebf7bc7803ab
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

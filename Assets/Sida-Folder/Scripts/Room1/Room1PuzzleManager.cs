@@ -1,3 +1,8 @@
+// Citation for how to use use Audio Source and Audio Clips to play One Shots
+// Date: 28 May 2026
+// Adapted from YouTube Channel: Nathan Jenkins
+// Source URL: https://www.youtube.com/watch?v=ln4ilSVR1Ug
+
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -35,11 +40,47 @@ public class Room1PuzzleManager : MonoBehaviour
     [SerializeField] private GameObject pictureFrameSpawnSet1;
     [SerializeField] private GameObject pictureFrameSpawnSet2;
     [SerializeField] private GameObject pictureFrameSpawnSet3;
+    [SerializeField] private bool isFlightPasswordComplete;
+    [SerializeField] private Animator endDoorAnim;
+
+    [Header("Audio Variables")]
+    [Space(10)]
+    [SerializeField] private AudioSource masterAudioSource;
+    [SerializeField] private AudioClip powerSwitchCorrect;
+    [SerializeField] private AudioClip powerSwitchIncorrect;
+    [SerializeField] private AudioClip doorOpen1;
+    [SerializeField] private AudioClip decimalWallMovement;
+    [SerializeField] private GameObject musicGameObject;
+
+    
 
     void Start()
     {
         // Set one of the three possible PictureFrameSpawnSets as active for Puzzle 3
         RandomSpawnSetSelector();
+    }
+
+    private void RandomSpawnSetSelector()
+    {
+        // Generate a random value from 0 to 2
+        randomSpawnSet = UnityEngine.Random.Range(0, 3);
+
+        // Enable the corresponding PictureFrameSpawnSet
+        if (randomSpawnSet == 0)
+        {
+            pictureFrameSpawnSet1.gameObject.SetActive(true);
+            // Debug.Log(randomSpawnSet);
+        }
+        else if (randomSpawnSet == 1)
+        {
+            pictureFrameSpawnSet2.gameObject.SetActive(true);
+            // Debug.Log(randomSpawnSet);
+        }
+        else
+        {
+            pictureFrameSpawnSet3.gameObject.SetActive(true);
+            // Debug.Log(randomSpawnSet);
+        }
     }
 
     // Puzzle 1 Completion Condition Check
@@ -56,6 +97,10 @@ public class Room1PuzzleManager : MonoBehaviour
             if (playerString == correctString)
             {
                 Debug.Log("CORRECT ANSWER");
+
+                // Play Correct Sound
+                masterAudioSource.PlayOneShot(powerSwitchCorrect);
+                masterAudioSource.PlayOneShot(doorOpen1);
                 
                 // Open Door
                 doubleDoor.OpenDoor();
@@ -68,6 +113,9 @@ public class Room1PuzzleManager : MonoBehaviour
             else
             {
                 Debug.Log("INCORRECT ANSWER");
+
+                // Play Incorrect Sound
+                masterAudioSource.PlayOneShot(powerSwitchIncorrect);
 
                 // Reset conditions
                 playerString = "";
@@ -91,33 +139,23 @@ public class Room1PuzzleManager : MonoBehaviour
         {
             isComplete = true;
 
+            // Play Sound
+            masterAudioSource.PlayOneShot(decimalWallMovement);
+
             // Move the Walls back to reveal hidden room
             pentagonWallAnim.enabled = true;
             diamondWallAnim.enabled = true;
         }
     }
 
-    private void RandomSpawnSetSelector()
+    // Puzzle 3 Completion Condition Check
+    public void FlightPuzzle()
     {
-        // Generate a random value from 0 to 2
-        randomSpawnSet = UnityEngine.Random.Range(0, 3);
+        Debug.Log("Finished FLIGHT Puzzle!");
+        endDoorAnim.enabled=true;
 
-        // Enable the corresponding PictureFrameSpawnSet
-        if (randomSpawnSet == 0)
-        {
-            pictureFrameSpawnSet1.gameObject.SetActive(true);
-            Debug.Log(randomSpawnSet);
-        }
-        else if (randomSpawnSet == 1)
-        {
-            pictureFrameSpawnSet2.gameObject.SetActive(true);
-            Debug.Log(randomSpawnSet);
-        }
-        else
-        {
-            pictureFrameSpawnSet3.gameObject.SetActive(true);
-            Debug.Log(randomSpawnSet);
-        }
+        // Stop the Background Music
+        musicGameObject.SetActive(false);
     }
 
 
