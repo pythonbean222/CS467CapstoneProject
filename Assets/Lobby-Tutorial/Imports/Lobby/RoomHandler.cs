@@ -1,3 +1,6 @@
+// Used in Lobby Scene
+// Called to load player to desire room, loads sounds + dialouge 
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -41,6 +44,7 @@ public class RoomHandler : MonoBehaviour
     }
 
     private void OpenDoors()
+    // Method to open doors and trigger sounds
     {
         if (leftDoorAnimator != null)
             leftDoorAnimator.SetTrigger("Open");
@@ -59,6 +63,7 @@ public class RoomHandler : MonoBehaviour
     }
 
     private System.Collections.IEnumerator CountdownAndLoad()
+    // Method to display text and load scene
     {
         isLoading = true;
 
@@ -80,6 +85,7 @@ public class RoomHandler : MonoBehaviour
     }
 
     private System.Collections.IEnumerator PlayTakeOffAfterDelay(float delay)
+    // Method to play the TakeOff sound after the door sound
     {
         yield return new WaitForSeconds(delay);
         audioSource.PlayOneShot(TakeOff);

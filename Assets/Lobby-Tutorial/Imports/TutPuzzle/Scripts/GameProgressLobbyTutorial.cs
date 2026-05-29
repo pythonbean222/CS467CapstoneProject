@@ -1,7 +1,7 @@
-// Bryanna Rosales-Hernandez 
-// Game progress tracking to track when the user has not yet accomplished the sliding puzzle 
-// Bool is changed in the GameManager.cs to true after the player has accomplished sliding puzzle. 
-// When true, tutorial continues with different dialouge
+// Used in Tutorial Scene 
+
+// Script made for tutorial dialouge. Checks when the sliding puzzle has been completed
+// and continues after. 
 
 using UnityEngine;
 using TMPro;
@@ -13,16 +13,17 @@ public class GameProgressLobbyTutorial : MonoBehaviour
     [SerializeField] private UnityEngine.UI.Button continueButton;
 
 
-    public static bool puzzleCompleted = false;
+    public static bool puzzleCompleted = false; 
 
     public static int tutorialDialougeStep = 0;
 
     private string[] tutorialMessages =
+    // To be shown before the Sliding Puzzle is completed
     {
         // Opening Prompt
-        "Welcome to Escapify!",
+        "Welcome to Escaptory!",
         "This is a short tutorial to help you learn how puzzles work before your escape begins.",
-        "Your goal here in Escapify is simple: explore, solve puzzles, and unlock the exit door!",
+        "Your goal here in Escaptory is simple: explore, solve puzzles, and unlock the exit door!",
 
         // Introducing Keypad Puzzle 
         "Lets get a closer look at the door. Walk to it.",
@@ -34,6 +35,7 @@ public class GameProgressLobbyTutorial : MonoBehaviour
     };
 
     private string[] FinishedPuzzleMessages =
+    // To be displayed after the Sliding Puzzle has been completed
     {
         // Computer Puzzle is complete 
         "The revealed code will likely be important for...",
@@ -44,8 +46,13 @@ public class GameProgressLobbyTutorial : MonoBehaviour
         "You are ready. Your escape begins now...",
     };
 
-    private int currentMessage = 0;
+    private int currentMessage = 0; // Counter for which dialouge step is to be displayed in TMP_Text
 
+
+// Citation for Click detection, text display
+// Adapted from Unity Documentation
+// Source URL: https://docs.unity3d.com/ScriptReference/UIElements.Button-clicked.html
+// Source URL: https://docs.unity3d.com/Packages/com.unity.textmeshpro@1.0/api/TMPro.TMP_Text.html#TMPro_TMP_Text_text
     void Start()
     {
         Cursor.lockState = CursorLockMode.None;
@@ -57,6 +64,7 @@ public class GameProgressLobbyTutorial : MonoBehaviour
             continueButton.onClick.AddListener(NextMessage);
 
         if (puzzleCompleted)
+        // Checks if the Sliding Puzzle has been completed or not
         {
             tutorialText.text = FinishedPuzzleMessages[currentMessage];
         }
@@ -67,6 +75,8 @@ public class GameProgressLobbyTutorial : MonoBehaviour
         }
     }
 
+// Citation for next dialogue text
+// AI was used as a coding aid to help structure the logic for text progression and button-triggered dialogue updates
     private void NextMessage()
     {
         currentMessage++;
