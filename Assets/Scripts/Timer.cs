@@ -15,10 +15,18 @@ public class Timer : MonoBehaviour
     // game over event
     public UnityEvent gameOverEvent;
 
+    private bool hasWon = false;
+
 
     // Update is called once per frame
     void Update()
     {
+        if (hasWon)
+        {
+            displayTime.text = "You win!";
+            return;
+        }
+
         currentTime -= Time.deltaTime;
         displayTime.text = currentTime.ToString("0") + " secs";
 
@@ -29,6 +37,11 @@ public class Timer : MonoBehaviour
             gameOverEvent.Invoke();
             displayTime.text = "Game Over, you lose!";
         }
+    }
+
+    public void GameWon()
+    {
+        hasWon = true;
     }
 
 
