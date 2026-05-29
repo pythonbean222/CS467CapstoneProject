@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CollectiblePuzzleManager : MonoBehaviour
 {
     // WinEventManager reference to track win conditions based on inventory changes.
     [SerializeField] private WinEventManager winEventManager;
+    public UnityEvent OnCollectiblePuzzleWin;
 
     // Inventory-based win check settings.
     // Assign PlayerInventory in the Inspector if possible; otherwise PuzzleManager will try to find one at runtime.
@@ -81,6 +83,7 @@ public class CollectiblePuzzleManager : MonoBehaviour
 
             hasRegisteredCompletion = true;
             Debug.Log("Player has met the inventory win conditions!");
+            OnCollectiblePuzzleWin?.Invoke();
             winEventManager?.RegisterPuzzleCompletion();
         }
     }

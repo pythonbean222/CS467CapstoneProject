@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
     public TMP_Text displayTime;
 
     // CHANGE THIS TO ADJUST THE TIME
-    private float currentTime = 300f;
+    private float currentTime = 10f;
 
     // game over event
     public UnityEvent gameOverEvent;
