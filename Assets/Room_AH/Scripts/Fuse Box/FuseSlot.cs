@@ -1,7 +1,10 @@
 using UnityEngine;
 
+// Script for each fuse slot in the fuse box. Handles inserting fuses and updating the light controller and fuse box when a fuse is inserted. Implements IInteractable_AH for player interaction.
+
 public class FuseSlot : MonoBehaviour, IInteractable_AH
 {
+    // set references in Inspector
     [Header("References")]
     [SerializeField] private FuseBoxLightController lightController;
     [SerializeField] private FuseBox fuseBox;
@@ -12,30 +15,32 @@ public class FuseSlot : MonoBehaviour, IInteractable_AH
     public bool HasFuse { get; private set; } 
 
     public void TryInsertFuse() {
-        Debug.Log("Attempting to insert fuse");
-
+        // if fuse already inserted, return
         if (HasFuse) {
-            Debug.Log("Fuse already inserted");
             return;
         }
 
+        // check if player has a fuse in inventory, if not return
         if (!inventory.HasItem(inventory.fuseItem)) {
             Debug.Log("No fuse in inventory to insert");
             return;
         }
 
+        // remove fuse from inventory, set HasFuse to true
         inventory.RemoveItem(inventory.fuseItem, 1);
         HasFuse = true;
 
+        // instantiate fuse prefab in slot, update light controller,
         Instantiate(fusePrefab, fuseInsertPoint.position, fuseInsertPoint.rotation, transform);
         lightController.InsertFuse();
 
+        // check if all fuses are inserted and open door if so
         fuseBox.CheckAllFuses();
         Debug.Log("Fuse inserted");
     }
 
     public void Interact() {
-        Debug.Log("FuseSlot Interact called");
+        // when player interacts with the fuse slot, try to insert a fuse
         TryInsertFuse();
     }
 

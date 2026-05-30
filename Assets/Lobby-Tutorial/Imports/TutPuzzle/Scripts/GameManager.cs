@@ -1,7 +1,5 @@
-// Bryanna Rosales
-// Script for slice puzzle in tutorial scene when clicked on the computer
-// Last Edited: 24 May 2026 - Added functionality for button + tutorial text for player
-
+// Used in Sliding Puzzle - TutorialPuzzle Scene
+// On complete, changes progress in GameProgressLobbyTutorial.cs to continue dialouge and return player to TutorialScene
 // Citation for Sliding Game Puzzle
 // Date: 1 May 2025
 // Adapted from YouTube Creator: Firnox

@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ATMPuzzleManager : MonoBehaviour
 {
 
     [SerializeField] private WinEventManager winEventManager;
+
+    public UnityEvent OnATMPuzzleWin;
 
     // ATM puzzle arrays
     public GameObject[] graypuzzlePieces;
@@ -27,6 +30,7 @@ public class ATMPuzzleManager : MonoBehaviour
 
                 hasRegisteredCompletion = true;
                 Debug.Log("Player has won the atm puzzle game!");
+                OnATMPuzzleWin?.Invoke();
                 winEventManager?.RegisterPuzzleCompletion();
             }
         }

@@ -1,10 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Script for managing the rotary puzzle in the puzzle room
+
 public class RotaryManager : MonoBehaviour
 {
     // Puzzle box manager
-    [SerializeField] private PuzzleBox puzzleBox;
+    [SerializeField] private PuzzlePrizeBox puzzleBox;
 
     // store all handles in puzzle
     [SerializeField] private List<Rotary> handles;
