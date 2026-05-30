@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Primary Scenes/Room1Scene.unity
     guid: 02dc03619e8f70d4b9d9ebf7bc7803ab
+  - enabled: 1
+    path: Assets/Primary Scenes/Credits.unity
+    guid: 53a567ef3d0ca4c23aac398018125bfe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
