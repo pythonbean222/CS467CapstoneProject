@@ -10,10 +10,10 @@ public class Timer : MonoBehaviour
     public TMP_Text displayTime;
 
     // CHANGE THIS TO ADJUST THE TIME
-    private float currentTime = 10f;
+    private float currentTime = 300f;
 
     // game over event
-    public UnityEvent gameOverEvent;
+    public UnityEvent gameEndEvent;
 
     private bool hasWon = false;
     private bool hasLost = false;
@@ -40,7 +40,7 @@ public class Timer : MonoBehaviour
         }
 
         currentTime -= Time.deltaTime;
-        displayTime.text = currentTime.ToString("0") + " secs";
+        displayTime.text = currentTime.ToString("0") + "\nsecs";
 
         if (currentTime < 0)
         {
@@ -56,7 +56,7 @@ public class Timer : MonoBehaviour
         
         hasLost = true;
         // Debug.Log("Game Over");
-        gameOverEvent.Invoke();
+        gameEndEvent.Invoke();
         PlayLoseSequence();
         Time.timeScale = 0;
 
@@ -65,6 +65,7 @@ public class Timer : MonoBehaviour
     public void GameWon()
     {
         hasWon = true;
+        gameEndEvent.Invoke();
     }
 
     // Corouting to play losing sounds
