@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// Script for pickup items in the game, such as the fuse item. Implements the IInteractable_AH interface to allow player interaction.
+
 public class PickupItem : MonoBehaviour, IInteractable_AH {
 
     public ItemSO item;
@@ -23,6 +25,7 @@ public class PickupItem : MonoBehaviour, IInteractable_AH {
             Destroy(gameObject);
         }
         else {
+            // Log an error if the player's inventory is not found
             Debug.LogError("Player inventory not found!");
         }
     }

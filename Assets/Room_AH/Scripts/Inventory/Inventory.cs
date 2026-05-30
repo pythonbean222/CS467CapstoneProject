@@ -16,12 +16,9 @@ public class Inventory : MonoBehaviour
         inventorySlots.AddRange(inventorySlotParent.GetComponentsInChildren<Slot>());
     }
 
-    private void Update() {
-     
-    }
-
     // Adds an item to the inventory
     public void AddItem(ItemSO itemToAdd, int amount) {
+        // if item is already in inventory, add to existing stacks; otherwise, add to empty slots; if not enough space, add as much as possible and print message
         int remaining = amount;
 
         //stack the item with existing stacks of the same item
@@ -57,7 +54,7 @@ public class Inventory : MonoBehaviour
 
         // if inventory is full 
         if(remaining > 0) {
-            Debug.Log("Not enough space in inventory to add {remaining} {itemToAdd.itemName}");
+            Debug.Log("Not enough space in inventory to add " + remaining + " " + itemToAdd.itemName);
         }
     }
 
@@ -96,7 +93,7 @@ public class Inventory : MonoBehaviour
 
         // if not enough of the item to remove
         if(remaining > 0) {
-            Debug.Log($"Not enough {itemToRemove.itemName} in inventory to remove {amount}");
+            Debug.Log("Not enough " + itemToRemove.itemName + " in inventory to remove " + amount);
         }
     }
 }

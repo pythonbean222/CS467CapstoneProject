@@ -101,4 +101,23 @@ public class FPSController_AH : MonoBehaviour
         }
         velocity.y += gravity * Time.deltaTime;
     }
+
+    // added by AH to disable player movement and looking around when the keypad is open
+    public void SetLookEnabled(bool enabled) {
+        if (enabled) {
+            lookAction.action.Enable();
+        } else {
+            lookAction.action.Disable();
+        }
+    }
+
+    public void SetMoveEnabled(bool enabled) {
+        if (enabled) {
+            moveAction.action.Enable();
+            jumpAction.action.Enable();
+        } else {
+            moveAction.action.Disable();
+            jumpAction.action.Disable();
+        }
+    }
 }

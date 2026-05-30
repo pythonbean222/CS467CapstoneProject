@@ -1,10 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Script for managing the button puzzle in the puzzle room
+
 public class ButtonManager : MonoBehaviour
 {
     // Puzzle box manager
-    [SerializeField] private PuzzleBox puzzleBox;
+    [SerializeField] private PuzzlePrizeBox puzzleBox;
 
     [Header("Correct Order")]
     // store corect sequence of buttons

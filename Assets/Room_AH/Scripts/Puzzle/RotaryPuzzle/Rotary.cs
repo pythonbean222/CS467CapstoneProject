@@ -1,13 +1,18 @@
 using System.Collections;
 using UnityEngine;
 
+// Script for controlling the rotary handles in the rotary puzzle
+
 public class Rotary : MonoBehaviour, IInteractable_AH
 {
+    // Puzzle manager reference
     [Header("Rotary Puzzle Manager")]
     public RotaryManager puzzleManager;
 
+    // light controller for handle
     public PuzzleLightController lightController;
 
+    // handle state variables
     [Header("Handle State")]
     // current handle posision; false = horizontal
     [SerializeField] private bool isVertical = false;
@@ -16,11 +21,13 @@ public class Rotary : MonoBehaviour, IInteractable_AH
     // specify handle in Inspector to rotate
     [SerializeField] private Transform handle;
 
+    // rotation values
     [Header("Rotation")]
     // rotation values in Inspector
     [SerializeField] private Vector3 horizontalRotation;
     [SerializeField] private Vector3 verticalRotation;
 
+    // animation variables
     [Header("Animation")]
     // time of rotation animation
     [SerializeField] private float rotationDuration = 0.25f;

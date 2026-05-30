@@ -4912,7 +4912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &324154698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7678,7 +7678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &535261076
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12818,7 +12818,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 384
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -27711,7 +27711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LockerDoor
   doorHinge: {fileID: 211280552}
-  openRotation: {x: 90, y: 0, z: 0}
+  openRotation: {x: 0, y: -90, z: 0}
   openSpeed: 5
 --- !u!114 &919132148656132652
 MonoBehaviour:
@@ -27728,6 +27728,7 @@ MonoBehaviour:
   keypadUI: {fileID: 324154697}
   keypadDisplay: {fileID: 127447416}
   lockerDoor: {fileID: 919132148656132651}
+  playerController: {fileID: 2124186479}
 --- !u!65 &919132148656132653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28452,7 +28453,7 @@ Transform:
   m_GameObject: {fileID: 3203825934769051014}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9866123, y: -2.1084716, z: 4.926634}
+  m_LocalPosition: {x: 8.045, y: -2.637, z: 6.204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28586,7 +28587,8 @@ GameObject:
   - component: {fileID: 933905281}
   - component: {fileID: 933905280}
   - component: {fileID: 933905279}
-  m_Layer: 8
+  - component: {fileID: 3996587082036835412}
+  m_Layer: 7
   m_Name: Single_Fuse Locker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29051,6 +29053,19 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3996587082036835412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203825934769051014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd19737db1b42d45a13260eb8392d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FuseLayerToggle
+  locker: {fileID: 919132148656132652}
 --- !u!23 &3996587082479720126
 MeshRenderer:
   m_ObjectHideFlags: 0

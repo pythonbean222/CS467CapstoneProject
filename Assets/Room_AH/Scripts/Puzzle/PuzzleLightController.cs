@@ -1,8 +1,11 @@
 using System.Collections;
 using UnityEngine;
 
+// Script for controlling the puzzle lights, including flashing red or green based on whether the puzzle is correct or incorrect
+
 public class PuzzleLightController : MonoBehaviour
 {
+    // set in Inspector
     [Header("Renderers")]
     // set meshes for each light in Inspector
     [SerializeField] private MeshRenderer leftRed;

@@ -1,21 +1,27 @@
 using System.Collections;
 using UnityEngine;
 
+// Script for controlling the buttons in the button puzzle
+
 public class Buttons : MonoBehaviour, IInteractable_AH
 {
+    // Puzzle box manager
     [Header("Button Puzzle Manager")]
     public ButtonManager puzzleManager;
 
+    // set button handle for visualization
     [Header("Button Press Visual")]
     // set button handle for visualization 
     [SerializeField] private Transform buttonHandle;
 
     public PuzzleLightController lightController;
 
+    // set button ID
     [Header("Button Identifier")]
     // set button ID in Inspector
     [SerializeField] private string buttonID;
 
+    // animation variables
     [Header("Animation")]
     // set offset for button movement
     [SerializeField] private Vector3 pressedOffset;

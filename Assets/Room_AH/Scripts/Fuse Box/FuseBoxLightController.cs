@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// controls the red and green light for each fuse slot, updates based on whether a fuse is inserted or not
+
 public class FuseBoxLightController : MonoBehaviour
 {
     [Header("Renderers")]
@@ -8,7 +10,6 @@ public class FuseBoxLightController : MonoBehaviour
     [SerializeField] private MeshRenderer fuseGreen;
 
     private bool fuseInserted;
-
 
     void Start() {
         // fuse initially removed, so red light on and green light off
