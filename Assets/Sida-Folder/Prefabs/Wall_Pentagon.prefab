@@ -919,6 +919,7 @@ MonoBehaviour:
   binaryString: 
   decimalString: 
   interactPrompt: {fileID: 0}
+  pressEnterPrompt: {fileID: 0}
   decimalWallAudioSource: {fileID: 0}
   decimalWallCorrect: {fileID: 0}
   decimalWallIncorrect: {fileID: 0}
