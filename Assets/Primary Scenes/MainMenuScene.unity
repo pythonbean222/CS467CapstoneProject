@@ -316,7 +316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6926178814497046741, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -200
+      value: -75
       objectReference: {fileID: 0}
     - target: {fileID: 6926178814497046741, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -451,6 +451,10 @@ PrefabInstance:
     - target: {fileID: 8260589329432235162, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
       propertyPath: m_Name
       value: SettingsButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260589329432235162, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -700,7 +704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6926178814497046741, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -325
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 6926178814497046741, guid: d62d3fa374915dc49bfa8d8132925f4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
