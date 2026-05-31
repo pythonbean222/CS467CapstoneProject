@@ -19,11 +19,19 @@ public class RoomHandler : MonoBehaviour
     [Header("Scene")]
     public string sceneToLoad;
 
+     [Header("NextScene")]
+    public string NextScene;
+
+     [Header("FinalScene")]
+    public string FinalScene;
+
     [Header("UI")]
     public TextMeshProUGUI countdownText;
 
     private bool doorsOpened = false;
     private bool isLoading = false;
+
+    [SerializeField] public bool puzzleCompleted = false;
 
     private void Start()
     {
