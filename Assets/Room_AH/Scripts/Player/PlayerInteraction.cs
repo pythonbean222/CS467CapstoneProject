@@ -50,7 +50,7 @@ public class PlayerInteraction : MonoBehaviour
     // Source URL: https://discussions.unity.com/t/raycasting-for-interactables/920097
 
     void OnInteract(InputAction.CallbackContext context) {
-        Debug.Log("Current interactable = " + currentInteractable);
+        //Debug.Log("Current interactable = " + currentInteractable);
  
         // Adding layer mask to ensure that the raycast does not interact with player - AH
         int layerMask = ~LayerMask.GetMask("Player");
@@ -71,11 +71,12 @@ public class PlayerInteraction : MonoBehaviour
         
         // Perform a raycast from the camera's position in the forward direction, checking for objects in the Interactable and Blocking layers
         if (Physics.Raycast(cameraObject.transform.position, cameraObject.transform.forward, out RaycastHit hit, distance, layerMask)) {
-            // Debug.Log($"Raycast hit: {hit.collider.gameObject.name}");
+            //Debug.Log($"Raycast hit: {hit.collider.gameObject.name}");
+            //Debug.Log($"Raycast hit: {hit.collider.gameObject.name}");
 
             // If the raycast hits a collider in the Blocking layer, clear the current interactable and hide the tooltip
             if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Blocking")) {
-                Debug.Log("Hit a blocking object, cannot interact.");
+                //Debug.Log("Hit a blocking object, cannot interact.");
                 ClearInteractable();
                 return;
             }

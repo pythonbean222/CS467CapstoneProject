@@ -18,6 +18,7 @@ public class LockerInteraction : MonoBehaviour, IInteractable_AH
     public void Interact() {
         // If the locker is already open, do nothing
         if (isOpen) {
+            CloseKeyPad();
             return;
         }
 
@@ -66,7 +67,7 @@ public class LockerInteraction : MonoBehaviour, IInteractable_AH
     }
 
     public string GetInteractionText() {
-        return $"Press E to open keypad";
+        return isOpen ? $"Press E to close keypad" : $"Press E to open keypad";
     }
 
 }
