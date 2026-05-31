@@ -3959,7 +3959,6 @@ Transform:
   - {fileID: 742086977}
   - {fileID: 812667620}
   - {fileID: 939976976}
-  - {fileID: 1697839580}
   m_Father: {fileID: 1055213656}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &523299524
@@ -7573,6 +7572,38 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c27c7521daec24863af069554ea1fb47, type: 3}
+--- !u!1 &833818489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833818490}
+  m_Layer: 0
+  m_Name: FadeOut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &833818490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833818489}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1697839580}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &837995655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7754,7 +7785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a239bae6f88f84f9f09b5d984871fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeOutTrigger
-  SceneFlowManager: {fileID: 0}
+  sceneFlowManager: {fileID: 0}
   winEventManager: {fileID: 2106191980}
   fadeCanvasGroup: {fileID: 529152990}
 --- !u!64 &859131309
@@ -12289,7 +12320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a239bae6f88f84f9f09b5d984871fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeOutTrigger
-  SceneFlowManager: {fileID: 0}
+  sceneFlowManager: {fileID: 0}
   winEventManager: {fileID: 2106191980}
   fadeCanvasGroup: {fileID: 529152990}
 --- !u!64 &1345824888
@@ -16141,7 +16172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697839579}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16149,7 +16180,7 @@ Transform:
   - {fileID: 859131304}
   - {fileID: 1345824883}
   - {fileID: 796564530}
-  m_Father: {fileID: 517311307}
+  m_Father: {fileID: 833818490}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1704406142
 PrefabInstance:
@@ -21605,3 +21636,4 @@ SceneRoots:
   - {fileID: 232513757}
   - {fileID: 2122830433}
   - {fileID: 526218005}
+  - {fileID: 833818490}

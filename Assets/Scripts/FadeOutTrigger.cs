@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class FadeOutTrigger : MonoBehaviour
 {
-    [SerializeField] private SceneFlowManager SceneFlowManager;
+    [SerializeField] private SceneFlowManager sceneFlowManager;
     
     [SerializeField] private WinEventManager winEventManager;
     [SerializeField] private CanvasGroup fadeCanvasGroup;
@@ -12,10 +12,19 @@ public class FadeOutTrigger : MonoBehaviour
  
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && winEventManager.hasWon)
+        if (sceneFlowManager == null)
+        {
+            sceneFlowManager = SceneFlowManager.Instance;
+        }
+
+        if (other.CompareTag("Player") && winEventManager.hasWon && sceneFlowManager != null)
         {
             Debug.Log("Player has entered the win trigger area.");
             StartCoroutine(FadeOutAndLoadScene()); 
+        }
+        else if (sceneFlowManager == null)
+        {
+            Debug.LogWarning("FadeOutTrigger could not find a SceneFlowManager instance.");
         }
         
     }
@@ -27,15 +36,15 @@ public class FadeOutTrigger : MonoBehaviour
         // For example, you could use LeanTween to fade out the screen
         LeanTween.alphaCanvas(fadeCanvasGroup, 1f, 2f).setEaseInOutQuad();
 
+        Debug.Log("Starting fade out...");
         // Wait for the fade out to complete (adjust the time as needed)
         yield return new WaitForSeconds(2f);
+        Debug.Log("Fade out completed, setting SceneCompleted to true.");
 
         // Load the next scene or perform any other actions after winning
-        SceneFlowManager.SceneCompleted = true;
+        sceneFlowManager.SceneCompleted = true;
+        Debug.Log("SceneCompleted flag set to true, loading next scene...");
 
-        //SceneFlowManager.Update();
-
-
-        
+                
     }
 }

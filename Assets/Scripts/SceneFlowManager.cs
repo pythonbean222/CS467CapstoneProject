@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 // manages the flow of scenes in the game; uses RoomHandler.cs from Lobby scene for variable storage of scene names
 public class SceneFlowManager : MonoBehaviour
 {
+    public static SceneFlowManager Instance { get; private set; }
 
     [SerializeField] public bool SceneCompleted = false;
     [SerializeField] private int sceneCounter;
@@ -18,30 +19,11 @@ public class SceneFlowManager : MonoBehaviour
 
     private string currentScene;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+     // Update is called once per frame
     void Update()
     {
         if (SceneCompleted)
         {
-/*             sceneCounter++;
-            if (sceneCounter < 2)
-            {
-                SceneManager.LoadScene(SceneTwo);
-                puzzleCompleted = false; // Reset the flag to prevent multiple loads
-            }
-
-            else
-            {
-                SceneManager.LoadScene(FinalScene);
-                puzzleCompleted = false; // Reset the flag to prevent multiple loads
-            } */
-            
             if (currentScene == SceneOne && sceneCounter < 2)
             {
                 SceneManager.LoadScene(SceneTwo);
@@ -59,8 +41,6 @@ public class SceneFlowManager : MonoBehaviour
             {
                 SceneManager.LoadScene(FinalScene);
             }
-        
-
         }
     }
 
@@ -72,6 +52,14 @@ public class SceneFlowManager : MonoBehaviour
     // Awake method
     private void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+
         // Ensure the SceneFlowManager persists across scene loads
         DontDestroyOnLoad(gameObject);
     }
