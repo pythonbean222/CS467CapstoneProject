@@ -17,10 +17,10 @@ public class RoomHandler : MonoBehaviour
     private AudioSource audioSource;
 
     [Header("Scene")]
-    public string sceneToLoad;
+    public string FirstScene;
 
      [Header("NextScene")]
-    public string NextScene;
+    public string SecondScene;
 
      [Header("FinalScene")]
     public string FinalScene;
@@ -32,6 +32,7 @@ public class RoomHandler : MonoBehaviour
     private bool isLoading = false;
 
     [SerializeField] public bool puzzleCompleted = false;
+    [SerializeField] private int sceneCounter;
 
     private void Start()
     {
@@ -40,6 +41,29 @@ public class RoomHandler : MonoBehaviour
         if (countdownText != null)
             countdownText.gameObject.SetActive(false);
     }
+
+    private void Update()
+    {
+        if (puzzleCompleted)
+        {
+            sceneCounter++;
+            if (sceneCounter < 2)
+            {
+                SceneManager.LoadScene(SecondScene);
+                puzzleCompleted = false; // Reset the flag to prevent multiple loads
+            }
+
+            else
+            {
+                SceneManager.LoadScene(FinalScene);
+                puzzleCompleted = false; // Reset the flag to prevent multiple loads
+            }
+
+
+        }
+
+    }
+
 
     private void OnMouseDown()
     {
@@ -89,7 +113,7 @@ public class RoomHandler : MonoBehaviour
             timeLeft--;
         }
 
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene(FirstScene);
     }
 
     private System.Collections.IEnumerator PlayTakeOffAfterDelay(float delay)
