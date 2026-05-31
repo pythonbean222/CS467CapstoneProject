@@ -35,11 +35,8 @@ public class WinEventManager : MonoBehaviour
             Debug.Log("Player has won the puzzle game!");
             PuzzleWinnerEvent?.Invoke();
             PlayWinSequence();
-
         }
     }
-
-
 
     public void PlayWinSequence()
     {

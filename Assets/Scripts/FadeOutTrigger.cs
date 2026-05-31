@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class FadeOutTrigger : MonoBehaviour
 {
-    [SerializeField] private RoomHandler roomHandler;
+    [SerializeField] private RoomHandler RoomHandler;
     [SerializeField] private WinEventManager winEventManager;
     [SerializeField] private CanvasGroup fadeCanvasGroup;
     
@@ -30,6 +30,6 @@ public class FadeOutTrigger : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         // Load the next scene or perform any other actions after winning
-        roomHandler.puzzleCompleted = true;
+        RoomHandler.puzzleCompleted = true;
     }
 }
