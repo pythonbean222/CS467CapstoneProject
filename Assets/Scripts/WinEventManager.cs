@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class WinEventManager : MonoBehaviour
 {
-    [SerializeField] private RoomHandler roomHandler;
+    
     public UnityEvent PuzzleWinnerEvent;
     [SerializeField] public int winEventCounter = 0;
     [SerializeField] private int puzzlesRequiredToWin = 3;

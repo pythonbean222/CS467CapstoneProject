@@ -1,10 +1,11 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class FadeOutTrigger : MonoBehaviour
 {
-    [SerializeField] private RoomHandler RoomHandler;
+    [SerializeField] private SceneFlowManager SceneFlowManager;
+    
     [SerializeField] private WinEventManager winEventManager;
     [SerializeField] private CanvasGroup fadeCanvasGroup;
     
@@ -14,7 +15,7 @@ public class FadeOutTrigger : MonoBehaviour
         if (other.CompareTag("Player") && winEventManager.hasWon)
         {
             Debug.Log("Player has entered the win trigger area.");
-            StartCoroutine(FadeOutAndLoadScene());            
+            StartCoroutine(FadeOutAndLoadScene()); 
         }
         
     }
@@ -30,6 +31,11 @@ public class FadeOutTrigger : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         // Load the next scene or perform any other actions after winning
-        RoomHandler.puzzleCompleted = true;
+        SceneFlowManager.puzzleCompleted = true;
+
+        //SceneFlowManager.Update();
+
+
+        
     }
 }

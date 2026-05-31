@@ -4087,6 +4087,60 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76d2d3504ddb4847940a815cad04644, type: 3}
+--- !u!1 &526218003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 526218005}
+  - component: {fileID: 526218004}
+  m_Layer: 0
+  m_Name: RoomHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &526218004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526218003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7507976dafd947b18ac1ee5ad6bfb20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoomHandler
+  leftDoorAnimator: {fileID: 0}
+  rightDoorAnimator: {fileID: 0}
+  doorSound: {fileID: 0}
+  TakeOff: {fileID: 0}
+  FirstScene: 
+  SecondScene: 
+  FinalScene: 
+  countdownText: {fileID: 0}
+  puzzleCompleted: 0
+  sceneCounter: 0
+--- !u!4 &526218005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526218003}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &527768629
 GameObject:
   m_ObjectHideFlags: 0
@@ -7632,8 +7686,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.0000029, y: 3.000002, z: 0.02}
-  m_Center: {x: -1.5000005, y: -1.5000007, z: 0.00000013113421}
+  m_Size: {x: 3, y: 3, z: 3}
+  m_Center: {x: -1.5, y: -1.5, z: 1}
 --- !u!23 &859131306
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7703,7 +7757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a239bae6f88f84f9f09b5d984871fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeOutTrigger
-  roomHandler: {fileID: 0}
+  RoomHandler: {fileID: 0}
   winEventManager: {fileID: 2106191980}
   fadeCanvasGroup: {fileID: 529152990}
 --- !u!64 &859131309
@@ -12167,8 +12221,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.0000029, y: 3.000002, z: 0.02}
-  m_Center: {x: -1.5000005, y: -1.5000007, z: 0.00000013113421}
+  m_Size: {x: 3, y: 3, z: 3}
+  m_Center: {x: -1.5, y: -1.5, z: 1}
 --- !u!23 &1345824885
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12238,7 +12292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a239bae6f88f84f9f09b5d984871fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeOutTrigger
-  roomHandler: {fileID: 0}
+  RoomHandler: {fileID: 0}
   winEventManager: {fileID: 2106191980}
   fadeCanvasGroup: {fileID: 529152990}
 --- !u!64 &1345824888
@@ -20752,7 +20806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc17d8fb722929459ebff9fb8f41476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WinEventManager
-  roomHandler: {fileID: 0}
+  roomHandler: {fileID: 526218004}
   PuzzleWinnerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -20793,7 +20847,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   winEventCounter: 0
-  puzzlesRequiredToWin: 3
+  puzzlesRequiredToWin: 1
   hasWon: 0
   audioSource: {fileID: 2106191982}
   winClip1: {fileID: 8300000, guid: 08c5fa13810156d489cd9fee402a52e9, type: 3}
@@ -21554,3 +21608,4 @@ SceneRoots:
   - {fileID: 527768633}
   - {fileID: 232513757}
   - {fileID: 2122830433}
+  - {fileID: 526218005}

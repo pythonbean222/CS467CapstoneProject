@@ -16,14 +16,11 @@ public class RoomHandler : MonoBehaviour
     public AudioClip TakeOff;
     private AudioSource audioSource;
 
-    [Header("Scene")]
-    public string FirstScene;
+    // sceneflowmanager variables and references for scene loading
+    [SerializeField] private SceneFlowManager SceneFlowManager;
+    [SerializeField] private SceneLoader SceneLoader;
+    // [SerializeField] private string sceneToLoad;
 
-     [Header("NextScene")]
-    public string SecondScene;
-
-     [Header("FinalScene")]
-    public string FinalScene;
 
     [Header("UI")]
     public TextMeshProUGUI countdownText;
@@ -31,8 +28,6 @@ public class RoomHandler : MonoBehaviour
     private bool doorsOpened = false;
     private bool isLoading = false;
 
-    [SerializeField] public bool puzzleCompleted = false;
-    [SerializeField] private int sceneCounter;
 
     private void Start()
     {
@@ -41,29 +36,6 @@ public class RoomHandler : MonoBehaviour
         if (countdownText != null)
             countdownText.gameObject.SetActive(false);
     }
-
-    private void Update()
-    {
-        if (puzzleCompleted)
-        {
-            sceneCounter++;
-            if (sceneCounter < 2)
-            {
-                SceneManager.LoadScene(SecondScene);
-                puzzleCompleted = false; // Reset the flag to prevent multiple loads
-            }
-
-            else
-            {
-                SceneManager.LoadScene(FinalScene);
-                puzzleCompleted = false; // Reset the flag to prevent multiple loads
-            }
-
-
-        }
-
-    }
-
 
     private void OnMouseDown()
     {
@@ -112,8 +84,8 @@ public class RoomHandler : MonoBehaviour
             yield return new WaitForSeconds(1f);
             timeLeft--;
         }
+        SceneFlowManager.LoadScene(SceneLoader.sceneToLoad);
 
-        SceneManager.LoadScene(FirstScene);
     }
 
     private System.Collections.IEnumerator PlayTakeOffAfterDelay(float delay)

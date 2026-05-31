@@ -1836,12 +1836,9 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  FirstScene: 
-  SecondScene: 
-  FinalScene: 
+  SceneFlowManager: {fileID: 0}
+  SceneLoader: {fileID: 0}
   countdownText: {fileID: 1022683783}
-  puzzleCompleted: 0
-  sceneCounter: 0
 --- !u!82 &507408720
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3317,7 +3314,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1175905703}
-  - component: {fileID: 1175905702}
   - component: {fileID: 1175905704}
   m_Layer: 0
   m_Name: RoomHandler
@@ -3326,28 +3322,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1175905702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1175905701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7507976dafd947b18ac1ee5ad6bfb20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorHandler
-  leftDoorAnimator: {fileID: 0}
-  rightDoorAnimator: {fileID: 0}
-  doorSound: {fileID: 0}
-  TakeOff: {fileID: 0}
-  FirstScene: 
-  SecondScene: 
-  FinalScene: 
-  countdownText: {fileID: 0}
-  puzzleCompleted: 0
-  sceneCounter: 0
 --- !u!4 &1175905703
 Transform:
   m_ObjectHideFlags: 0
@@ -3750,6 +3724,7 @@ GameObject:
   - component: {fileID: 1305498335}
   - component: {fileID: 1305498334}
   - component: {fileID: 1305498338}
+  - component: {fileID: 1305498340}
   - component: {fileID: 1305498339}
   m_Layer: 0
   m_Name: Room2
@@ -3868,12 +3843,9 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  FirstScene: Room_AH
-  SecondScene: Sci_fi puzzle room
-  FinalScene: Room1Scene
+  SceneFlowManager: {fileID: 1806318617}
+  SceneLoader: {fileID: 1305498340}
   countdownText: {fileID: 1022683783}
-  puzzleCompleted: 0
-  sceneCounter: 0
 --- !u!82 &1305498339
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3971,6 +3943,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1305498340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305498333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424fc48950512e94e896acc0e0b14c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+  SceneFlowManager: {fileID: 1806318617}
+  sceneToLoad: Room_AH
 --- !u!1001 &1337053615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5142,6 +5128,7 @@ GameObject:
   - component: {fileID: 1662487828}
   - component: {fileID: 1662487827}
   - component: {fileID: 1662487831}
+  - component: {fileID: 1662487833}
   - component: {fileID: 1662487832}
   m_Layer: 0
   m_Name: Room1
@@ -5260,12 +5247,9 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  FirstScene: Sci_fi puzzle room
-  SecondScene: Room_AH
-  FinalScene: Room1Scene
+  SceneFlowManager: {fileID: 1806318617}
+  SceneLoader: {fileID: 1662487833}
   countdownText: {fileID: 1022683783}
-  puzzleCompleted: 0
-  sceneCounter: 0
 --- !u!82 &1662487832
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5363,6 +5347,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1662487833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662487826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424fc48950512e94e896acc0e0b14c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+  SceneFlowManager: {fileID: 1806318617}
+  sceneToLoad: Sci_fi puzzle room
 --- !u!1 &1686377653
 GameObject:
   m_ObjectHideFlags: 0
@@ -5722,6 +5720,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3193946160588618884, guid: 4ab19bfbeb9048a45a44b9ce3847f750, type: 3}
   m_PrefabInstance: {fileID: 1800508385}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1806318616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1806318618}
+  - component: {fileID: 1806318617}
+  m_Layer: 0
+  m_Name: SceneFlowManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1806318617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806318616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e64bf1601aac940a764a48da007d68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneFlowManager
+  puzzleCompleted: 0
+  sceneCounter: 0
+  SceneOne: Sci_fi puzzle room
+  SceneTwo: Room_AH
+  FinalScene: Room1Scene
+--- !u!4 &1806318618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806318616}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1817377461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6462,3 +6509,4 @@ SceneRoots:
   - {fileID: 1175905703}
   - {fileID: 1066481732}
   - {fileID: 1686377654}
+  - {fileID: 1806318618}

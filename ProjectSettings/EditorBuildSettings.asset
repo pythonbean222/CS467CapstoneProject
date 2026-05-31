@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Primary Scenes/MainMenuScene.unity
-    guid: 6d8994f68b9647d42bb60c6f65a25334
+    guid: df0e1cf42bba9a440ba5101dc7f9ee33
   - enabled: 1
     path: Assets/Primary Scenes/LobbyScene.unity
     guid: 7b533dfe561bc47c8975c955fe4ef3d3
@@ -19,7 +19,7 @@ EditorBuildSettings:
     guid: 8bad2be5480f6b749aeaaf089f9adec8
   - enabled: 1
     path: Assets/Primary Scenes/Room_AH.unity
-    guid: cd8befa68230ec34893da319b5d032f0
+    guid: f2889a48b337b8e469d5d4f33b75959b
   - enabled: 1
     path: Assets/Primary Scenes/Sci_fi puzzle room.unity
     guid: a0feaac4eb469a54fad95359c70ff414
