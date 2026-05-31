@@ -1836,8 +1836,12 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  sceneToLoad: TutorialScene
+  FirstScene: 
+  SecondScene: 
+  FinalScene: 
   countdownText: {fileID: 1022683783}
+  puzzleCompleted: 0
+  sceneCounter: 0
 --- !u!82 &507408720
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3338,8 +3342,12 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 0}
   doorSound: {fileID: 0}
   TakeOff: {fileID: 0}
-  sceneToLoad: 
+  FirstScene: 
+  SecondScene: 
+  FinalScene: 
   countdownText: {fileID: 0}
+  puzzleCompleted: 0
+  sceneCounter: 0
 --- !u!4 &1175905703
 Transform:
   m_ObjectHideFlags: 0
@@ -3860,8 +3868,12 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  sceneToLoad: Room_AH
+  FirstScene: Room_AH
+  SecondScene: Sci_fi puzzle room
+  FinalScene: Room1Scene
   countdownText: {fileID: 1022683783}
+  puzzleCompleted: 0
+  sceneCounter: 0
 --- !u!82 &1305498339
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5248,8 +5260,12 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  sceneToLoad: Sci_fi puzzle room
+  FirstScene: Sci_fi puzzle room
+  SecondScene: Room_AH
+  FinalScene: Room1Scene
   countdownText: {fileID: 1022683783}
+  puzzleCompleted: 0
+  sceneCounter: 0
 --- !u!82 &1662487832
 AudioSource:
   m_ObjectHideFlags: 0
