@@ -4,11 +4,11 @@ using UnityEngine.Events;
 
 public class WinEventManager : MonoBehaviour
 {
-
+    [SerializeField] private RoomHandler roomHandler;
     public UnityEvent PuzzleWinnerEvent;
     [SerializeField] public int winEventCounter = 0;
     [SerializeField] private int puzzlesRequiredToWin = 3;
-    private bool hasWon;
+    [SerializeField] public bool hasWon;
 
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip winClip1;
@@ -35,8 +35,11 @@ public class WinEventManager : MonoBehaviour
             Debug.Log("Player has won the puzzle game!");
             PuzzleWinnerEvent?.Invoke();
             PlayWinSequence();
+
         }
     }
+
+
 
     public void PlayWinSequence()
     {
