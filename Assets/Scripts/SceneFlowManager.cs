@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class SceneFlowManager : MonoBehaviour
 {
 
-    [SerializeField] public bool puzzleCompleted = false;
+    [SerializeField] public bool SceneCompleted = false;
     [SerializeField] private int sceneCounter;
     [Header("SceneOne")]
     public string SceneOne;
@@ -16,6 +16,8 @@ public class SceneFlowManager : MonoBehaviour
      [Header("FinalScene")]
     public string FinalScene;
 
+    private string currentScene;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,9 +27,9 @@ public class SceneFlowManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (puzzleCompleted)
+        if (SceneCompleted)
         {
-            sceneCounter++;
+/*             sceneCounter++;
             if (sceneCounter < 2)
             {
                 SceneManager.LoadScene(SceneTwo);
@@ -38,13 +40,33 @@ public class SceneFlowManager : MonoBehaviour
             {
                 SceneManager.LoadScene(FinalScene);
                 puzzleCompleted = false; // Reset the flag to prevent multiple loads
+            } */
+            
+            if (currentScene == SceneOne && sceneCounter < 2)
+            {
+                SceneManager.LoadScene(SceneTwo);
+                updatesceneCounter();
+                SceneCompleted = false; // Reset the flag to prevent multiple loads
             }
+            else if (currentScene == SceneTwo)
+            {
+                SceneManager.LoadScene(SceneOne);
+                updatesceneCounter();
+                SceneCompleted = false; // Reset the flag to prevent multiple loads
+            }
+
+            else
+            {
+                SceneManager.LoadScene(FinalScene);
+            }
+        
 
         }
     }
 
     public void LoadScene(string sceneName)
     {
+        currentScene = sceneName;
         SceneManager.LoadScene(sceneName);
     }
     // Awake method
@@ -52,6 +74,11 @@ public class SceneFlowManager : MonoBehaviour
     {
         // Ensure the SceneFlowManager persists across scene loads
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void updatesceneCounter()
+    {
+        sceneCounter++;
     }
 
     public void SetFirstScene(string sceneName)

@@ -31,7 +31,7 @@ public class FadeOutTrigger : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         // Load the next scene or perform any other actions after winning
-        SceneFlowManager.puzzleCompleted = true;
+        SceneFlowManager.SceneCompleted = true;
 
         //SceneFlowManager.Update();
 

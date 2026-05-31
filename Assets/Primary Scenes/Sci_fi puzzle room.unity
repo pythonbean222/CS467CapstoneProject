@@ -4120,12 +4120,9 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 0}
   doorSound: {fileID: 0}
   TakeOff: {fileID: 0}
-  FirstScene: 
-  SecondScene: 
-  FinalScene: 
+  SceneFlowManager: {fileID: 0}
+  SceneLoader: {fileID: 0}
   countdownText: {fileID: 0}
-  puzzleCompleted: 0
-  sceneCounter: 0
 --- !u!4 &526218005
 Transform:
   m_ObjectHideFlags: 0
@@ -7757,7 +7754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a239bae6f88f84f9f09b5d984871fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeOutTrigger
-  RoomHandler: {fileID: 0}
+  SceneFlowManager: {fileID: 0}
   winEventManager: {fileID: 2106191980}
   fadeCanvasGroup: {fileID: 529152990}
 --- !u!64 &859131309
@@ -12292,7 +12289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a239bae6f88f84f9f09b5d984871fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeOutTrigger
-  RoomHandler: {fileID: 0}
+  SceneFlowManager: {fileID: 0}
   winEventManager: {fileID: 2106191980}
   fadeCanvasGroup: {fileID: 529152990}
 --- !u!64 &1345824888
@@ -20806,7 +20803,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc17d8fb722929459ebff9fb8f41476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WinEventManager
-  roomHandler: {fileID: 526218004}
   PuzzleWinnerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -20847,7 +20843,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   winEventCounter: 0
-  puzzlesRequiredToWin: 1
+  puzzlesRequiredToWin: 3
   hasWon: 0
   audioSource: {fileID: 2106191982}
   winClip1: {fileID: 8300000, guid: 08c5fa13810156d489cd9fee402a52e9, type: 3}
