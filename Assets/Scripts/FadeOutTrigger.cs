@@ -6,6 +6,7 @@ public class FadeOutTrigger : MonoBehaviour
 {
     [SerializeField] private RoomHandler roomHandler;
     [SerializeField] private WinEventManager winEventManager;
+    [SerializeField] private CanvasGroup fadeCanvasGroup;
     
  
     public void OnTriggerEnter(Collider other)
@@ -23,7 +24,7 @@ public class FadeOutTrigger : MonoBehaviour
     {
         // Assuming you have a fade out animation or effect here
         // For example, you could use LeanTween to fade out the screen
-        // LeanTween.alphaCanvas(fadeCanvasGroup, 0, 2f).setEaseInOutQuad();
+        LeanTween.alphaCanvas(fadeCanvasGroup, 1f, 2f).setEaseInOutQuad();
 
         // Wait for the fade out to complete (adjust the time as needed)
         yield return new WaitForSeconds(2f);
