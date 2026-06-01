@@ -1718,6 +1718,7 @@ GameObject:
   - component: {fileID: 507408716}
   - component: {fileID: 507408715}
   - component: {fileID: 507408719}
+  - component: {fileID: 507408721}
   - component: {fileID: 507408720}
   m_Layer: 0
   m_Name: TutorialRoom
@@ -1836,8 +1837,8 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  SceneFlowManager: {fileID: 0}
-  SceneLoader: {fileID: 0}
+  SceneFlowManager: {fileID: 1806318617}
+  SceneLoader: {fileID: 507408721}
   countdownText: {fileID: 1022683783}
 --- !u!82 &507408720
 AudioSource:
@@ -1936,6 +1937,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &507408721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507408714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424fc48950512e94e896acc0e0b14c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+  SceneFlowManager: {fileID: 1806318617}
+  sceneToLoad: TutorialScene
 --- !u!1001 &546846610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5749,7 +5764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e64bf1601aac940a764a48da007d68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneFlowManager
-  puzzleCompleted: 0
+  SceneCompleted: 0
   sceneCounter: 0
   SceneOne: Sci_fi puzzle room
   SceneTwo: Room_AH
