@@ -27,6 +27,7 @@ public class RoomHandler : MonoBehaviour
 
     private bool doorsOpened = false;
     private bool isLoading = false;
+    private bool playerInRange = false;
 
 
     private void Start()
@@ -41,21 +42,6 @@ public class RoomHandler : MonoBehaviour
 
         if (sceneLoader == null)
             Debug.LogError("RoomHandler: SceneLoader reference is not assigned.", this);
-    }
-
-    private void OnMouseDown()
-    {
-        if (doorsOpened || isLoading) return;
-
-        doorsOpened = true;
-
-        if (sceneFlowManager == null)
-        {
-            sceneFlowManager = SceneFlowManager.Instance;
-        }
-
-        OpenDoors();
-        StartCoroutine(CountdownAndLoad());
     }
 
     private void OpenDoors()
@@ -115,4 +101,36 @@ public class RoomHandler : MonoBehaviour
         yield return new WaitForSeconds(delay);
         audioSource.PlayOneShot(TakeOff);
     }
+
+    private void Update()
+    {
+        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        {
+            if (doorsOpened || isLoading) return;
+
+            doorsOpened = true;
+
+            if (sceneFlowManager == null)
+            sceneFlowManager = SceneFlowManager.Instance;
+
+            OpenDoors();
+            StartCoroutine(CountdownAndLoad());
+        }
+    }
+
+        private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInRange = true;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInRange = false;
+        }
+    }
+
 }
