@@ -10,11 +10,18 @@ using UnityEngine.SceneManagement;
 
 public class DoorSceneLoader : MonoBehaviour
 {
+    [SerializeField] private SceneFlowManager sceneFlowManager;
+    
     private void OnTriggerEnter(Collider other)
     {
+        if (sceneFlowManager == null)
+        {
+            sceneFlowManager = SceneFlowManager.Instance;
+        }
+
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("LobbyScene");
+            sceneFlowManager.LoadScene("LobbyScene");
         }
     }
 }

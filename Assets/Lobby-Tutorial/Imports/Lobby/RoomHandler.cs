@@ -17,8 +17,8 @@ public class RoomHandler : MonoBehaviour
     private AudioSource audioSource;
 
     // sceneflowmanager variables and references for scene loading
-    [SerializeField] private SceneFlowManager SceneFlowManager;
-    [SerializeField] private SceneLoader SceneLoader;
+    [SerializeField] private SceneFlowManager sceneFlowManager;
+    [SerializeField] private SceneLoader sceneLoader;
     // [SerializeField] private string sceneToLoad;
 
 
@@ -35,6 +35,12 @@ public class RoomHandler : MonoBehaviour
 
         if (countdownText != null)
             countdownText.gameObject.SetActive(false);
+
+        if (sceneFlowManager == null)
+            Debug.LogError("RoomHandler: SceneFlowManager reference is not assigned.", this);
+
+        if (sceneLoader == null)
+            Debug.LogError("RoomHandler: SceneLoader reference is not assigned.", this);
     }
 
     private void OnMouseDown()
@@ -42,6 +48,11 @@ public class RoomHandler : MonoBehaviour
         if (doorsOpened || isLoading) return;
 
         doorsOpened = true;
+
+        if (sceneFlowManager == null)
+        {
+            sceneFlowManager = SceneFlowManager.Instance;
+        }
 
         OpenDoors();
         StartCoroutine(CountdownAndLoad());
@@ -84,8 +95,17 @@ public class RoomHandler : MonoBehaviour
             yield return new WaitForSeconds(1f);
             timeLeft--;
         }
-        SceneFlowManager.currentScene = SceneLoader.sceneToLoad;
-        SceneFlowManager.LoadScene(SceneLoader.sceneToLoad);
+
+        if (sceneFlowManager == null || sceneLoader == null)
+        {
+            Debug.LogError("RoomHandler: Cannot load scene because one or more scene references are missing.", this);
+            isLoading = false;
+            yield break;
+        }
+
+        sceneFlowManager.currentScene = sceneLoader.sceneToLoad;
+        Debug.Log("Current Scene set to: " + sceneFlowManager.currentScene);
+        sceneFlowManager.LoadScene(sceneLoader.sceneToLoad);
 
     }
 

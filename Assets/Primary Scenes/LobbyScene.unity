@@ -1837,8 +1837,8 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  SceneFlowManager: {fileID: 1806318617}
-  SceneLoader: {fileID: 507408721}
+  sceneFlowManager: {fileID: 1806318617}
+  sceneLoader: {fileID: 507408721}
   countdownText: {fileID: 1022683783}
 --- !u!82 &507408720
 AudioSource:
@@ -3858,8 +3858,8 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  SceneFlowManager: {fileID: 1806318617}
-  SceneLoader: {fileID: 1305498340}
+  sceneFlowManager: {fileID: 1806318617}
+  sceneLoader: {fileID: 1305498340}
   countdownText: {fileID: 1022683783}
 --- !u!82 &1305498339
 AudioSource:
@@ -5262,8 +5262,8 @@ MonoBehaviour:
   rightDoorAnimator: {fileID: 131478931}
   doorSound: {fileID: 8300000, guid: c2679582de9bd4c9a99c3f503ab4bfad, type: 3}
   TakeOff: {fileID: 8300000, guid: fe21268c93fcc4b78ad681df174f69c5, type: 3}
-  SceneFlowManager: {fileID: 1806318617}
-  SceneLoader: {fileID: 1662487833}
+  sceneFlowManager: {fileID: 1806318617}
+  sceneLoader: {fileID: 1662487833}
   countdownText: {fileID: 1022683783}
 --- !u!82 &1662487832
 AudioSource:
@@ -5765,10 +5765,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneFlowManager
   SceneCompleted: 0
-  sceneCounter: 0
   SceneOne: Sci_fi puzzle room
   SceneTwo: Room_AH
   FinalScene: Room1Scene
+  currentScene: 
 --- !u!4 &1806318618
 Transform:
   m_ObjectHideFlags: 0
