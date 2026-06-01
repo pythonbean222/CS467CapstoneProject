@@ -7250,6 +7250,7 @@ GameObject:
   - component: {fileID: 1931325846}
   - component: {fileID: 1931325845}
   - component: {fileID: 1931325847}
+  - component: {fileID: 1931325848}
   m_Layer: 0
   m_Name: GameProgress
   m_TagString: Untagged
@@ -7298,6 +7299,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa077d98367a413896ffb5feb718d20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorFix
+--- !u!114 &1931325848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931325844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e64bf1601aac940a764a48da007d68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneFlowManager
+  SceneCompleted: 0
+  SceneOne: 
+  SceneTwo: 
+  FinalScene: 
+  currentScene: 
 --- !u!1 &1931986194
 GameObject:
   m_ObjectHideFlags: 0
