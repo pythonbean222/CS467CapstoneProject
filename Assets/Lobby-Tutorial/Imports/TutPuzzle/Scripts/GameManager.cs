@@ -232,6 +232,6 @@ public class GameManager : MonoBehaviour
     private IEnumerator GiveUpDelay()
     {
         yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene("LobbyScene");
+        SceneManager.LoadScene("TutorialScene");
     }
 }
