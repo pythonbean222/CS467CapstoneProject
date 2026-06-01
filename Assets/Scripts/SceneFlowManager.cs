@@ -53,6 +53,7 @@ public class SceneFlowManager : MonoBehaviour
 
             else
             {
+                currentScene = FinalScene;
                 Debug.Log("Current Scene: " + currentScene);
                 Debug.Log("All scenes completed, loading final scene...");
                 SceneManager.LoadScene(FinalScene);
