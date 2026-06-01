@@ -84,6 +84,7 @@ public class RoomHandler : MonoBehaviour
             yield return new WaitForSeconds(1f);
             timeLeft--;
         }
+        SceneFlowManager.currentScene = SceneLoader.sceneToLoad;
         SceneFlowManager.LoadScene(SceneLoader.sceneToLoad);
 
     }

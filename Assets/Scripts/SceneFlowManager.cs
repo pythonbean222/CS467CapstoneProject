@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +8,7 @@ public class SceneFlowManager : MonoBehaviour
     public static SceneFlowManager Instance { get; private set; }
 
     [SerializeField] public bool SceneCompleted = false;
-    [SerializeField] private int sceneCounter;
+    // [SerializeField] private int sceneCounter;
     [Header("SceneOne")]
     public string SceneOne;
 
@@ -17,29 +18,47 @@ public class SceneFlowManager : MonoBehaviour
      [Header("FinalScene")]
     public string FinalScene;
 
-    private string currentScene;
+    [SerializeField] public string currentScene;
+
+    [Header("Scene Completed")]
+    private bool SceneOneCompleted = false;
+    private bool SceneTwoCompleted = false;
 
      // Update is called once per frame
     void Update()
     {
         if (SceneCompleted)
         {
-            if (currentScene == SceneOne && sceneCounter < 2)
+            Debug.Log("Scene completed, loading next scene...");
+            if (currentScene == SceneOne && SceneTwoCompleted == false)
             {
+                Debug.Log("Current Scene: " + currentScene);
+                currentScene = SceneTwo;
                 SceneManager.LoadScene(SceneTwo);
-                updatesceneCounter();
+                //updatesceneCounter();
+                SceneOneCompleted = true;
+                Debug.Log("Current Scene: " + currentScene);
                 SceneCompleted = false; // Reset the flag to prevent multiple loads
             }
-            else if (currentScene == SceneTwo)
+            else if (currentScene == SceneTwo && SceneOneCompleted == false)
             {
+                Debug.Log("Current Scene: " + currentScene);
+                currentScene = SceneOne;
                 SceneManager.LoadScene(SceneOne);
-                updatesceneCounter();
+                //updatesceneCounter();
+                SceneTwoCompleted = true;
+                Debug.Log("Current Scene: " + currentScene);
                 SceneCompleted = false; // Reset the flag to prevent multiple loads
             }
 
             else
             {
+                Debug.Log("Current Scene: " + currentScene);
+                Debug.Log("All scenes completed, loading final scene...");
                 SceneManager.LoadScene(FinalScene);
+                SceneCompleted = false; // Reset the flag to prevent multiple loads
+                SceneOneCompleted = false;
+                SceneTwoCompleted = false;
             }
         }
     }
@@ -64,23 +83,10 @@ public class SceneFlowManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void updatesceneCounter()
+/*     private void updatesceneCounter()
     {
         sceneCounter++;
-    }
+    } */
 
-    public void SetFirstScene(string sceneName)
-    {
-        SceneOne = sceneName;
-    }
 
-    public void SetSecondScene(string sceneName)
-    {
-        SceneTwo = sceneName;
-    }
-
-    public void SetFinalScene(string sceneName)
-    {
-        FinalScene = sceneName;
-    }
 }
