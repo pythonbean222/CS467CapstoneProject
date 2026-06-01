@@ -4089,6 +4089,7 @@ GameObject:
   - component: {fileID: 1305498340}
   - component: {fileID: 1305498339}
   - component: {fileID: 1305498341}
+  - component: {fileID: 1305498342}
   m_Layer: 0
   m_Name: Room2
   m_TagString: Untagged
@@ -4111,7 +4112,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4334,6 +4335,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteractionUI
   playerGameObject: {fileID: 1066481725}
   interactPromptCanvas: {fileID: 1494272303}
+--- !u!135 &1305498342
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305498333}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.6
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1337053615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5612,6 +5634,7 @@ GameObject:
   - component: {fileID: 1662487833}
   - component: {fileID: 1662487832}
   - component: {fileID: 1662487834}
+  - component: {fileID: 1662487835}
   m_Layer: 0
   m_Name: Room1
   m_TagString: Untagged
@@ -5634,7 +5657,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5857,6 +5880,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteractionUI
   playerGameObject: {fileID: 1066481725}
   interactPromptCanvas: {fileID: 1494272303}
+--- !u!135 &1662487835
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662487826}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.6
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1686377653
 GameObject:
   m_ObjectHideFlags: 0
