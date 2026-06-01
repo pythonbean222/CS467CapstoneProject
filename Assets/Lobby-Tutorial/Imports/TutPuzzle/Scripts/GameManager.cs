@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform piecePrefab;
     [SerializeField] private TMP_Text tutorialText;
     [SerializeField] private UnityEngine.UI.Button continueButton;
+    [SerializeField] private UnityEngine.UI.Button giveUpButton;
+    [SerializeField] private GameObject giveUpGamePiece;
     public AudioClip PuzzleCorrect;
     AudioSource audioSource;
 
@@ -94,6 +96,10 @@ public class GameManager : MonoBehaviour
             tutorialText.text = tutorialMessages[currentMessage];
         if (continueButton != null)
             continueButton.onClick.AddListener(NextMessage);
+        
+        // Adding an option to Give Up
+        if (giveUpButton != null)
+            giveUpButton.onClick.AddListener(ForceQuit);
     }
 
     // Update once per frame 
@@ -209,5 +215,23 @@ public class GameManager : MonoBehaviour
         {
             continueButton.gameObject.SetActive(false);
         }
+    }
+
+    private void ForceQuit()
+    {
+        giveUpGamePiece.SetActive(true);
+        audioSource.PlayOneShot(PuzzleCorrect);
+        GameProgressLobbyTutorial.puzzleCompleted = true;
+
+        continueButton.gameObject.SetActive(false);
+        giveUpButton.gameObject.SetActive(false);
+
+        StartCoroutine(GiveUpDelay());
+    }
+
+    private IEnumerator GiveUpDelay()
+    {
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene("LobbyScene");
     }
 }
