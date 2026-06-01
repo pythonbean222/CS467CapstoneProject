@@ -18,6 +18,11 @@ public class DoorController : MonoBehaviour
 
     private bool open = false;
 
+    [Header("Audio")]
+    // audio source and clip for door opening
+    [SerializeField] private AudioSource puzzleAudio;
+    [SerializeField] private AudioClip doorOpenSound;
+
     void Start() {
         // set closed positions of doors
         leftDoorClosedPosition = leftDoor.localPosition;
@@ -27,6 +32,10 @@ public class DoorController : MonoBehaviour
     // called by FuseBox when all fuses are inserted
     public void OpenDoor() {
         open = true;
+        // play door open sound
+        if (puzzleAudio != null && doorOpenSound != null) {
+            puzzleAudio.PlayOneShot(doorOpenSound);
+        }
     }
 
     void Update() {

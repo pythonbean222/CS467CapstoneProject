@@ -14,6 +14,11 @@ public class FuseSlot : MonoBehaviour, IInteractable_AH
 
     public bool HasFuse { get; private set; } 
 
+    [Header("Audio")]
+    // audio source and clip for inserting fuse
+    [SerializeField] private AudioSource puzzleAudio;
+    [SerializeField] private AudioClip fuseInsertSound;
+
     public void TryInsertFuse() {
         // if fuse already inserted, return
         if (HasFuse) {
@@ -33,6 +38,11 @@ public class FuseSlot : MonoBehaviour, IInteractable_AH
         // instantiate fuse prefab in slot, update light controller,
         Instantiate(fusePrefab, fuseInsertPoint.position, fuseInsertPoint.rotation, transform);
         lightController.InsertFuse();
+
+        // play fuse insert sound
+        if (puzzleAudio != null && fuseInsertSound != null) {
+            puzzleAudio.PlayOneShot(fuseInsertSound);
+        }
 
         // check if all fuses are inserted and open door if so
         fuseBox.CheckAllFuses();

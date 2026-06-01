@@ -16,6 +16,11 @@ public class DigitalDisplay : MonoBehaviour
 
     private LockerInteraction currentLocker;
 
+    [Header("Audio")]
+    // audio clips for correct and incorrect solution
+    [SerializeField] private AudioClip correctSound;
+    [SerializeField] private AudioClip incorrectSound;
+
     void Start() {
         // initialize display to be empty at the start
         displayCharacters.text = "";
@@ -56,6 +61,9 @@ public class DigitalDisplay : MonoBehaviour
         if (codeSequence == correctCode) {
             Debug.Log("Correct Code");
 
+            // play the correct solution sound
+            AudioManager.Instance.PlaySound(correctSound);
+
             // if the code is correct, call the OpenLocker and CloseKeyPad methods on the current locker reference to open the locker and close the keypad UI
             if (currentLocker != null) {
                 currentLocker.OpenLocker();
@@ -64,6 +72,9 @@ public class DigitalDisplay : MonoBehaviour
         } else {
             // if the code is incorrect, log a message and reset the display for another attempt
             Debug.Log("Incorrect Code");
+
+            // play the incorrect solution sound
+            AudioManager.Instance.PlaySound(incorrectSound);
         }
 
         // reset the display after checking the result

@@ -40,6 +40,9 @@ public class Buttons : MonoBehaviour, IInteractable_AH
         // on interact button is pressed
         puzzleManager.PressButton(buttonID);
 
+        // play button press sound
+        puzzleManager.PlayButtonPressSound();
+
         // start press animaton
         PressAnimation();
     }

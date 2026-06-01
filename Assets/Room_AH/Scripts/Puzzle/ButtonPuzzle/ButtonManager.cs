@@ -22,6 +22,13 @@ public class ButtonManager : MonoBehaviour
     // track puzzle completion
     public bool solved = false;
 
+    [Header("Audio")]
+    // audio source and clips for button press, correct solution, and incorrect solution
+    [SerializeField] private AudioSource puzzleAudio;
+    [SerializeField] private AudioClip buttonPressSound;
+    [SerializeField] private AudioClip correctSound;
+    [SerializeField] private AudioClip incorrectSound;
+
     public void PressButton(string buttonID) {
         // if already solved, return
         if (solved) return;
@@ -32,6 +39,13 @@ public class ButtonManager : MonoBehaviour
         // check if correct number of buttons have been pressed and check solution
         if (currentInput.Count >= correctSequence.Count) {
             CheckSolution();
+        }
+    }
+
+    public void PlayButtonPressSound() {
+        // play button press sound
+        if (puzzleAudio != null && buttonPressSound != null) {
+            puzzleAudio.PlayOneShot(buttonPressSound);
         }
     }
 
@@ -60,6 +74,11 @@ public class ButtonManager : MonoBehaviour
     void SolvePuzzle() {
         solved = true;
 
+        // play correct sound
+        if (puzzleAudio != null && correctSound != null) {
+            puzzleAudio.PlayOneShot(correctSound);
+        }
+
         // if puzzle is solved, button lights flash green
         foreach (var button in buttonLights) {
             button.FlashRight();
@@ -72,6 +91,11 @@ public class ButtonManager : MonoBehaviour
     }
 
     void ResetPuzzle() {
+        // play incorrect sound
+        if (puzzleAudio != null && incorrectSound != null) {
+            puzzleAudio.PlayOneShot(incorrectSound);
+        }
+
         // if puzzle is not solved, button lights flash red
         foreach (var button in buttonLights) {
             button.FlashWrong();

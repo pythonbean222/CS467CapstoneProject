@@ -32,6 +32,11 @@ public class Rotary : MonoBehaviour, IInteractable_AH
     // time of rotation animation
     [SerializeField] private float rotationDuration = 0.25f;
 
+    [Header("Audio")]
+    // audio source and clip for handle turn sound
+    [SerializeField] private AudioSource puzzleAudio;
+    [SerializeField] private AudioClip handleTurnSound;
+
     private bool isRotating = false;
 
     public void Interact() {
@@ -39,6 +44,12 @@ public class Rotary : MonoBehaviour, IInteractable_AH
         if (isRotating) {
             return;
         }
+
+        // play handle turn sound
+        if (puzzleAudio != null && handleTurnSound != null) {
+            puzzleAudio.PlayOneShot(handleTurnSound);
+        }
+        
         // change state and start animation
         ToggleHandle();
         // check manager to validation solution

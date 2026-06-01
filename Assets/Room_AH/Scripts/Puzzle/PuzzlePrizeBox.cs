@@ -15,12 +15,21 @@ public class PuzzlePrizeBox : MonoBehaviour
     [SerializeField] private Collider boxCollider;
     [SerializeField] private Collider lidCollider;
 
+    [Header("Audio")]
+    // audio source and clip for opening the box
+    [SerializeField] private AudioSource puzzleAudio;
+    [SerializeField] private AudioClip openSound;
 
     private bool opened = false;
 
     public void OpenBox() {
         // if box already opened, return
         if (opened) return;
+
+        // play box opening sound
+        if (puzzleAudio != null && openSound != null) {
+            puzzleAudio.PlayOneShot(openSound);
+        }
 
         // set opened to true and start opening animation
         opened = true;

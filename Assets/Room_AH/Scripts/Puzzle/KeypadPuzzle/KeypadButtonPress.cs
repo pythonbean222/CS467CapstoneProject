@@ -13,6 +13,10 @@ public class KeypadButtonPress : MonoBehaviour
     public static event Action<string> ButtonPressed = delegate { };
     private string buttonValue;
 
+    [Header("Audio")]
+    // audio clip for button press sound
+    [SerializeField] private AudioClip buttonPressSound;
+
     void Start() {
         // assumes button game objects are named in the format "Value_Button", e.g. "1_Button", "Enter_Button"
         buttonValue = gameObject.name.Split('_')[0];
@@ -22,5 +26,8 @@ public class KeypadButtonPress : MonoBehaviour
     private void ButtonClicked() {
         // invoke the event, passing the button's value
         ButtonPressed(buttonValue);
+
+        // play the button press sound
+        AudioManager.Instance.PlaySound(buttonPressSound);
     }
 }

@@ -17,6 +17,11 @@ public class RotaryManager : MonoBehaviour
     // track puzzle compeltion
     public bool solved = false;
 
+    [Header("Audio")]
+    // audio source and clip for correct solution
+    [SerializeField] private AudioSource puzzleAudio;
+    [SerializeField] private AudioClip correctSound;
+
     public void CheckPuzzle() {
         // if already solved, return
         if (solved) {
@@ -47,7 +52,12 @@ public class RotaryManager : MonoBehaviour
         if (solved) return;
 
         solved = true;
-        Debug.Log("Puzzle Solved");
+
+        // play correct sound
+        if (puzzleAudio != null && correctSound != null) {
+            puzzleAudio.PlayOneShot(correctSound);
+        }
+        
 
         // turn all lights green once puzzle has been solved
         for (int i = 0; i < handles.Count; i++) {

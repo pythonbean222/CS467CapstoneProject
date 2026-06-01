@@ -5,7 +5,6 @@ using System.Collections;
 
 public class ExitTrigger : MonoBehaviour
 {
-    [SerializeField] private SceneFlowManager sceneFlowManager;
     [SerializeField] private FuseBox fuseBox;
     [SerializeField] private CanvasGroup exitPrompt;
 
@@ -15,11 +14,6 @@ public class ExitTrigger : MonoBehaviour
     private bool puzzleCompleted = false;
 
     private void Awake() {
-        // if sceneFlowManager reference is not set in the inspector, try to find it in the scene
-        if (sceneFlowManager == null) {
-            sceneFlowManager = SceneFlowManager.Instance;
-        }
-
         if (exitPrompt != null) {
             exitPrompt.alpha = 0f; 
         }

@@ -12,9 +12,19 @@ public class LockerDoor : MonoBehaviour
 
     private bool opened = false;
 
+    [Header("Audio")]
+    // audio source and clip for opening door
+    [SerializeField] private AudioSource puzzleAudio;
+    [SerializeField] private AudioClip openSound;
+
     public void OpenDoor() {
         // If the door is already opened, do nothing
         if (opened) return;
+
+        // Play the door opening sound
+        if (puzzleAudio != null && openSound != null) {
+            puzzleAudio.PlayOneShot(openSound);
+        }
 
         // Start the opening animation
         opened = true;
