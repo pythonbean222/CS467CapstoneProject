@@ -16,7 +16,7 @@ Escaptory challenges players to think critically by solving interconnected puzzl
 
 - **Room 3** – Room 3 contains three puzzle types: activating switches in the correct order to open a door, solving a binary number puzzle to unlock another door, and navigating a maze to collect letters and determine the correct word that leads to the final complete scene.
 
-## Features (in progress)
+## Features
 - 3–5 **different** escape rooms
 - Each room contains 3 **unique** puzzles
 - Some puzzles **build on one another**
